@@ -1,0 +1,336 @@
+{
+ "berry-butterfly": {
+  "glb": "assets/room/scoop/berry-butterfly.glb",
+  "glb_sha256": "83b47953760bfbd51e3aaf7579d85a73de559164520319c7c989aa2477f29792",
+  "basecolor_mean_srgb": [
+   221.6,
+   108.5,
+   62.4
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/front.png",
+  "sheet_sha256": "dd5a4da6e4327da4f7b7f9591e3fc7d0461d11a5bac13c14ab9bf7f29c220054",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   231.7,
+   120.3,
+   88.9
+  ]
+ },
+ "berry-flower": {
+  "glb": "assets/room/scoop/berry-flower.glb",
+  "glb_sha256": "d169fe55784a4b87c31477e915b9126bfbe3c4a804186d528b74104e041398a2",
+  "basecolor_mean_srgb": [
+   139.4,
+   162.9,
+   91.8
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/berry-flower/turn/front.png",
+  "sheet_sha256": "18f473d690881665ebed831499765fc3432cced4aa645304fc813bf4c40c7800",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   178.8,
+   179.2,
+   126.2
+  ]
+ },
+ "berry-sprout": {
+  "glb": "assets/room/scoop/berry-sprout.glb",
+  "glb_sha256": "9b86c62c0be6ed1ff0d8d1ef30cab708ee4452862104f4b156464603acc1e227",
+  "basecolor_mean_srgb": [
+   115.8,
+   204.0,
+   38.8
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/front.png",
+  "sheet_sha256": "bc07b92c5e123bcd5a2db13e4147ecddb49f429c437195b539fed30058be0b1d",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   145.3,
+   189.9,
+   69.2
+  ]
+ },
+ "cottage": {
+  "glb": "assets/room/scoop/cottage.glb",
+  "glb_sha256": "03adb92b1a6b193fdf06aee6c88e7b745b2099028d1c06ee67933d927404fc0a",
+  "basecolor_mean_srgb": [
+   238.4,
+   183.3,
+   128.7
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/cottage/turn/front.png",
+  "sheet_sha256": "be4326d12d527d1805b3a5c1e91db69699fc94087133e141cbce34c2a4808956",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   228.5,
+   169.3,
+   117.8
+  ]
+ },
+ "cream-cloud": {
+  "glb": "assets/room/scoop/cream-cloud.glb",
+  "glb_sha256": "65976c9245777ae5eb8b2786d7e4856e4692c2145f220dec6c2a7abddcfa4a43",
+  "basecolor_mean_srgb": [
+   253.7,
+   230.4,
+   200.4
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/front.png",
+  "sheet_sha256": "793fa37125796214dd809423e2481674dd78d5b4a3c537c6d077b03d85ad4719",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   248.5,
+   224.5,
+   201.5
+  ]
+ },
+ "cream-puff": {
+  "glb": "assets/room/scoop/cream-puff.glb",
+  "glb_sha256": "5fc42171f7af1306ee86c34d629cd4416e3e6beef81182f301a668aa4f4f1579",
+  "basecolor_mean_srgb": [
+   245.2,
+   212.4,
+   218.5
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/cream-puff/turn/front.png",
+  "sheet_sha256": "b26e8e2474bbb70eb2a7f3d237abe0cbd77e6b6a42e3c77e40fda69f3b7a276c",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   230.3,
+   213.0,
+   215.9
+  ]
+ },
+ "icepop-xylophone": {
+  "glb": "assets/room/scoop/icepop-xylophone.glb",
+  "glb_sha256": "c7613ebd554ad93d33d8c1bdb64af248aa5bf88729baa54a498c342f126aa229",
+  "basecolor_mean_srgb": [
+   186.5,
+   166.0,
+   127.2
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/front.png",
+  "sheet_sha256": "7968d8ce7b0973c9e85f043df61c3a052ebb34b037f3a97dad9b9ddb550524ce",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   201.3,
+   180.9,
+   138.4
+  ]
+ },
+ "lemon-can": {
+  "glb": "assets/room/scoop/lemon-can.glb",
+  "glb_sha256": "f1329f69cff9a2e7070b334a168ff5bc8c820692c2832c2bf9daca441257a739",
+  "basecolor_mean_srgb": [
+   185.2,
+   185.2,
+   29.1
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/lemon-can/turn/front.png",
+  "sheet_sha256": "5c2ed7778bf83144bf581e2e421f9f4e24e10cfd7713bf046c6dbd4a7958ed28",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   215.2,
+   188.2,
+   42.3
+  ]
+ },
+ "moa": {
+  "glb": "assets/room/scoop/moa.glb",
+  "glb_sha256": "e379858b13396411379569a727eeb53d72843847c339c53e1724d01fc8ffbab8",
+  "basecolor_mean_srgb": [
+   226.2,
+   171.3,
+   173.2
+  ],
+  "materials": 1
+ },
+ "mongsil": {
+  "glb": "assets/room/scoop/mongsil.glb",
+  "glb_sha256": "efc560f84c5644a013edbde4def5837f7b51a1f948b6395c52bdbcbcab1874e0",
+  "basecolor_mean_srgb": [
+   238.0,
+   175.7,
+   182.1
+  ],
+  "materials": 1,
+  "sheet": "assets/room/cast-inputs/mongsil/front.png",
+  "sheet_sha256": "90bd9da8c6497d8a00a948850183e2f20475aa9271ada7c888f330ee3f31d1aa",
+  "sheet_mask": "corner-key",
+  "sheet_front_mean_srgb": [
+   221.7,
+   174.5,
+   163.1
+  ]
+ },
+ "nuri": {
+  "glb": "assets/room/scoop/nuri.glb",
+  "glb_sha256": "ee091809c50bbf80512c95fe00dfac3155b54882f6a38b5f577231872ebdddac",
+  "basecolor_mean_srgb": [
+   203.3,
+   226.5,
+   191.0
+  ],
+  "materials": 1,
+  "sheet": "assets/room/cast-inputs/nuri/front.png",
+  "sheet_sha256": "79588f619281e8e6d6f64192883407209dbf261511090766dac8f1668463385b",
+  "sheet_mask": "corner-key",
+  "sheet_front_mean_srgb": [
+   185.9,
+   190.2,
+   170.8
+  ]
+ },
+ "piyo": {
+  "glb": "assets/room/scoop/piyo.glb",
+  "glb_sha256": "3b2da364804a94cc07a6d030837a6c2bec146d630afe0e01fe7a2aff18099a82",
+  "basecolor_mean_srgb": [
+   246.3,
+   187.6,
+   123.7
+  ],
+  "materials": 1,
+  "sheet": "assets/room/cast-inputs/piyo/front.png",
+  "sheet_sha256": "ebf426a97dcb9d6680d3d7308903b104465f3f809b88ea94fda68b91c6b5603b",
+  "sheet_mask": "corner-key",
+  "sheet_front_mean_srgb": [
+   223.1,
+   170.3,
+   124.8
+  ]
+ },
+ "popo": {
+  "glb": "assets/room/scoop/popo.glb",
+  "glb_sha256": "baa5969255c311a337a2ebeb2010323f542e92bbcf72d84a7febc4c4e7b23f58",
+  "basecolor_mean_srgb": [
+   142.3,
+   174.9,
+   202.1
+  ],
+  "materials": 1,
+  "sheet": "assets/room/cast-inputs/popo/front.png",
+  "sheet_sha256": "d7bf7abec449f6bad757793499325ad24ab67698f0719df3026509885064f685",
+  "sheet_mask": "corner-key",
+  "sheet_front_mean_srgb": [
+   155.5,
+   172.6,
+   185.6
+  ]
+ },
+ "roll-snail": {
+  "glb": "assets/room/scoop/roll-snail.glb",
+  "glb_sha256": "edd320523d639a79f9e8ae905ecb0aae5dd3b752eb3a1eda794ca3322c1bba72",
+  "basecolor_mean_srgb": [
+   247.5,
+   164.9,
+   89.2
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/roll-snail/turn/front.png",
+  "sheet_sha256": "75d1c8c61d7fb17e1b23de9b6d37cd11e170291473ce39f740c4c0ccd8cc873b",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   225.5,
+   150.1,
+   82.7
+  ]
+ },
+ "scoop-mailbox": {
+  "glb": "assets/room/scoop/scoop-mailbox.glb",
+  "glb_sha256": "70e5853dfb71d99d97d7c24a0d82b013689cc83966d3930c791c384f0491269c",
+  "basecolor_mean_srgb": [
+   206.5,
+   173.0,
+   110.5
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/front.png",
+  "sheet_sha256": "b799ada4e3c33459437c64bb9c11fa720b1bfaedc8d21bdaa78046184d515d4f",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   205.4,
+   169.8,
+   120.7
+  ]
+ },
+ "sky-island": {
+  "glb": "assets/room/scoop/sky-island.glb",
+  "glb_sha256": "ffacbfb9d172f508854408f3dec71a5d2220ef75565c3fd2210ad29f8519c7c9",
+  "basecolor_mean_srgb": [
+   234.9,
+   183.1,
+   144.4
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/sky-island/turn/front.png",
+  "sheet_sha256": "0b5977b3366162d3fa657be2110cc378479a806e868e0dfe4f506d04fd4437c5",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   231.7,
+   174.2,
+   144.9
+  ]
+ },
+ "sky-plane": {
+  "glb": "assets/room/scoop/sky-plane.glb",
+  "glb_sha256": "9678be8814b84c5f11b750a9a3605b22c988487f5b6414afb56c25b7534e48dc",
+  "basecolor_mean_srgb": [
+   193.2,
+   198.8,
+   171.8
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/sky-plane/turn/front.png",
+  "sheet_sha256": "111f88230b29fecb3715801ade424ce2b6082e07ad35fa7d46f8cfc72e926ea2",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   188.7,
+   166.0,
+   149.0
+  ]
+ },
+ "spoon-pinwheel": {
+  "glb": "assets/room/scoop/spoon-pinwheel.glb",
+  "glb_sha256": "a2ce7820b7be9609714f018f1be2185605f71623baf06eacb04178c0747b4fdc",
+  "basecolor_mean_srgb": [
+   227.0,
+   185.6,
+   157.3
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/front.png",
+  "sheet_sha256": "442cfe318fb2574f8a0fdddd16aaf9b0960ba31506d3af2f3289eb11202902e1",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   218.6,
+   177.4,
+   151.6
+  ]
+ },
+ "swirl-sun": {
+  "glb": "assets/room/scoop/swirl-sun.glb",
+  "glb_sha256": "891346a63cc9ef0d9c9bc99d00a7a64315014e9b016851f7bde79f6b53e2716d",
+  "basecolor_mean_srgb": [
+   253.1,
+   202.0,
+   120.0
+  ],
+  "materials": 1,
+  "sheet": "out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/front.png",
+  "sheet_sha256": "5e80c975bb9eb3ce27699430b00de45fcf9d20ffc4fedf2a18a4dccf7fc64a5a",
+  "sheet_mask": "alpha",
+  "sheet_front_mean_srgb": [
+   249.0,
+   202.0,
+   128.6
+  ]
+ }
+}

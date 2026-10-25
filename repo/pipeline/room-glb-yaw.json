@@ -1,0 +1,117 @@
+{
+ "_rule": "Single place a room asset's front is decided (2026-10-25). Render the raw import (bash pipeline/room-glb.sh <id> without an entry -> reviews/20261025/room/glb-views/raw/<id>.jpg), pick by eye the view that matches the sheet front, record it here. matched_view pz->yaw 0, px->-90, nz->180, nx->90 (rotation about up). src_sha256 ties the decision to one source file; a new source re-runs the raw pass.",
+ "berry-butterfly": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "386b3c0ff8ad3185e3aea551bfe8b76042cabda1b4accfac769228113d1fdf92",
+  "why": "wings open toward viewer, antennae up"
+ },
+ "berry-flower": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "bdb7e2a38251fee49f583a6328dea27f660838d1786ad1aec0727bbbe68d8626",
+  "why": "flower face with yellow centre toward viewer"
+ },
+ "berry-sprout": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "dadc6c9f1ce07398403d1f83ff5a87bfeda05902d925d1816ebe9ef5eea89d52",
+  "why": "two leaves spread left/right, leaf creases toward viewer"
+ },
+ "cottage": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "67370ba102d0e03819423ed5932bc6c700a593c2bc1340cf80be49290da8a704",
+  "why": "pink door between two windows, chimney right"
+ },
+ "cream-cloud": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "ec0522ac32798fe8e0825a04737db54e6765ac47c00f1dc6a51f7336da6ed2d2",
+  "why": "face (eyes, smile, blush)"
+ },
+ "cream-puff": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "a15ab8f6b162bf037420640e5b36e15ddc95edc54bbbb2770ae72b1360ce43f9",
+  "why": "large central puff with swirl peak centred, smaller puffs left/right (near-symmetric; nz/nx show a flatter back)"
+ },
+ "icepop-xylophone": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "ea4abc8065d2f66fb66738db5a70196e4505ede2edc313d5e31e29f4cc1bcd97",
+  "why": "striped pops, blue tallest on the left"
+ },
+ "lemon-can": {
+  "yaw_deg": 90,
+  "matched_view": "nx",
+  "src_sha256": "e8eda87f3f8b06eb2e2c87b1fe3fdde5a4fb35ff89aae064ff902cea7f8674fb",
+  "why": "sheet front = spout with 7 holes toward viewer, handle behind; raw nx shows that"
+ },
+ "moa": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "68048346743a7697b9e0cbd280f7c61052c031a23e1b6bc34d60b7de91e3f54c+9491c8d09897a9f3178fb875e82cd7962e2362d26ad2fbc5258986aadf7919d1",
+  "why": "face, star beret and green scarf toward viewer (sheet: out/shorts/ep01/cast3d/inputs/moa/v2/front.png, the Meshy input per meshy-ledger)"
+ },
+ "mongsil": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "9c18b727532d7e742b0f6e9a5ecdafd7c580f5a097f802689ddb4d679a4f44cf",
+  "why": "face with pink nose, hooves held together at chest; tail on nz (gen file = lineage root)"
+ },
+ "nuri": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "0c9208bfb2757a8b0cccb9ea3817559ca65f46356729f439c0c46411b84165b7",
+  "why": "face and cream belly plates; back spikes on nz (gen file = lineage root)"
+ },
+ "piyo": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "a5eddd6ed761a88639d92a22b7df0b7ca0ec72b66fbe5864687aaac47ed1b785",
+  "why": "face: big eyes, orange beak, blush; feet forward (gen file = lineage root)"
+ },
+ "popo": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "1fd746692b136088bf2783f618aa13116028bf557c2089a5a4cb1a7fb2d67394",
+  "why": "face, open beak, scarf ends hanging on the right (gen file = lineage root)"
+ },
+ "roll-snail": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "8281c9d98328e8ce4764a1175e8db4f6f019e055c6bf016fff96c0b58fd35771",
+  "why": "head with antennae in front of the shell"
+ },
+ "scoop-mailbox": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "6d9e649210c3729a81d0b89dbe5302a51eef2953ae7dc14b000f784c8d3b0529",
+  "why": "pink mail slot toward viewer, flag at right edge"
+ },
+ "sky-island": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "99e2397741ed6ec4c87f11e3fa1548b88a87326e060e55c9e19420536b208b0a",
+  "why": "cupcake house door, pink tree on the right"
+ },
+ "sky-plane": {
+  "yaw_deg": 90,
+  "matched_view": "nx",
+  "src_sha256": "b812f276249c5a03e78f463c4bfe6dfd4d25c580076a2bf7c3b0a011ed332518",
+  "why": "nose with pink propeller toward viewer, wings left/right"
+ },
+ "spoon-pinwheel": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "2f5ff670a6479db4759bad157bf39f7dca73c0e8986ecc9897f5e7371cd9fb22",
+  "why": "spoon bowls concave toward viewer, pink hub with pin"
+ },
+ "swirl-sun": {
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "src_sha256": "646f00b50efe02857ac707b818e3d2a2cd6458e49d740ab152ac70220bf41e9c",
+  "why": "smiling face"
+ }
+}

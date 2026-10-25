@@ -1,0 +1,152 @@
+{
+ "_status": "2026-10-24 13:3x USER DECISION: chimney puffs (and other emissions) are prompt-only, worded by position; keys stay clean, so do not pass --refs/--anchors for cottage@chimney-puff. Placement numbers below remain valid measurements of plate-v4. 2026-10-24 measured placement on plate-v4 (single source for s1_keys.py --refs/--anchors). Chimney-puff overlay verified by transform arithmetic and a visual check (reviews/workers/shorts-ep01-chimney-puffs-20261024/). Unverified items are labelled plate_default_unverified.",
+ "plate": {
+  "path": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png",
+  "size": [
+   1672,
+   941
+  ],
+  "sha16": "85370ed004d99631",
+  "made_by": "reviews/workers/shorts-ep01-reskin-apply-20261024/plate_v4.py"
+ },
+ "sheet_to_plate": {
+  "source": "reviews/workers/shorts-ep01-reskin-apply-20261024/plate_v4.py",
+  "sheet_crop_xyxy": [
+   313,
+   125,
+   375,
+   208
+  ],
+  "plate_xy": [
+   882,
+   357
+  ],
+  "resized_wh": [
+   45,
+   60
+  ],
+  "plate_x": "882 + (sx - 313) * 45 / 62",
+  "plate_y": "357 + (sy - 125) * 60 / 83"
+ },
+ "keys": {
+  "start": {
+   "plate_crop_xyxy": [
+    0,
+    0,
+    1671,
+    941
+   ],
+   "key_scale": [
+    0.766008,
+    0.765143
+   ],
+   "chimney_in_frame": true
+  },
+  "k3": {
+   "plate_crop_xyxy": [
+    302,
+    256,
+    1364,
+    853
+   ],
+   "key_scale": [
+    1.205273,
+    1.20603
+   ],
+   "chimney_in_frame": true
+  },
+  "k6": {
+   "plate_crop_xyxy": [
+    491,
+    416,
+    1170,
+    798
+   ],
+   "key_scale": [
+    1.885125,
+    1.884817
+   ],
+   "chimney_in_frame": false
+  },
+  "end": {
+   "plate_crop_xyxy": [
+    579,
+    489,
+    1081,
+    772
+   ],
+   "key_scale": [
+    2.549801,
+    2.54417
+   ],
+   "chimney_in_frame": false
+  }
+ },
+ "objects": {
+  "cottage@normal": {
+   "realisation": "plate_default",
+   "note": "cottage is in the approved plate-v4 set; no composite (not an in_frame token of R1 with a state change)"
+  },
+  "cottage@chimney-puff": {
+   "realisation": "overlay",
+   "source_state_png": "out/shorts/ep01/anchors/s1-objects/cottage/states/chimney-puff.png",
+   "source_state_sha16": "edb523e7dd423b2e",
+   "source_region_xyxy": [
+    300,
+    0,
+    512,
+    187
+   ],
+   "source_filter": "alpha > 8 and B >= R; source alpha and RGB kept; all other pixels alpha 0",
+   "translate_state_to_normal_sheet": [
+    11.5,
+    -61.5
+   ],
+   "fill_rgb_transparent": [
+    181,
+    189,
+    201
+   ],
+   "recolour_lift_to_white": 0.0,
+   "base_plate_row": 358,
+   "state_cap_top_centre": [
+    331.9,
+    187.5
+   ],
+   "normal_cap_top_centre": [
+    343.5,
+    126.0
+   ],
+   "forbidden_sources": [
+    "out/shorts/ep01/anchors/s1-objects/cottage/layers/chimney-puff.png (misregistered: measured and viewed 2026-10-24, it lands on the front door)",
+    "out/shorts/ep01/anchors/s1-objects/cottage/states/chimney-puff.png pasted whole (full re-render of the cottage)"
+   ],
+   "evidence": "plate bbox measured [894, 250, 967, 357]; key bbox start [685, 191, 741, 273], k3 [714, 0, 801, 122]",
+   "risks": "translation from one landmark (cap centre), state scale assumed equal to normal; colour is measured blue-grey (181,189,201), not soft white; recolour_lift_to_white 0.6 is a look option pending user approval"
+  },
+  "berry-flower@bloom": {
+   "realisation": "bud_paste",
+   "note": "applied by --bud in prepare to every key (states/bloom.png, sha16 0fb88b25bd7edecc)"
+  },
+  "scoop-mailbox@flag-up": {
+   "realisation": "plate_default_unverified",
+   "note": "object has registry layers body/flag/lid; flag-up state not composed; no composite applied; visibility not verified"
+  },
+  "spoon-pinwheel@slow-turn": {
+   "realisation": "plate_default_unverified",
+   "note": "object has registry layers head/stick; no composite applied; visibility not verified"
+  },
+  "wafer-fence@plain": {
+   "realisation": "plate_default_unverified",
+   "note": "no registry layer; no composite applied; visibility not verified"
+  },
+  "cookie-stone@normal": {
+   "realisation": "plate_default_unverified",
+   "note": "no registry layer; no composite applied; visibility not verified"
+  },
+  "sky-island@normal": {
+   "realisation": "plate_default_unverified",
+   "note": "object has registry glow layers g1-g5; none applied to normal; no composite applied; visibility not verified"
+  }
+ }
+}

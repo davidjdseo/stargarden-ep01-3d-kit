@@ -1,0 +1,406 @@
+{
+ "_about": "Scoop Sky set pieces (tool/room_setpieces_build.py, pipeline/room-setpieces.sh). glTF Y up, metres, pivot = base centre (min y = 0, bbox centred on x/z), front = +Z. Colours come only from `swatches` (pixel boxes on the plate / sheets); swatch_table re-measures the shipped albedo per part on lit-side texels (baked AO >= 0.70).",
+ "seed": 20261025,
+ "swatches": {
+  "canopy-pink": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png",
+   "box": [
+    14,
+    330,
+    60,
+    375
+   ],
+   "srgb": [
+    252.5,
+    181.1,
+    182.1
+   ],
+   "hex": "#fcb5b6"
+  },
+  "canopy-mint": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png",
+   "box": [
+    1600,
+    235,
+    1640,
+    275
+   ],
+   "srgb": [
+    179.9,
+    197.2,
+    169.7
+   ],
+   "hex": "#b4c5aa"
+  },
+  "flower-white": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png",
+   "box": [
+    160,
+    690,
+    172,
+    700
+   ],
+   "srgb": [
+    252.8,
+    226.7,
+    198.6
+   ],
+   "hex": "#fde3c7"
+  },
+  "flower-centre": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r6-flowerbed-v1.png",
+   "box": [
+    1534,
+    596,
+    1548,
+    608
+   ],
+   "srgb": [
+    244.9,
+    162.4,
+    32.6
+   ],
+   "hex": "#f5a221"
+  },
+  "trunk-light": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r7-side-v1.png",
+   "box": [
+    1420,
+    380,
+    1436,
+    393
+   ],
+   "srgb": [
+    204.1,
+    117.7,
+    71.4
+   ],
+   "hex": "#cc7647"
+  },
+  "trunk-dark": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r7-side-v1.png",
+   "box": [
+    1400,
+    360,
+    1405,
+    366
+   ],
+   "srgb": [
+    185.1,
+    98.7,
+    51.3
+   ],
+   "hex": "#b96333"
+  },
+  "leaf": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r6-flowerbed-v1.png",
+   "box": [
+    1395,
+    738,
+    1415,
+    752
+   ],
+   "srgb": [
+    81.1,
+    126.5,
+    66.0
+   ],
+   "hex": "#517e42"
+  },
+  "leaf-dark": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r6-flowerbed-v1.png",
+   "box": [
+    1440,
+    770,
+    1460,
+    785
+   ],
+   "srgb": [
+    68.1,
+    110.3,
+    39.9
+   ],
+   "hex": "#446e28"
+  },
+  "strawberry": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r6-flowerbed-v1.png",
+   "box": [
+    1560,
+    705,
+    1590,
+    735
+   ],
+   "srgb": [
+    219.7,
+    41.7,
+    49.6
+   ],
+   "hex": "#dc2a32"
+  },
+  "blueberry": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r6-flowerbed-v1.png",
+   "box": [
+    1335,
+    742,
+    1355,
+    760
+   ],
+   "srgb": [
+    57.4,
+    85.4,
+    133.9
+   ],
+   "hex": "#395586"
+  },
+  "wafer": {
+   "src": "out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/front.png",
+   "box": [
+    56,
+    330,
+    72,
+    350
+   ],
+   "srgb": [
+    233.5,
+    181.5,
+    114.2
+   ],
+   "hex": "#eab672"
+  },
+  "wafer-stripe": {
+   "src": "out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/front.png",
+   "box": [
+    95,
+    285,
+    108,
+    298
+   ],
+   "srgb": [
+    240.5,
+    211.2,
+    185.4
+   ],
+   "hex": "#f0d3b9"
+  },
+  "rail-pink": {
+   "src": "out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/front.png",
+   "box": [
+    135,
+    295,
+    155,
+    310
+   ],
+   "srgb": [
+    246.4,
+    128.9,
+    135.8
+   ],
+   "hex": "#f68188"
+  },
+  "cap-pink": {
+   "src": "out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/front.png",
+   "box": [
+    415,
+    233,
+    450,
+    245
+   ],
+   "srgb": [
+    251.1,
+    169.8,
+    178.1
+   ],
+   "hex": "#fbaab2"
+  },
+  "cookie": {
+   "src": "out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/front.png",
+   "box": [
+    290,
+    230,
+    320,
+    260
+   ],
+   "srgb": [
+    251.4,
+    192.3,
+    111.6
+   ],
+   "hex": "#fbc070"
+  },
+  "cookie-hole": {
+   "src": "out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/front.png",
+   "box": [
+    252,
+    243,
+    262,
+    251
+   ],
+   "srgb": [
+    211.8,
+    95.3,
+    25.6
+   ],
+   "hex": "#d45f1a"
+  },
+  "lawn-light": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png",
+   "box": [
+    330,
+    685,
+    380,
+    705
+   ],
+   "srgb": [
+    197.5,
+    223.3,
+    126.7
+   ],
+   "hex": "#c6df7f"
+  },
+  "lawn-mid": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png",
+   "box": [
+    600,
+    860,
+    700,
+    920
+   ],
+   "srgb": [
+    147.8,
+    185.6,
+    88.9
+   ],
+   "hex": "#94ba59"
+  },
+  "bush-mint": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r7-side-v1.png",
+   "box": [
+    300,
+    460,
+    330,
+    485
+   ],
+   "srgb": [
+    158.4,
+    198.2,
+    155.2
+   ],
+   "hex": "#9ec69b"
+  },
+  "bush-green": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png",
+   "box": [
+    1450,
+    550,
+    1480,
+    575
+   ],
+   "srgb": [
+    140.2,
+    165.8,
+    114.5
+   ],
+   "hex": "#8ca672"
+  }
+ },
+ "tree-pink": {
+  "glb": "assets/room/scoop/set/tree-pink.glb",
+  "bytes": 981072,
+  "sha256": "312af010938e5efd0042072d2f53d4309e21114950743d54b05ef8f22052f2a5",
+  "triangles": 10056,
+  "textures": [
+   {
+    "name": "tree-pink_normal",
+    "mime": "image/webp",
+    "px": [
+     1024,
+     1024
+    ],
+    "bytes": 318710
+   },
+   {
+    "name": "tree-pink_albedo",
+    "mime": "image/webp",
+    "px": [
+     1024,
+     1024
+    ],
+    "bytes": 266730
+   }
+  ],
+  "bbox": {
+   "min": [
+    -1.4421,
+    0.0,
+    -1.0424
+   ],
+   "max": [
+    1.4421,
+    4.0,
+    1.0424
+   ]
+  },
+  "height": 4.0,
+  "size_target": [
+   2.8,
+   4.0,
+   2.2
+  ],
+  "pivot": "base centre: min y = 0, bbox centre x/z = 0",
+  "front": "+Z",
+  "materials": 1,
+  "meshes": 1,
+  "ref": {
+   "src": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r7-side-v1.png",
+   "box": [
+    1150,
+    0,
+    1672,
+    540
+   ]
+  },
+  "budget": {
+   "tris": 15000,
+   "bytes": 1000000
+  },
+  "swatch_table": [
+   {
+    "part": "canopy-pink",
+    "swatch": [
+     252.5,
+     181.1,
+     182.1
+    ],
+    "texel_mean_lit": [
+     185.1,
+     99.8,
+     52.9
+    ],
+    "dist": 166.87,
+    "texel_mean_all": [
+     176.1,
+     94.7,
+     50.1
+    ],
+    "dist_all": 175.29,
+    "texels": 28916,
+    "gain_to_pin": [
+     1.069,
+     1.0686,
+     1.0688
+    ]
+   }
+  ],
+  "checks": {
+   "height_1pct": true,
+   "base_y0_1mm": true,
+   "centre_x_1cm": true,
+   "centre_z_1cm": true,
+   "tex_px": true,
+   "tris_budget": true,
+   "bytes_budget": true,
+   "swatch_dist_12": false
+  },
+  "pass": false
+ }
+}

@@ -1,0 +1,3 @@
+html, body { margin: 0; height: 100%; overflow: hidden; background: var(--sg-color-cream-200); }
+body { -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; }
+#sg-scoop-canvas { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; touch-action: none; outline: none; }

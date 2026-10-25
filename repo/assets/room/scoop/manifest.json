@@ -1,0 +1,1678 @@
+{
+ "berry-butterfly": {
+  "id": "berry-butterfly",
+  "kind": "prop",
+  "src": "build/room-meshy/berry-butterfly/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "5b65969893efde630923c61152ffc994816d5f7978ee32aed1a1718c75aff096",
+  "out": "assets/room/scoop/berry-butterfly.glb",
+  "out_bytes": 450056,
+  "sha256": "83b47953760bfbd51e3aaf7579d85a73de559164520319c7c989aa2477f29792",
+  "tris": 11940,
+  "tris_before": 12940,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.94973,
+    -0.68277,
+    -0.28982
+   ],
+   "max": [
+    0.94959,
+    0.6817,
+    0.28893
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.69614,
+    0.0,
+    -0.21183
+   ],
+   "max": [
+    0.69614,
+    1.0,
+    0.21183
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 9366,
+   "merged": 2858,
+   "parts": 3,
+   "loose_parts_removed": 2,
+   "loose_verts_removed": 28,
+   "verts_out": 6480
+  },
+  "smooth": "corrective:1",
+  "noise": 0.19003297643833303,
+  "view": "reviews/20261025/room/glb-views/berry-butterfly.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "berry-flower": {
+  "id": "berry-flower",
+  "kind": "prop",
+  "src": "build/room-meshy/berry-flower/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "0442b37e6d44dec92701c3230f77c46cfd81ecedd757be75bf4dc7ea2e5380b9",
+  "out": "assets/room/scoop/berry-flower.glb",
+  "out_bytes": 417828,
+  "sha256": "d169fe55784a4b87c31477e915b9126bfbe3c4a804186d528b74104e041398a2",
+  "tris": 11942,
+  "tris_before": 11942,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.9487,
+    -0.72735,
+    -0.7921
+   ],
+   "max": [
+    0.94821,
+    0.7276,
+    0.79333
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.65296,
+    0.0,
+    -0.54594
+   ],
+   "max": [
+    0.65296,
+    1.0,
+    0.54594
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 8586,
+   "merged": 2610,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 5976
+  },
+  "smooth": "corrective:1",
+  "noise": 0.20552207941839912,
+  "view": "reviews/20261025/room/glb-views/berry-flower.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "berry-sprout": {
+  "id": "berry-sprout",
+  "kind": "prop",
+  "src": "build/room-meshy/berry-sprout/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "c1ba322172876d8c5e13aa0c276d1bcd026f9b600d4331e6f2507feeb3656e22",
+  "out": "assets/room/scoop/berry-sprout.glb",
+  "out_bytes": 334280,
+  "sha256": "9b86c62c0be6ed1ff0d8d1ef30cab708ee4452862104f4b156464603acc1e227",
+  "tris": 11848,
+  "tris_before": 11848,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.95073,
+    -0.81751,
+    -0.35923
+   ],
+   "max": [
+    0.95023,
+    0.81647,
+    0.36359
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.58171,
+    0.0,
+    -0.22093
+   ],
+   "max": [
+    0.58171,
+    1.0,
+    0.22093
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 7136,
+   "merged": 1210,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 5926
+  },
+  "smooth": "corrective:1",
+  "noise": 0.14923200581717025,
+  "view": "reviews/20261025/room/glb-views/berry-sprout.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "cottage": {
+  "id": "cottage",
+  "kind": "prop",
+  "src": "build/room-meshy/cottage/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "003ba489b23542a7f4f9c5b06adb6fd0559b334f48fd8628aea1cf419202d409",
+  "out": "assets/room/scoop/cottage.glb",
+  "out_bytes": 796216,
+  "sha256": "03adb92b1a6b193fdf06aee6c88e7b745b2099028d1c06ee67933d927404fc0a",
+  "tris": 15920,
+  "tris_before": 28576,
+  "max_tris": 16000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.76152,
+    -0.94987,
+    -0.71801
+   ],
+   "max": [
+    0.76484,
+    0.92889,
+    0.73032
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.40655,
+    0.0,
+    -0.3849
+   ],
+   "max": [
+    0.40655,
+    1.0,
+    0.3849
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 30585,
+   "merged": 15053,
+   "parts": 61,
+   "loose_parts_removed": 60,
+   "loose_verts_removed": 997,
+   "verts_out": 14535
+  },
+  "smooth": "corrective:1",
+  "noise": 0.26300154074965415,
+  "view": "reviews/20261025/room/glb-views/cottage.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "cream-cloud": {
+  "id": "cream-cloud",
+  "kind": "prop",
+  "src": "build/room-meshy/cream-cloud/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "8d35ce601dbe829bdd12b26d3bdec62537e9ebff23082bac44ce1a8ac9ed6d52",
+  "out": "assets/room/scoop/cream-cloud.glb",
+  "out_bytes": 297804,
+  "sha256": "65976c9245777ae5eb8b2786d7e4856e4692c2145f220dec6c2a7abddcfa4a43",
+  "tris": 10160,
+  "tris_before": 10160,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.95048,
+    -0.83549,
+    -0.79296
+   ],
+   "max": [
+    0.94849,
+    0.83433,
+    0.78211
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.56835,
+    0.0,
+    -0.47111
+   ],
+   "max": [
+    0.56835,
+    1.0,
+    0.47111
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 6975,
+   "merged": 1893,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 5082
+  },
+  "smooth": "corrective:1",
+  "noise": 0.18075055066699458,
+  "view": "reviews/20261025/room/glb-views/cream-cloud.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "cream-puff": {
+  "id": "cream-puff",
+  "kind": "prop",
+  "src": "build/room-meshy/cream-puff/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "c29c1ba6a7754c065b4e723bf101419d20376d219c67d5beaded686330b55688",
+  "out": "assets/room/scoop/cream-puff.glb",
+  "out_bytes": 324780,
+  "sha256": "5fc42171f7af1306ee86c34d629cd4416e3e6beef81182f301a668aa4f4f1579",
+  "tris": 11940,
+  "tris_before": 12184,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.95058,
+    -0.77889,
+    -0.9504
+   ],
+   "max": [
+    0.94862,
+    0.77846,
+    0.94818
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.60932,
+    0.0,
+    -0.60915
+   ],
+   "max": [
+    0.60932,
+    1.0,
+    0.60915
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 7347,
+   "merged": 1253,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 6094
+  },
+  "smooth": "corrective:1",
+  "noise": 0.17044715190984142,
+  "view": "reviews/20261025/room/glb-views/cream-puff.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "icepop-xylophone": {
+  "id": "icepop-xylophone",
+  "kind": "prop",
+  "src": "build/room-meshy/icepop-xylophone/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "87c7920c3abe33b800f1e5976ce3112d5e24524c270887261f8883ab5e13bec1",
+  "out": "assets/room/scoop/icepop-xylophone.glb",
+  "out_bytes": 555372,
+  "sha256": "c7613ebd554ad93d33d8c1bdb64af248aa5bf88729baa54a498c342f126aa229",
+  "tris": 11939,
+  "tris_before": 13751,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.95133,
+    -0.66541,
+    -0.21577
+   ],
+   "max": [
+    0.94861,
+    0.66452,
+    0.21571
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.71647,
+    0.0,
+    -0.1625
+   ],
+   "max": [
+    0.71647,
+    1.0,
+    0.1625
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 13891,
+   "merged": 6770,
+   "parts": 9,
+   "loose_parts_removed": 8,
+   "loose_verts_removed": 79,
+   "verts_out": 7042
+  },
+  "smooth": "corrective:1",
+  "noise": 0.24515526018769085,
+  "view": "reviews/20261025/room/glb-views/icepop-xylophone.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "lemon-can": {
+  "id": "lemon-can",
+  "kind": "prop",
+  "src": "build/room-meshy/lemon-can/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "8dea7c0d1b43c11998f1e80707a995f5c98ad75d4b2285983dc1593b4ed85ea0",
+  "out": "assets/room/scoop/lemon-can.glb",
+  "out_bytes": 420852,
+  "sha256": "f1329f69cff9a2e7070b334a168ff5bc8c820692c2832c2bf9daca441257a739",
+  "tris": 11939,
+  "tris_before": 12355,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.94971,
+    -0.48628,
+    -0.54709
+   ],
+   "max": [
+    0.95007,
+    0.46865,
+    0.54552
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.57093,
+    0.0,
+    -0.99503
+   ],
+   "max": [
+    0.57093,
+    1.0,
+    0.99503
+   ]
+  },
+  "yaw_deg": 90,
+  "matched_view": "nx",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 9462,
+   "merged": 3216,
+   "parts": 5,
+   "loose_parts_removed": 4,
+   "loose_verts_removed": 43,
+   "verts_out": 6203
+  },
+  "smooth": "corrective:1",
+  "noise": 0.17484339652222816,
+  "view": "reviews/20261025/room/glb-views/lemon-can.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "moa": {
+  "id": "moa",
+  "kind": "moa",
+  "src": "out/shorts/ep01/cast3d/moa/walk/asset_result_animation_glb_url.glb",
+  "src_stage": "meshy-animation",
+  "src_sha256": "68048346743a7697b9e0cbd280f7c61052c031a23e1b6bc34d60b7de91e3f54c+9491c8d09897a9f3178fb875e82cd7962e2362d26ad2fbc5258986aadf7919d1",
+  "out": "assets/room/scoop/moa.glb",
+  "out_bytes": 1503196,
+  "sha256": "e379858b13396411379569a727eeb53d72843847c339c53e1724d01fc8ffbab8",
+  "tris": 19900,
+  "tris_before": 57027,
+  "max_tris": 20000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.38682,
+    -0.0,
+    -0.27359
+   ],
+   "max": [
+    0.38682,
+    0.945,
+    0.27359
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.4093,
+    -0.0,
+    -0.28943
+   ],
+   "max": [
+    0.4093,
+    1.0,
+    0.28943
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [
+   "dance",
+   "idle",
+   "jump",
+   "sway",
+   "walk",
+   "wave"
+  ],
+  "skins": 1,
+  "joints": [
+   24
+  ],
+  "clean": null,
+  "smooth": "none",
+  "noise": null,
+  "view": "reviews/20261025/room/glb-views/moa.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true,
+   "clips": true,
+   "skin": true
+  },
+  "pass": true
+ },
+ "mongsil": {
+  "id": "mongsil",
+  "kind": "prop",
+  "src": "build/room-meshy/mongsil/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "783ed31f8ae6aa9d8185510e53db06d0ff19b5db0006e54bd0718a4d432a27c3",
+  "out": "assets/room/scoop/mongsil.glb",
+  "out_bytes": 408944,
+  "sha256": "efc560f84c5644a013edbde4def5837f7b51a1f948b6395c52bdbcbcab1874e0",
+  "tris": 11940,
+  "tris_before": 13638,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.95117,
+    -0.79381,
+    -0.64899
+   ],
+   "max": [
+    0.9492,
+    0.80948,
+    0.65339
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.59325,
+    0.0,
+    -0.40604
+   ],
+   "max": [
+    0.59325,
+    1.0,
+    0.40604
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 9458,
+   "merged": 2635,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 6823
+  },
+  "smooth": "corrective",
+  "noise": 0.13721735599571666,
+  "view": "reviews/20261025/room/glb-views/mongsil.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "nuri": {
+  "id": "nuri",
+  "kind": "prop",
+  "src": "build/room-meshy/nuri/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "9cc50d271787ae6aebb870897e0df751f27437a3344c14f99bf4a963042f051d",
+  "out": "assets/room/scoop/nuri.glb",
+  "out_bytes": 355408,
+  "sha256": "ee091809c50bbf80512c95fe00dfac3155b54882f6a38b5f577231872ebdddac",
+  "tris": 10566,
+  "tris_before": 10566,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.6741,
+    -0.95099,
+    -0.57744
+   ],
+   "max": [
+    0.66094,
+    0.94701,
+    0.5708
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.35157,
+    0.0,
+    -0.30074
+   ],
+   "max": [
+    0.35157,
+    1.0,
+    0.30074
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 7603,
+   "merged": 2314,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 5289
+  },
+  "smooth": "corrective",
+  "noise": 0.1392169391709045,
+  "view": "reviews/20261025/room/glb-views/nuri.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "piyo": {
+  "id": "piyo",
+  "kind": "prop",
+  "src": "build/room-meshy/piyo/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "7e0ff3a16684bad055e4ff606357ea3c048d3ab4133900a0513526227fa24db8",
+  "out": "assets/room/scoop/piyo.glb",
+  "out_bytes": 494272,
+  "sha256": "3b2da364804a94cc07a6d030837a6c2bec146d630afe0e01fe7a2aff18099a82",
+  "tris": 11939,
+  "tris_before": 12876,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.75452,
+    -0.95006,
+    -0.79974
+   ],
+   "max": [
+    0.75222,
+    0.94622,
+    0.82162
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.39641,
+    0.0,
+    -0.42678
+   ],
+   "max": [
+    0.39641,
+    1.0,
+    0.42678
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 10409,
+   "merged": 3959,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 6450
+  },
+  "smooth": "corrective",
+  "noise": 0.14491783554019416,
+  "view": "reviews/20261025/room/glb-views/piyo.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "popo": {
+  "id": "popo",
+  "kind": "prop",
+  "src": "build/room-meshy/popo/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "14d5e99aeb3b5546b4a53633f19bf4ab92385ae9f8b8eb13bd3377fb55521fca",
+  "out": "assets/room/scoop/popo.glb",
+  "out_bytes": 574560,
+  "sha256": "baa5969255c311a337a2ebeb2010323f542e92bbcf72d84a7febc4c4e7b23f58",
+  "tris": 11940,
+  "tris_before": 12880,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.74887,
+    -0.95072,
+    -0.66316
+   ],
+   "max": [
+    0.74862,
+    0.94523,
+    0.65944
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.39436,
+    0.0,
+    -0.34748
+   ],
+   "max": [
+    0.39436,
+    1.0,
+    0.34748
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 10561,
+   "merged": 4095,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 6466
+  },
+  "smooth": "corrective",
+  "noise": 0.14741357199267158,
+  "view": "reviews/20261025/room/glb-views/popo.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "roll-snail": {
+  "id": "roll-snail",
+  "kind": "prop",
+  "src": "build/room-meshy/roll-snail/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "7333c5b84d1d9d6e1465d98086d3adfc65aa777b3633cfdb7e16d734736504ee",
+  "out": "assets/room/scoop/roll-snail.glb",
+  "out_bytes": 329952,
+  "sha256": "edd320523d639a79f9e8ae905ecb0aae5dd3b752eb3a1eda794ca3322c1bba72",
+  "tris": 9293,
+  "tris_before": 9293,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.60781,
+    -0.67865,
+    -0.95086
+   ],
+   "max": [
+    0.60732,
+    0.67298,
+    0.94936
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.4496,
+    0.0,
+    -0.70189
+   ],
+   "max": [
+    0.4496,
+    1.0,
+    0.70189
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 6413,
+   "merged": 1678,
+   "parts": 3,
+   "loose_parts_removed": 2,
+   "loose_verts_removed": 12,
+   "verts_out": 4723
+  },
+  "smooth": "corrective:1",
+  "noise": 0.1759821183447801,
+  "view": "reviews/20261025/room/glb-views/roll-snail.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "scoop-mailbox": {
+  "id": "scoop-mailbox",
+  "kind": "prop",
+  "src": "build/room-meshy/scoop-mailbox/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "e91a1ed6bf06ea6c252efad67c111ade4117253a648c38f7dd63fcab7f103391",
+  "out": "assets/room/scoop/scoop-mailbox.glb",
+  "out_bytes": 408032,
+  "sha256": "70e5853dfb71d99d97d7c24a0d82b013689cc83966d3930c791c384f0491269c",
+  "tris": 12000,
+  "tris_before": 12000,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.54757,
+    -0.95109,
+    -0.55474
+   ],
+   "max": [
+    0.55641,
+    0.94099,
+    0.55465
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.29105,
+    0.0,
+    -0.29284
+   ],
+   "max": [
+    0.29105,
+    1.0,
+    0.29284
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 8656,
+   "merged": 2651,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 6005
+  },
+  "smooth": "corrective:1",
+  "noise": 0.2091131933501162,
+  "view": "reviews/20261025/room/glb-views/scoop-mailbox.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "sky-island": {
+  "id": "sky-island",
+  "kind": "prop",
+  "src": "build/room-meshy/sky-island/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "c475d047c07504ab66829a6b48920b863863da38c983624b89674636cca4f0d0",
+  "out": "assets/room/scoop/sky-island.glb",
+  "out_bytes": 855620,
+  "sha256": "ffacbfb9d172f508854408f3dec71a5d2220ef75565c3fd2210ad29f8519c7c9",
+  "tris": 15920,
+  "tris_before": 24360,
+  "max_tris": 16000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.79446,
+    -0.92855,
+    -0.70122
+   ],
+   "max": [
+    0.78171,
+    0.94313,
+    0.70431
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.42094,
+    0.0,
+    -0.37504
+   ],
+   "max": [
+    0.42094,
+    1.0,
+    0.37504
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 27784,
+   "merged": 15198,
+   "parts": 14,
+   "loose_parts_removed": 10,
+   "loose_verts_removed": 265,
+   "verts_out": 12321
+  },
+  "smooth": "corrective:1",
+  "noise": 0.2535364765695728,
+  "view": "reviews/20261025/room/glb-views/sky-island.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "sky-plane": {
+  "id": "sky-plane",
+  "kind": "prop",
+  "src": "build/room-meshy/sky-plane/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "77bcd3fc5deb8fbaed6d6ed9b1155d96f64ce57a9a4cefa2ec78ef7e0a3c65d8",
+  "out": "assets/room/scoop/sky-plane.glb",
+  "out_bytes": 373916,
+  "sha256": "9678be8814b84c5f11b750a9a3605b22c988487f5b6414afb56c25b7534e48dc",
+  "tris": 11809,
+  "tris_before": 11809,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.79357,
+    -0.38008,
+    -0.94978
+   ],
+   "max": [
+    0.79369,
+    0.37793,
+    0.94546
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -1.25379,
+    0.0,
+    -1.05062
+   ],
+   "max": [
+    1.25379,
+    1.0,
+    1.05062
+   ]
+  },
+  "yaw_deg": 90,
+  "matched_view": "nx",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 7621,
+   "merged": 1710,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 5911
+  },
+  "smooth": "corrective:1",
+  "noise": 0.18994688702867316,
+  "view": "reviews/20261025/room/glb-views/sky-plane.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "spoon-pinwheel": {
+  "id": "spoon-pinwheel",
+  "kind": "prop",
+  "src": "build/room-meshy/spoon-pinwheel/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "157fbb74869bd9eb0a6702af5dd5a807394b29819134919ade5408ee58a600d6",
+  "out": "assets/room/scoop/spoon-pinwheel.glb",
+  "out_bytes": 394584,
+  "sha256": "a2ce7820b7be9609714f018f1be2185605f71623baf06eacb04178c0747b4fdc",
+  "tris": 11939,
+  "tris_before": 12819,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.69211,
+    -0.95098,
+    -0.16284
+   ],
+   "max": [
+    0.69156,
+    0.94754,
+    0.15423
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.36434,
+    0.0,
+    -0.08341
+   ],
+   "max": [
+    0.36434,
+    1.0,
+    0.08341
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 8923,
+   "merged": 2512,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 6411
+  },
+  "smooth": "corrective:1",
+  "noise": 0.1806476707273863,
+  "view": "reviews/20261025/room/glb-views/spoon-pinwheel.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ },
+ "swirl-sun": {
+  "id": "swirl-sun",
+  "kind": "prop",
+  "src": "build/room-meshy/swirl-sun/retex/asset_model_urls_glb.glb",
+  "src_stage": "retex",
+  "src_sha256": "52ee47b60c9ac12b9e26dd87b81a241b1e7848950a68a46d208501c0c91fe0f2",
+  "out": "assets/room/scoop/swirl-sun.glb",
+  "out_bytes": 414840,
+  "sha256": "891346a63cc9ef0d9c9bc99d00a7a64315014e9b016851f7bde79f6b53e2716d",
+  "tris": 11962,
+  "tris_before": 11962,
+  "max_tris": 12000,
+  "textures": [
+   {
+    "name": "Image_0",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_1",
+    "px": [
+     1024,
+     1024
+    ]
+   },
+   {
+    "name": "Image_2",
+    "px": [
+     1024,
+     1024
+    ]
+   }
+  ],
+  "image_mime": [
+   "image/webp"
+  ],
+  "bbox_before": {
+   "min": [
+    -0.94971,
+    -0.91199,
+    -0.17522
+   ],
+   "max": [
+    0.94852,
+    0.91022,
+    0.17389
+   ]
+  },
+  "bbox_after": {
+   "min": [
+    -0.52078,
+    0.0,
+    -0.09565
+   ],
+   "max": [
+    0.52078,
+    1.0,
+    0.09565
+   ]
+  },
+  "yaw_deg": 0,
+  "matched_view": "pz",
+  "animations": [],
+  "skins": 0,
+  "joints": [],
+  "clean": {
+   "verts_in": 9402,
+   "merged": 3409,
+   "parts": 1,
+   "loose_parts_removed": 0,
+   "loose_verts_removed": 0,
+   "verts_out": 5993
+  },
+  "smooth": "corrective:1",
+  "noise": 0.20208267048490539,
+  "view": "reviews/20261025/room/glb-views/swirl-sun.jpg",
+  "checks": {
+   "bytes": true,
+   "tris": true,
+   "tex_px": true,
+   "height_1m": true,
+   "base_y0": true,
+   "centre_xz": true
+  },
+  "pass": true
+ }
+}

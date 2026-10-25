@@ -1,0 +1,5 @@
+piyo.glb front-centre seam groups 180 normal-split>2deg 76
+mongsil.glb front-centre seam groups 56 normal-split>2deg 13
+popo.glb front-centre seam groups 81 normal-split>2deg 31
+nuri.glb front-centre seam groups 25 normal-split>2deg 14
+moa.glb front-centre seam groups 88 normal-split>2deg 84

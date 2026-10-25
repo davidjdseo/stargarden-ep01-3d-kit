@@ -1,0 +1,1796 @@
+{
+ "_doc": [
+  "Character SSOT for the shorts (user 2026-10-22: 'the deeper root cause is that the character store is not a single source of truth').",
+  "Every generator (gen.py key/seg, anchors_plan.py, codex-imagegen plans) reads identity text and reference sheets ONLY from here via out/shorts/ep01/gen/cast.py.",
+  "Sheets are binaries outside git; sha256 pins the approved version. A regenerated or swapped file fails `python3 out/shorts/ep01/gen/cast.py check` (exit 1) and every paid call refuses.",
+  "To change a character: make the new sheet, review it, then update sheet + sha256 + prompt here in the same edit and move the old path to deprecated.",
+  "Current assets are the active registry items and sets. Deprecated images and superseded_refs are preserved with pins for history only; generators refuse their attachment."
+ ],
+ "version": "2026-10-25.6",
+ "characters": {
+  "moa": {
+   "name_ko": "모아",
+   "name_en": "Moa",
+   "role": "hero",
+   "sheet": "out/shorts/ep01/pack/character-moa-sheet.png",
+   "sha256": "c41361c06509b1f1",
+   "expr": "out/shorts/ep01/pack/character-moa-sheet.png",
+   "expr_sha256": "c41361c06509b1f1",
+   "prompt": "Moa, a small chubby round plush character with saturated bubblegum-pink smooth, even short fur (exactly the sheet's pink: not pale, not peach, not washed out), cream face patch and cream belly, toddler proportions (head about 45% of body height), a soft perfectly round face like a mochi ball with chubby round cheeks and a round chin (never an angular or squared jaw), two TINY rounded ears like a teddy bear's, only small nubs that barely peek above the beret, pale pink inside, big glossy dark-brown eyes with white highlights, rosy round cheeks, tiny pink nose, a cream knitted beret with a teal band and an orange starfish clip at the front, a teal neckerchief, a short round white tail. Her ears never grow tall, never stand up long, never flop. Same character in every shot; she keeps these colours in the soft pastel 3D world.",
+   "voice": "wordless only: a soft giggle, a little gasp, a curious \"hmm?\", a sigh, hop footsteps",
+   "never": [
+    "long bunny ears",
+    "ears taller than the beret",
+    "pale or peach fur",
+    "a different hat",
+    "a missing neckerchief",
+    "a watch, wristband, bracelet or any accessory beyond the beret and neckerchief"
+   ],
+   "wardrobe": "She wears only her cream beret with its orange starfish clip and her teal neckerchief; her paws, wrists and arms are bare pink fur, with no watch, wristband, bracelet, glove, bag or any other accessory.",
+   "prompt_note": "No 'bunny'/'rabbit' in prompts (RCA 2026-10-22 A1 t5: the word pulls Omni to long rabbit ears even with the sheet attached). The story still calls her a rabbit; only the generator text avoids the word.",
+   "downstream": [
+    {
+     "path": "art/ref/moa-v7-sheet.png",
+     "owner": "book session (stargarden-p1-continuation-*)",
+     "rule": "the book follows this Moa pin for ears only (2026-10-22). On any Moa re-pin, message the book session; never edit book files from the shorts session."
+    }
+   ],
+   "sheet_source": "ONE image (user 2026-10-23 '캐릭터 시트는 하나로 통일 … 모아 시트와 표정 시트 … 하나의 통 이미지로'): cast/v7p/v7-moa.png on top, cast/v7p/v7-moa-expr.png below scaled to the same width (aspect kept, Lanczos), on a #F4F2EE canvas with a 24 px gap; no other pixel change. expr = the same file, so cast.refs(ids, expr=True) attaches it once. The two separate pack copies are archived (deprecated). v7p stays in place as the origin.",
+   "shown": {
+    "sha16": "c41361c06509b1f1",
+    "when": "baseline 2026-10-25",
+    "how": "sheet already in use when the gate was added (delivered v29 / earlier reviewed packs); not re-confirmed"
+   }
+  },
+  "piyo": {
+   "name_ko": "삐요",
+   "name_en": "Piyo",
+   "role": "friend",
+   "sheet": "out/shorts/ep01/cast/s1/piyo-sheet.png",
+   "sha256": "29b088e1ec8a2142",
+   "expr": "out/shorts/ep01/cast/s1/piyo-expr.png",
+   "expr_sha256": "01eaa4c8a6d05384",
+   "prompt": "Piyo, the same slightly fuller ball-shaped soft custard-yellow plush baby bird, small orange beak and short orange feet, large glossy eyes and rosy cheeks. Each wing is a small plump short arm-like limb growing from the side, the SAME custard-yellow fuzzy plush as the body, with one shallow notch at the tip forming exactly two very round bean-like mitten lobes, never separate finger-like feathers or extra prongs. Tiny mitten-like bird wings, no separate hands or thumbs, no pointed tips or feather rows. Wings can wave, cheer and flap, with Moa-like short arm proportions. Tail is a small round yellow puff with one soft notch. Wings and tail are plain and pattern-free. The ONLY Scoop Sky accent is the small yellow soft-serve curled head tuft with 2–3 pastel sprinkle flecks. Preserve face, eyes, beak, feet, blush and round body proportions. No accessories, eating or tasting. Eye identity: warm honey-amber / golden iris; ONE big round white highlight plus TWO tiny sparkle dots beside it. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged.",
+   "voice": "wordless chirps and a short cheerful birdsong, never words",
+   "never": [
+    "a different colour",
+    "long legs",
+    "any accessory beyond the wardrobe line"
+   ],
+   "wardrobe": "Piyo wears nothing at all: bare yellow plush, no hat, scarf, bow, bag or any accessory.",
+   "prev_s0": {
+    "sheet": "out/shorts/ep01/cast/v4/v4-piyo.png",
+    "expr": "out/shorts/ep01/cast/v3/sheet-piyo.png",
+    "prompt": "Piyo, a round fluffy yellow baby bird (plush), periwinkle-blue speckled wings, small orange beak and orange feet, big glossy brown eyes, rosy cheeks, a little tuft on the head."
+   },
+   "prev_r2": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/piyo-sheet-r2.png",
+    "expr": "out/shorts/ep01/cast/s1/_prev/piyo-expr-r2.png"
+   },
+   "prev_r3": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/piyo-sheet-r3.png",
+    "expr": "out/shorts/ep01/cast/s1/_prev/piyo-expr-r3.png",
+    "prompt": "Piyo, the same round yellow baby bird with small orange beak and short orange feet, big glossy brown eyes with white highlights and rosy cheeks. Each periwinkle-blue wing is ONE smooth plump oval bean paddle, same original wing size, a continuous rounded outline without feather layers, scallops or pointed tips. Each wing carries only 3–4 large separated rounded sprinkle rods drawn from pink, mint, yellow and lilac, with no extra dots. The tail is one small smooth rounded blue nub, not a feather fan. The small yellow soft-serve curled head tuft retains 2–3 matching sprinkle flecks. Preserve the original face, body proportions, size and palette family. Soft velvety plush-toy look with fine soft yellow body feather detail and smooth wings. No eating or tasting."
+   },
+   "prev_r4": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/piyo-sheet-r4.png",
+    "expr": "out/shorts/ep01/cast/s1/_prev/piyo-expr-r4.png",
+    "prompt": "Piyo, the same round soft custard-yellow plush baby bird (soft velvety plush-toy look), small orange beak and short orange feet, big glossy brown eyes with white highlights and rosy cheeks. Each wing is a small plump short arm-like limb growing from the side, the SAME custard-yellow fuzzy plush as the body, with only its tip softly split into two short rounded feather fingers. Tiny mitten-like bird wings, no separate hands or thumbs, no pointed tips or feather rows. Wings can wave, cheer and flap, with Moa-like short arm proportions. Tail is a small matching yellow tuft with two soft rounded tips. Wings and tail are plain and pattern-free. The ONLY Scoop Sky accent is the small yellow soft-serve curled head tuft with 2–3 pastel sprinkle flecks. Preserve face, eyes, beak, feet, blush and round body proportions. No accessories, eating or tasting."
+   },
+   "shown": {
+    "sha16": "29b088e1ec8a2142",
+    "when": "baseline 2026-10-25",
+    "how": "sheet already in use when the gate was added (delivered v29 / earlier reviewed packs); not re-confirmed"
+   }
+  },
+  "mongsil": {
+   "name_ko": "몽실이",
+   "name_en": "Mongsil",
+   "role": "friend",
+   "sheet": "out/shorts/ep01/cast/s1/mongsil-sheet.png",
+   "sha256": "c6330ec92a005061",
+   "expr": "out/shorts/ep01/cast/s1/mongsil-expr.png",
+   "expr_sha256": "06f5e8d5785f5769",
+   "prompt": "Mongsil, the same small cloud sheep with ONE smooth even round marshmallow-cloud fleece ball, smooth soft-matte slightly powdery marshmallow, without fine swirl grain, pastel pink-cream with a hint of lavender and faint toasted-pink blush only at the bottom. Absolutely no curls, wool loops or bumpy puff clusters. Cream face, floppy cream ears with pink insides, brown hooves, small round tail, large glossy eyes and rosy cheeks. Preserve original face, proportions, round silhouette and size. Soft plush-toy look with a smooth, even surface, no lumps. No eating or tasting. Eye identity: soft lavender-plum grey-violet iris; ONE soft crescent-moon-shaped white highlight at the top plus a faint diffuse glow, NOT a round white dot. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged.",
+   "voice": "a soft fluffy \"baa\", bouncy boing sounds, never words",
+   "never": [
+    "curly fleece",
+    "many small puffs",
+    "any accessory beyond the wardrobe line"
+   ],
+   "wardrobe": "Mongsil wears nothing at all: bare fleece, no hat, scarf, bow, bell, collar or any accessory.",
+   "prev_s0": {
+    "sheet": "out/shorts/ep01/cast/v4/v4-mongsil.png",
+    "expr": "out/shorts/ep01/cast/v3/sheet-mongsil.png",
+    "prompt": "Mongsil, a small cloud sheep whose fleece is ONE smooth, even, round ball (no curls, no bumpy clusters of puffs), pastel pink-cream with a hint of lavender, cream face, floppy cream ears with pink insides, brown hooves, big brown eyes, rosy cheeks."
+   },
+   "prev_pre_eyes": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/mongsil-sheet-pre-eyes.png",
+    "expr": "out/shorts/ep01/cast/s1/_prev/mongsil-expr-pre-eyes.png",
+    "prompt": "Mongsil, the same small cloud sheep with ONE smooth even round marshmallow-cloud fleece ball, smooth soft-matte slightly powdery marshmallow, without fine swirl grain, pastel pink-cream with a hint of lavender and faint toasted-pink blush only at the bottom. Absolutely no curls, wool loops or bumpy puff clusters. Cream face, floppy cream ears with pink insides, brown hooves, small round tail, big glossy brown eyes and rosy cheeks. Preserve original face, proportions, round silhouette and size. Soft velvety plush-toy look. No eating or tasting."
+   },
+   "shown": {
+    "sha16": "c6330ec92a005061",
+    "when": "baseline 2026-10-25",
+    "how": "sheet already in use when the gate was added (delivered v29 / earlier reviewed packs); not re-confirmed"
+   }
+  },
+  "popo": {
+   "name_ko": "포포",
+   "name_en": "Popo",
+   "role": "friend (new 2026-10-22, shorts only until the user decides on the book)",
+   "sheet": "out/shorts/ep01/cast/s1/popo-sheet.png",
+   "sha256": "0899710af184a7f3",
+   "expr": "out/shorts/ep01/cast/s1/popo-expr.png",
+   "expr_sha256": "0192b08e3bb0214d",
+   "prompt": "Popo, the same round egg-shaped baby penguin, a milk-bingsu snow-cloud friend with sky-blue back and head carrying fine milky frosty sparkle, cream belly and face, small orange beak and orange feet, large glossy eyes, rosy cheeks. The SAME mint knitted scarf has tiny dark-brown mint-chocolate-chip knit dots. Preserve original face, silhouette, proportions and size. Soft plush-toy look with a smooth, even surface, no lumps. No eating or tasting. Eye identity: mint-teal / sea-green iris; ONE crisp small FOUR-POINT white twinkle star plus ONE tiny dot, NOT a round main highlight. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged.",
+   "voice": "waddle footsteps, a short happy squeak, a belly-slide swish, never words",
+   "never": [
+    "black-and-white adult penguin",
+    "a missing scarf",
+    "any accessory beyond the wardrobe line"
+   ],
+   "wardrobe": "Popo wears only the mint knitted scarf; no hat, bow, bag, watch or any other accessory.",
+   "prev_s0": {
+    "sheet": "out/shorts/ep01/cast/v4/v4-pengi.png",
+    "expr": "out/shorts/ep01/cast/v3/sheet-pengi.png",
+    "prompt": "Popo, a round egg-shaped baby penguin (plush), sky-blue back and head, cream belly and face, small orange beak and orange feet, big glossy brown eyes, rosy cheeks, a mint knitted scarf."
+   },
+   "prev_pre_eyes": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/popo-sheet-pre-eyes.png",
+    "expr": "out/shorts/ep01/cast/s1/_prev/popo-expr-pre-eyes.png",
+    "prompt": "Popo, the same round egg-shaped baby penguin, a milk-bingsu snow-cloud friend with sky-blue back and head carrying fine milky frosty sparkle, cream belly and face, small orange beak and orange feet, big glossy brown eyes, rosy cheeks. The SAME mint knitted scarf has tiny dark-brown mint-chocolate-chip knit dots. Preserve original face, silhouette, proportions and size. Soft velvety plush-toy look. No eating or tasting."
+   },
+   "shown": {
+    "sha16": "0899710af184a7f3",
+    "when": "baseline 2026-10-25",
+    "how": "sheet already in use when the gate was added (delivered v29 / earlier reviewed packs); not re-confirmed"
+   }
+  },
+  "nuri": {
+   "name_ko": "누리",
+   "name_en": "Nuri",
+   "role": "friend",
+   "sheet": "out/shorts/ep01/cast/s1/nuri-sheet.png",
+   "sha256": "ae4d2e7717e1fbab",
+   "expr": "out/shorts/ep01/cast/s1/nuri-sheet.png",
+   "expr_sha256": "ae4d2e7717e1fbab",
+   "prompt": "Nuri, the same chubby gentle baby dinosaur who stands and walks on two short sturdy legs, a soft plush toy with a smooth, even surface, no lumps: soft pistachio-mint skin, a cream tummy with soft horizontal pleats, two short stubby arms, round feet with tiny cream toe dots, a short chubby tail, a row of small soft cream dollops along the back from the neck to the tail, and ONE small soft blunt cream horn with a pink blush at its base on the top of the head; the face has only a small pink button nose and NO horn on the nose or snout. Cute face: very big round head, flat round face with no long snout, huge glossy eyes set low, a small happy w-shaped smile, big round rosy blush cheeks with tiny lighter-mint freckle dots. Eye identity: deep sapphire-blue iris lighter aqua at the bottom, large dark pupils, THREE small round bubble highlights in a rising little column. Preserve the sheet's face, silhouette, proportions and colours. No eating or tasting.",
+   "voice": "a low gentle baby-dinosaur hum with soft bubbly pops, never words",
+   "never": [
+    "teeth",
+    "claws",
+    "sharp spikes",
+    "more than one horn",
+    "long snout",
+    "realistic dinosaur",
+    "wings",
+    "any accessory beyond the wardrobe line",
+    "horn on the nose"
+   ],
+   "wardrobe": "Nuri wears nothing at all: no hat, scarf, harness, saddle or any accessory.",
+   "prev_s0": {
+    "sheet": "out/shorts/ep01/cast/v4/v4-nuri.png",
+    "expr": "out/shorts/ep01/cast/v3/sheet-nuri.png",
+    "prompt": "Nuri, a big gentle sky whale (plush), periwinkle-blue back fading to a cream belly with soft grooves, rosy cheek, kind brown eye, a small pink-blue water spout on top."
+   },
+   "prev_pre_eyes": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/nuri-sheet-pre-eyes.png",
+    "expr": "out/shorts/ep01/cast/s1/_prev/nuri-expr-pre-eyes.png",
+    "prompt": "Nuri, the same gentle round sky whale with lilac-blue back, cream belly with vertical pleats, blush, big glossy brown eyes, curved tail and small flippers. The small pink-and-blue three-lobed spout is a clear fizzy soda bubble fountain; a few soft bubble freckles sit on the cheeks. Preserve original face, whale silhouette, proportions and size. Soft velvety plush-toy look. No eating or tasting."
+   },
+   "prev_whale": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/nuri-sheet-whale.png",
+    "sha256": "728687d8e3b94f1e",
+    "expr": "out/shorts/ep01/cast/s1/_prev/nuri-expr-whale.png",
+    "expr_sha256": "4389d27aa86fdfe4",
+    "prompt": "Nuri, the same gentle round sky whale with lilac-blue back, cream belly with vertical pleats, blush, large glossy eyes, curved tail and small flippers. The small pink-and-blue three-lobed spout is a clear fizzy soda bubble fountain; a few soft bubble freckles sit on the cheeks. Preserve original face, whale silhouette, proportions and size. Soft plush-toy look with a smooth, even surface, no lumps. No eating or tasting. Eye identity: deep sapphire ocean-blue iris, lighter aqua at the bottom; THREE small round bubble highlights in a rising little column, NO large round highlight. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged.",
+    "voice": "a low gentle whale hum-song, never words",
+    "never": [
+     "teeth",
+     "realistic whale",
+     "any accessory beyond the wardrobe line"
+    ],
+    "retired": "2026-10-25 user: \"돌고래처럼 생긴 애 … 다리가 없어 … 다리 달린 걸로 … 컬러도 지금 펭귄이랑 겹쳐\""
+   },
+   "sheet_note": "2026-10-25 chubby baby dinosaur (Nano Banana: 2K imgspec/char-nuri-dino.nb.prompt.txt -> 1K head edit imgspec/char-nuri-dino-horn.nb.prompt.txt, raw cast/s1/v33/nuri-dino-sheet-nb2.png), after the user rejected the legless whale (no legs, blue clashed with Popo), a dragon face, and a winged turtle (\"거북이 말고 공룡으로\", \"머리에 뿔 너무 많이 말고 귀엽게 약간 코뿔소 느낌\"). Face formula kept from the turtle round (button nose, w smile, low huge eyes). 2026-10-25 11:20 1K edit imgspec/char-nuri-dino-nosehorn.nb.prompt.txt (raw cast/s1/v33/nuri-dino-sheet-nb3.png): the one blunt horn now sits on the nose (rhino), head top smooth; the horn base replaces the separate button nose. Story jobs: friends ride on its back along the rainbow road (EP05/06 sky-swimming to be re-staged), the soda-bubble puff stays the \"모여!\" signal. Expression sheet pending: expr = sheet. 2026-10-25 12:00 REVERTED: the nose horn was main's interpretation, the user asked \"왜 코에 뿔이\" -> current sheet = nb2 crop (one blunt cream horn on the head top, pink button nose).",
+   "prev_dragon_rejected": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/nuri-sheet-dragon-rejected.png",
+    "raw": "out/shorts/ep01/cast/s1/v33/nuri-dragon-sheet-nb1.png",
+    "why": "2026-10-25 user: \"민트 아기용 … 얼굴 생김새를 … 캐릭터 공식 활용해서 좀 더 귀엽게 … 코 부분도 이상하고 … 거북이 어떤가? 날개 달린 거북이 … 너가 알아서\""
+   },
+   "prev_turtle_rejected": {
+    "sheets": [
+     "out/shorts/ep01/cast/s1/_prev/nuri-sheet-turtle-v1-plainface.png",
+     "out/shorts/ep01/cast/s1/_prev/nuri-sheet-turtle-v2-rejected.png"
+    ],
+    "why": "2026-10-25 user: \"거북이 말고 공룡으로\""
+   },
+   "prev_dino_forehead": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/nuri-sheet-dino-forehead-horn.png",
+    "sha256": "ae4d2e7717e1fbab",
+    "note": "horn landed on the forehead (2026-10-25); RESTORED as the current sheet 2026-10-25 12:00"
+   },
+   "prev_dino_nosehorn": {
+    "sheet": "out/shorts/ep01/cast/s1/_prev/nuri-sheet-dino-nosehorn.png",
+    "sha256": "f3549e0b943d8b09",
+    "retired": "2026-10-25 12:00 user: \"근데 공룡 코에 왜 뿔이 달려있어?\" - the nose horn was main's over-literal reading of \"약간 코뿔소 느낌\" (11:20 edit), never asked for; the head-top horn sheet (nb2) is restored"
+   },
+   "shown": {
+    "sha16": "ae4d2e7717e1fbab",
+    "when": "2026-10-25 12:02",
+    "how": "SendUserFile nuri-horn-compare.jpg (nb1 / nb2 head-top horn = current / nb3 nose horn retired), answering \"근데 공룡 코에 왜 뿔이 달려있어?\""
+   }
+  }
+ },
+ "items": {
+  "sheet": "out/shorts/ep01/pack/props-grid-s1.png",
+  "sha256": "d69e62b9c0d74397",
+  "prompt": "Use exactly one of each named registry key@state in the shot. Identity and state come only from that pinned tile. Cottage at the door anchor, spoon-pinwheel left of it, scoop-mailbox right of the path. Other objects appear only when listed.",
+  "source": "Scoop Sky S1 object registry; sheets pinned by last DONE, default-state tiles derived without generation.",
+  "files": {
+   "cottage": {
+    "path": "out/shorts/ep01/anchors/s1-objects/cottage/sheet.png",
+    "states": {
+     "normal": "out/shorts/ep01/anchors/s1-objects/cottage/states/normal.png",
+     "chimney-puff": "out/shorts/ep01/anchors/s1-objects/cottage/states/chimney-puff.png",
+     "night": "out/shorts/ep01/anchors/s1-objects/cottage/states/night.png",
+     "door-open": "out/shorts/ep01/anchors/s1-objects/cottage/states/door-open.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/cottage/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/cottage/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/cottage/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/cottage/turn/left.png"
+    },
+    "idle": "puffs rise slowly",
+    "reactions": "door bounces open on touch",
+    "layers": {
+     "chimney-puff": "out/shorts/ep01/anchors/s1-objects/cottage/layers/chimney-puff.png"
+    },
+    "name_en": "Cottage",
+    "label": "모아의 집 · Cottage",
+    "match": "\\bcottage\\b",
+    "translucent": [],
+    "sha256": "762f9bcfd8c36c44",
+    "status": "ACTIVE",
+    "grid": true,
+    "states_sha256": {
+     "normal": "7facd066f5a7ab18",
+     "chimney-puff": "edb523e7dd423b2e",
+     "night": "4f5897d48a6189b2",
+     "door-open": "e9fdc84a63eba544"
+    },
+    "views_sha256": {
+     "front": "be4326d12d527d18",
+     "right": "a8a557cd49ba61d3",
+     "back": "718258090eac4f75",
+     "left": "d0b1ae825b1b2721"
+    },
+    "layers_sha256": {
+     "chimney-puff": "14dd4dd05e371b73"
+    },
+    "tile": "out/shorts/ep01/pack/props/cottage-s1.png",
+    "tile_sha256": "7facd066f5a7ab18"
+   },
+   "sky-island": {
+    "path": "out/shorts/ep01/anchors/s1-objects/sky-island/sheet.png",
+    "states": {
+     "normal": "out/shorts/ep01/anchors/s1-objects/sky-island/states/normal.png",
+     "sparkle": "out/shorts/ep01/anchors/s1-objects/sky-island/states/sparkle.png",
+     "soft-sleepy": "out/shorts/ep01/anchors/s1-objects/sky-island/states/soft-sleepy.png",
+     "gloomy": "out/shorts/ep01/anchors/s1-objects/sky-island/states/gloomy.png",
+     "loosened-lean": "out/shorts/ep01/anchors/s1-objects/sky-island/states/loosened-lean.png",
+     "lantern-glow": "out/shorts/ep01/anchors/s1-objects/sky-island/states/lantern-glow.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/sky-island/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/sky-island/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/sky-island/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/sky-island/turn/left.png"
+    },
+    "idle": "gentle bob",
+    "reactions": "sparkle burst",
+    "layers": {
+     "glow-g1": "out/shorts/ep01/anchors/s1-objects/sky-island/layers/glow-g1.png",
+     "glow-g2": "out/shorts/ep01/anchors/s1-objects/sky-island/layers/glow-g2.png",
+     "glow-g3": "out/shorts/ep01/anchors/s1-objects/sky-island/layers/glow-g3.png",
+     "glow-g4": "out/shorts/ep01/anchors/s1-objects/sky-island/layers/glow-g4.png",
+     "glow-g5": "out/shorts/ep01/anchors/s1-objects/sky-island/layers/glow-g5.png"
+    },
+    "name_en": "Sky island",
+    "label": "하늘섬 · Sky island",
+    "match": "\\b(?:sky[- ]island|floating island)\\b",
+    "translucent": [
+     "layers/glow-g1",
+     "layers/glow-g2",
+     "layers/glow-g3",
+     "layers/glow-g4",
+     "layers/glow-g5"
+    ],
+    "sha256": "06d615c5d35fd21d",
+    "status": "ACTIVE",
+    "grid": true,
+    "states_sha256": {
+     "normal": "a174f74da88bb489",
+     "sparkle": "2f640aadd3dc124e",
+     "soft-sleepy": "375c9ed24f2448ba",
+     "gloomy": "a38ce37d658f1ad4",
+     "loosened-lean": "b73eb9a814c47482",
+     "lantern-glow": "c8cb62864012e398"
+    },
+    "views_sha256": {
+     "front": "0b5977b3366162d3",
+     "right": "3da7a961399b859a",
+     "back": "7db656bb516cde57",
+     "left": "ef8436d9c523c16d"
+    },
+    "layers_sha256": {
+     "glow-g1": "a254ad08515e09d3",
+     "glow-g2": "5e62461567fdf180",
+     "glow-g3": "092becda02420e51",
+     "glow-g4": "d31b16c292adcd7e",
+     "glow-g5": "476341d3b3573590"
+    },
+    "tile": "out/shorts/ep01/pack/props/sky-island-s1.png",
+    "tile_sha256": "a174f74da88bb489"
+   },
+   "scoop-mailbox": {
+    "path": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/sheet.png",
+    "states": {
+     "closed": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/states/closed.png",
+     "open": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/states/open.png",
+     "flag-up": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/states/flag-up.png",
+     "flag-down": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/states/flag-down.png",
+     "letter-in": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/states/letter-in.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/left.png"
+    },
+    "idle": "flag sways",
+    "reactions": "lid pops 톡",
+    "layers": {
+     "body": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/layers/body.png",
+     "flag": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/layers/flag.png",
+     "lid": "out/shorts/ep01/anchors/s1-objects/scoop-mailbox/layers/lid.png"
+    },
+    "name_en": "Scoop mailbox",
+    "label": "민트 우체통 · Scoop mailbox",
+    "match": "\\b(?:scoop[- ])?mailbox\\b",
+    "translucent": [],
+    "sha256": "5a12890f11c5afb0",
+    "status": "ACTIVE",
+    "grid": true,
+    "states_sha256": {
+     "closed": "a890a005d714e093",
+     "open": "84578de47fefbd1c",
+     "flag-up": "e84398f3205f8de8",
+     "flag-down": "abbb74751caace76",
+     "letter-in": "e889c183113c0d79"
+    },
+    "views_sha256": {
+     "front": "b799ada4e3c33459",
+     "right": "a27fb0873eb89bae",
+     "back": "5dc650e41bfc0d3a",
+     "left": "0c78ea61bf2049be"
+    },
+    "layers_sha256": {
+     "body": "a46398f979a8a04b",
+     "flag": "9d56384b410fa74c",
+     "lid": "9df6c2149ca3f06b"
+    },
+    "tile": "out/shorts/ep01/pack/props/scoop-mailbox-s1.png",
+    "tile_sha256": "a890a005d714e093"
+   },
+   "spoon-pinwheel": {
+    "path": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/sheet.png",
+    "states": {
+     "still": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/states/still.png",
+     "slow-turn": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/states/slow-turn.png",
+     "fast-spin": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/states/fast-spin.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/left.png"
+    },
+    "idle": "slow turn",
+    "reactions": "spins on wind",
+    "layers": {
+     "head": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/layers/head.png",
+     "stick": "out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/layers/stick.png"
+    },
+    "name_en": "Spoon pinwheel",
+    "label": "스푼 바람개비 · Spoon pinwheel",
+    "match": "\\b(?:spoon[- ])?pinwheel\\b",
+    "translucent": [],
+    "sha256": "2611734e348a4e5a",
+    "status": "ACTIVE",
+    "grid": true,
+    "states_sha256": {
+     "still": "4c56726ef9693b65",
+     "slow-turn": "7b619e0e691e12e4",
+     "fast-spin": "1fc6ba4c09d4befa"
+    },
+    "views_sha256": {
+     "front": "442cfe318fb2574f",
+     "right": "f35caa314438752a",
+     "back": "8b9b360f73dd7e35",
+     "left": "b0cc7c0f0e23eb1b"
+    },
+    "layers_sha256": {
+     "head": "c01c3ab7ea1f9649",
+     "stick": "b5e4626808c5bea0"
+    },
+    "tile": "out/shorts/ep01/pack/props/spoon-pinwheel-s1.png",
+    "tile_sha256": "4c56726ef9693b65"
+   },
+   "berry-flower": {
+    "path": "out/shorts/ep01/anchors/s1-objects/berry-flower/sheet.png",
+    "states": {
+     "bloom": "out/shorts/ep01/anchors/s1-objects/berry-flower/states/bloom.png",
+     "thirsty": "out/shorts/ep01/anchors/s1-objects/berry-flower/states/thirsty.png",
+     "wilted": "out/shorts/ep01/anchors/s1-objects/berry-flower/states/wilted.png",
+     "revived": "out/shorts/ep01/anchors/s1-objects/berry-flower/states/revived.png",
+     "fruiting": "out/shorts/ep01/anchors/s1-objects/berry-flower/states/fruiting.png",
+     "night-closed": "out/shorts/ep01/anchors/s1-objects/berry-flower/states/night-closed.png",
+     "heads-up": "out/shorts/ep01/anchors/s1-objects/berry-flower/states/heads-up.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/berry-flower/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/berry-flower/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/berry-flower/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/berry-flower/turn/left.png"
+    },
+    "idle": "gentle sway",
+    "reactions": "perk-up shiver",
+    "layers": {},
+    "name_en": "Berry flower",
+    "label": "딸기꽃 · Berry flower",
+    "match": "\\b(?:berry-flower|strawberry[- ]blossom|flowers?|berry beds?)\\b",
+    "translucent": [],
+    "sha256": "49f730fea2451a73",
+    "status": "ACTIVE",
+    "grid": true,
+    "states_sha256": {
+     "bloom": "0fb88b25bd7edecc",
+     "thirsty": "b42cdc0982bed4b0",
+     "wilted": "ef8a67f466aac27d",
+     "revived": "210badfafce73d37",
+     "fruiting": "56f8ff66fa807fdd",
+     "night-closed": "b939799bc931fe7b",
+     "heads-up": "ad2a577c65f12c40"
+    },
+    "views_sha256": {
+     "front": "18f473d690881665",
+     "right": "24347806cb536beb",
+     "back": "7b2d26d6cc0ebf85",
+     "left": "d562001bc143c9e4"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/berry-flower-s1.png",
+    "tile_sha256": "0fb88b25bd7edecc"
+   },
+   "lemon-can": {
+    "path": "out/shorts/ep01/anchors/s1-objects/lemon-can/sheet.png",
+    "states": {
+     "full": "out/shorts/ep01/anchors/s1-objects/lemon-can/states/full.png",
+     "low": "out/shorts/ep01/anchors/s1-objects/lemon-can/states/low.png",
+     "pouring": "out/shorts/ep01/anchors/s1-objects/lemon-can/states/pouring.png",
+     "empty-tilted": "out/shorts/ep01/anchors/s1-objects/lemon-can/states/empty-tilted.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/lemon-can/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/lemon-can/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/lemon-can/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/lemon-can/turn/left.png"
+    },
+    "idle": "still",
+    "reactions": "slosh wobble",
+    "layers": {
+     "body": "out/shorts/ep01/anchors/s1-objects/lemon-can/layers/body.png",
+     "water-stream": "out/shorts/ep01/anchors/s1-objects/lemon-can/layers/water-stream.png",
+     "drops": "out/shorts/ep01/anchors/s1-objects/lemon-can/layers/drops.png",
+     "splash": "out/shorts/ep01/anchors/s1-objects/lemon-can/layers/splash.png"
+    },
+    "name_en": "Lemon can",
+    "label": "레몬 물뿌리개 · Lemon can",
+    "match": "\\blemon[- ]can\\b",
+    "translucent": [],
+    "sha256": "96933e27e40ac9eb",
+    "status": "ACTIVE",
+    "grid": true,
+    "states_sha256": {
+     "full": "e6c004e8df08c36a",
+     "low": "e1308b7771bdaa39",
+     "pouring": "500ab7d8c47f622e",
+     "empty-tilted": "fc11fd94e145dc7a"
+    },
+    "views_sha256": {
+     "front": "5c2ed7778bf83144",
+     "right": "f686af7bfa14ef88",
+     "back": "dd94da2fb0cf8711",
+     "left": "f6ca6ae14aa70232"
+    },
+    "layers_sha256": {
+     "body": "d2dece5e21577a93",
+     "water-stream": "f806642c50af70b1",
+     "drops": "b5fe6b6718519127",
+     "splash": "30daa4179e82c405"
+    },
+    "tile": "out/shorts/ep01/pack/props/lemon-can-s1.png",
+    "tile_sha256": "e6c004e8df08c36a"
+   },
+   "wafer-fence": {
+    "path": "out/shorts/ep01/anchors/s1-objects/wafer-fence/sheet.png",
+    "states": {
+     "plain": "out/shorts/ep01/anchors/s1-objects/wafer-fence/states/plain.png",
+     "balloon-tied": "out/shorts/ep01/anchors/s1-objects/wafer-fence/states/balloon-tied.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/left.png"
+    },
+    "idle": "none",
+    "reactions": "small wobble",
+    "layers": {},
+    "name_en": "Wafer fence",
+    "label": "웨하스 울타리 · Wafer fence",
+    "match": "\\b(?:wafer[- ])?fence\\b",
+    "translucent": [],
+    "sha256": "3df8382ec07f8025",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "plain": "0eda500ce5d22434",
+     "balloon-tied": "b9eaf80b0093f33b"
+    },
+    "views_sha256": {
+     "front": "feb8e0f985a4a322",
+     "right": "0b1fc92ecc027d94",
+     "back": "bdf54b16f9de14ec",
+     "left": "166fa9f4ca2ac988"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/wafer-fence-s1.png",
+    "tile_sha256": "0eda500ce5d22434"
+   },
+   "cookie-stone": {
+    "path": "out/shorts/ep01/anchors/s1-objects/cookie-stone/sheet.png",
+    "states": {
+     "normal": "out/shorts/ep01/anchors/s1-objects/cookie-stone/states/normal.png",
+     "stepped": "out/shorts/ep01/anchors/s1-objects/cookie-stone/states/stepped.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/left.png"
+    },
+    "idle": "none",
+    "reactions": "tiny bounce",
+    "layers": {},
+    "name_en": "Cookie stone",
+    "label": "쿠키 디딤돌 · Cookie stone",
+    "match": "\\bcookie[- ]stones?\\b",
+    "translucent": [],
+    "sha256": "ee3e8652dba024ae",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "normal": "9bdba7e0c5fd9415",
+     "stepped": "1f986bc3359992f1"
+    },
+    "views_sha256": {
+     "front": "27fe2fb0da806bc8",
+     "right": "39034c372c134f40",
+     "back": "7a634a6e8aa82dcc",
+     "left": "e937199fc1dad423"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/cookie-stone-s1.png",
+    "tile_sha256": "9bdba7e0c5fd9415"
+   },
+   "balloon": {
+    "path": "out/shorts/ep01/anchors/s1-objects/balloon/sheet.png",
+    "states": {
+     "tied": "out/shorts/ep01/anchors/s1-objects/balloon/states/tied.png",
+     "held": "out/shorts/ep01/anchors/s1-objects/balloon/states/held.png",
+     "taut-lifting": "out/shorts/ep01/anchors/s1-objects/balloon/states/taut-lifting.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/balloon/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/balloon/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/balloon/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/balloon/turn/left.png"
+    },
+    "idle": "bob",
+    "reactions": "tug",
+    "layers": {},
+    "name_en": "Balloon",
+    "label": "분홍 풍선 · Balloon",
+    "match": "\\bballoon\\b",
+    "translucent": [],
+    "sha256": "51d0522075d10d1a",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "tied": "49ad6df9442831e6",
+     "held": "eace10267fc2af5b",
+     "taut-lifting": "50cde26ad1acb7ea"
+    },
+    "views_sha256": {
+     "front": "6fdf1f46b7731d5e",
+     "right": "6cd30a36b25da0ae",
+     "back": "f72da230bc262f9f",
+     "left": "866927016ba364e6"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/balloon-s1.png",
+    "tile_sha256": "49ad6df9442831e6"
+   },
+   "berry-butterfly": {
+    "path": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/sheet.png",
+    "states": {
+     "wings-open": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/states/wings-open.png",
+     "wings-closed": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/states/wings-closed.png",
+     "flying": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/states/flying.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/left.png"
+    },
+    "idle": "flutter",
+    "reactions": "lands on a flower",
+    "layers": {},
+    "name_en": "Berry butterfly",
+    "label": "딸기 나비 · Berry butterfly",
+    "match": "\\b(?:berry[- ])?butterfl(?:y|ies)\\b",
+    "translucent": [],
+    "sha256": "a65fc28f4bd03491",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "wings-open": "ccef6da43933197a",
+     "wings-closed": "740ebc0c9fbfea32",
+     "flying": "530c4cd05b904981"
+    },
+    "views_sha256": {
+     "front": "dd5a4da6e4327da4",
+     "right": "66b1a1feaea2ac36",
+     "back": "5070a19c8765c7d6",
+     "left": "f2f519499b03b9f5"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/berry-butterfly-s1.png",
+    "tile_sha256": "ccef6da43933197a"
+   },
+   "berry-sprout": {
+    "path": "out/shorts/ep01/anchors/s1-objects/berry-sprout/sheet.png",
+    "states": {
+     "seed": "out/shorts/ep01/anchors/s1-objects/berry-sprout/states/seed.png",
+     "sprout": "out/shorts/ep01/anchors/s1-objects/berry-sprout/states/sprout.png",
+     "bud": "out/shorts/ep01/anchors/s1-objects/berry-sprout/states/bud.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/left.png"
+    },
+    "idle": "tiny sway",
+    "reactions": "peeks up",
+    "layers": {},
+    "name_en": "Berry sprout",
+    "label": "딸기 새싹 · Berry sprout",
+    "match": "\\b(?:berry[- ])?sprouts?\\b",
+    "translucent": [],
+    "sha256": "b495a217b8fa00db",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "seed": "aa9ff68d2e4467bf",
+     "sprout": "e4bc70e1cf96c4ae",
+     "bud": "658acde11926fe7b"
+    },
+    "views_sha256": {
+     "front": "bc07b92c5e123bcd",
+     "right": "09202e461b1a714b",
+     "back": "00c2cb6afa8b7651",
+     "left": "2fae2258dd74cb92"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/berry-sprout-s1.png",
+    "tile_sha256": "aa9ff68d2e4467bf"
+   },
+   "roll-snail": {
+    "path": "out/shorts/ep01/anchors/s1-objects/roll-snail/sheet.png",
+    "states": {
+     "crawling": "out/shorts/ep01/anchors/s1-objects/roll-snail/states/crawling.png",
+     "peeking": "out/shorts/ep01/anchors/s1-objects/roll-snail/states/peeking.png",
+     "hiding-in-shell": "out/shorts/ep01/anchors/s1-objects/roll-snail/states/hiding-in-shell.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/roll-snail/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/roll-snail/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/roll-snail/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/roll-snail/turn/left.png"
+    },
+    "idle": "slow crawl",
+    "reactions": "hides",
+    "layers": {},
+    "name_en": "Roll snail",
+    "label": "롤 달팽이 · Roll snail",
+    "match": "\\b(?:roll[- ])?snail\\b",
+    "translucent": [],
+    "sha256": "f177851d9adde9e0",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "crawling": "82e179c7f135b4a8",
+     "peeking": "eae83aef400ead10",
+     "hiding-in-shell": "4d4c320fb5ff1347"
+    },
+    "views_sha256": {
+     "front": "75d1c8c61d7fb17e",
+     "right": "b5e035a769407d9f",
+     "back": "964a8604a69e85a2",
+     "left": "8f54c6fdcb0c7264"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/roll-snail-s1.png",
+    "tile_sha256": "82e179c7f135b4a8"
+   },
+   "cream-cloud": {
+    "path": "out/shorts/ep01/anchors/s1-objects/cream-cloud/sheet.png",
+    "states": {
+     "awake": "out/shorts/ep01/anchors/s1-objects/cream-cloud/states/awake.png",
+     "sleepy": "out/shorts/ep01/anchors/s1-objects/cream-cloud/states/sleepy.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/left.png"
+    },
+    "idle": "drift",
+    "reactions": "puff",
+    "layers": {},
+    "name_en": "Cream cloud",
+    "label": "크림 구름 · Cream cloud",
+    "match": "\\bcream-cloud\\b",
+    "translucent": [],
+    "sha256": "bc27e9bfa301cbc9",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "awake": "54257e0dcc813017",
+     "sleepy": "8101d067803c48a5"
+    },
+    "views_sha256": {
+     "front": "793fa37125796214",
+     "right": "1dcbbdd2319248cb",
+     "back": "09563bc2f2d10de6",
+     "left": "e2574129e0f80c66"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/cream-cloud-s1.png",
+    "tile_sha256": "54257e0dcc813017"
+   },
+   "swirl-sun": {
+    "path": "out/shorts/ep01/anchors/s1-objects/swirl-sun/sheet.png",
+    "states": {
+     "normal": "out/shorts/ep01/anchors/s1-objects/swirl-sun/states/normal.png",
+     "smile-blink": "out/shorts/ep01/anchors/s1-objects/swirl-sun/states/smile-blink.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/left.png"
+    },
+    "idle": "slow ray turn",
+    "reactions": "blink",
+    "layers": {
+     "rays": "out/shorts/ep01/anchors/s1-objects/swirl-sun/layers/rays.png"
+    },
+    "name_en": "Swirl sun",
+    "label": "휘핑 해님 · Swirl sun",
+    "match": "\\b(?:swirl[- ])?sun\\b",
+    "translucent": [],
+    "sha256": "8752a5476c65f1ce",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "normal": "de4a4dbf137c51e0",
+     "smile-blink": "5a6f59f7fe787119"
+    },
+    "views_sha256": {
+     "front": "5e80c975bb9eb3ce",
+     "right": "73dab4e836c93b0e",
+     "back": "5db99014cbea49cd",
+     "left": "d323acd5779b16d8"
+    },
+    "layers_sha256": {
+     "rays": "150616657724f9dc"
+    },
+    "tile": "out/shorts/ep01/pack/props/swirl-sun-s1.png",
+    "tile_sha256": "de4a4dbf137c51e0"
+   },
+   "sprinkle-star": {
+    "path": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/sheet.png",
+    "states": {
+     "a": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/states/a.png",
+     "b": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/states/b.png",
+     "c": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/states/c.png",
+     "d": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/states/d.png",
+     "e": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/states/e.png",
+     "f": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/states/f.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/sprinkle-star/turn/left.png"
+    },
+    "idle": "twinkle",
+    "reactions": "pop",
+    "layers": {},
+    "name_en": "Sprinkle star",
+    "label": "스프링클 별 · Sprinkle star",
+    "match": "\\bsprinkle-star\\b",
+    "translucent": [],
+    "sha256": "ebf0d9891728a3b7",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "a": "83d8e8119305b281",
+     "b": "d0f6acac50eec95b",
+     "c": "6bce7a3f1b42c828",
+     "d": "ec0c1a30f7fab715",
+     "e": "59cc1e37b5142b23",
+     "f": "f1c4dc8f37377c81"
+    },
+    "views_sha256": {
+     "front": "8b2836cdfc39d5a7",
+     "right": "2593bd6880e6ade6",
+     "back": "de17815dfc11cb04",
+     "left": "fcf218919c26df6b"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/sprinkle-star-s1.png",
+    "tile_sha256": "83d8e8119305b281"
+   },
+   "jelly-rainbow": {
+    "path": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/sheet.png",
+    "states": {
+     "full": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/states/full.png",
+     "band-0": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/states/band-0.png",
+     "band-1": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/states/band-1.png",
+     "band-2": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/states/band-2.png",
+     "band-3": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/states/band-3.png",
+     "band-4": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/states/band-4.png",
+     "band-5": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/states/band-5.png",
+     "band-6": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/states/band-6.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/turn/left.png"
+    },
+    "idle": "shimmer",
+    "reactions": "wobble",
+    "layers": {
+     "band-0": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/layers/band-0.png",
+     "band-1": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/layers/band-1.png",
+     "band-2": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/layers/band-2.png",
+     "band-3": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/layers/band-3.png",
+     "band-4": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/layers/band-4.png",
+     "band-5": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/layers/band-5.png",
+     "band-6": "out/shorts/ep01/anchors/s1-objects/jelly-rainbow/layers/band-6.png"
+    },
+    "name_en": "Jelly rainbow",
+    "label": "젤리 무지개 · Jelly rainbow",
+    "match": "\\b(?:jelly[- ])?rainbow\\b",
+    "translucent": [
+     "states/band-0",
+     "states/band-1",
+     "states/band-2",
+     "states/band-3",
+     "states/band-4",
+     "states/band-5",
+     "states/band-6",
+     "layers/band-0",
+     "layers/band-1",
+     "layers/band-2",
+     "layers/band-3",
+     "layers/band-4",
+     "layers/band-5",
+     "layers/band-6"
+    ],
+    "sha256": "7858009ba50fe85a",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "full": "dbff730db386b9d7",
+     "band-0": "c856d0db01374ec8",
+     "band-1": "ed5066624ede41d0",
+     "band-2": "6ec0aa0810efbbe9",
+     "band-3": "425892509fb5effa",
+     "band-4": "e0c6957e777682d0",
+     "band-5": "136052c9034d3569",
+     "band-6": "8ebfa66d54631d3c"
+    },
+    "views_sha256": {
+     "front": "684f19df1d096e99",
+     "right": "dec7fe91fb931c87",
+     "back": "550786013da7a547",
+     "left": "4427d7c449da8532"
+    },
+    "layers_sha256": {
+     "band-0": "c856d0db01374ec8",
+     "band-1": "ed5066624ede41d0",
+     "band-2": "6ec0aa0810efbbe9",
+     "band-3": "425892509fb5effa",
+     "band-4": "e0c6957e777682d0",
+     "band-5": "136052c9034d3569",
+     "band-6": "8ebfa66d54631d3c"
+    },
+    "tile": "out/shorts/ep01/pack/props/jelly-rainbow-s1.png",
+    "tile_sha256": "dbff730db386b9d7"
+   },
+   "icepop-xylophone": {
+    "path": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/sheet.png",
+    "states": {
+     "rest": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/states/rest.png",
+     "low-pressed": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/states/low-pressed.png",
+     "middle-pressed": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/states/middle-pressed.png",
+     "high-pressed": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/states/high-pressed.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/left.png"
+    },
+    "idle": "none",
+    "reactions": "bar dips",
+    "layers": {
+     "low": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/layers/low.png",
+     "middle": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/layers/middle.png",
+     "high": "out/shorts/ep01/anchors/s1-objects/icepop-xylophone/layers/high.png"
+    },
+    "name_en": "Icepop xylophone",
+    "label": "아이스바 실로폰 · Icepop xylophone",
+    "match": "\\b(?:icepop[- ])?xylophone\\b",
+    "translucent": [],
+    "sha256": "e8dca777b644424a",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "rest": "e9d2624202262ec2",
+     "low-pressed": "2bbd4f00590bf078",
+     "middle-pressed": "b91a47f93862752d",
+     "high-pressed": "4a40de69140c8fb8"
+    },
+    "views_sha256": {
+     "front": "7968d8ce7b0973c9",
+     "right": "a0c3d0957096fc46",
+     "back": "635ef1e3a408ab86",
+     "left": "941185c095de9b8e"
+    },
+    "layers_sha256": {
+     "low": "db250ca9ef1b37d8",
+     "middle": "97ded728e7ab65d4",
+     "high": "18f2ffe07f9794a0"
+    },
+    "tile": "out/shorts/ep01/pack/props/icepop-xylophone-s1.png",
+    "tile_sha256": "e9d2624202262ec2"
+   },
+   "sky-plane": {
+    "path": "out/shorts/ep01/anchors/s1-objects/sky-plane/sheet.png",
+    "states": {
+     "flying": "out/shorts/ep01/anchors/s1-objects/sky-plane/states/flying.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/sky-plane/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/sky-plane/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/sky-plane/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/sky-plane/turn/left.png"
+    },
+    "idle": "propeller spins, tiny bob in the air",
+    "reactions": "wing wiggle when it turns",
+    "layers": {},
+    "name_en": "Sky plane",
+    "label": "하늘 비행기 · Sky plane",
+    "match": "\\b(?:toy |propeller |sky[- ])?plane\\b",
+    "translucent": [],
+    "sha256": "b5dc22f2cfbe9a1e",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "flying": "e9a52cd0d00e0086"
+    },
+    "views_sha256": {
+     "front": "111f88230b29fecb",
+     "right": "eec4741879752a8a",
+     "back": "fc0bd02fb3efb36b",
+     "left": "1079d6ee1c07f46d"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/sky-plane-s1.png",
+    "tile_sha256": "e9a52cd0d00e0086"
+   },
+   "cream-puff": {
+    "path": "out/shorts/ep01/anchors/s1-objects/cream-puff/sheet.png",
+    "states": {
+     "plain": "out/shorts/ep01/anchors/s1-objects/cream-puff/states/plain.png",
+     "scooped": "out/shorts/ep01/anchors/s1-objects/cream-puff/states/scooped.png"
+    },
+    "views": {
+     "front": "out/shorts/ep01/anchors/s1-objects/cream-puff/turn/front.png",
+     "right": "out/shorts/ep01/anchors/s1-objects/cream-puff/turn/right.png",
+     "back": "out/shorts/ep01/anchors/s1-objects/cream-puff/turn/back.png",
+     "left": "out/shorts/ep01/anchors/s1-objects/cream-puff/turn/left.png"
+    },
+    "idle": "slow soft bob, the curl tip sways",
+    "reactions": "squishes like a marshmallow when leaned on; a lick leaves a small round dent",
+    "layers": {},
+    "name_en": "Cream cloud puff",
+    "label": "크림 구름 퍼프 · Cream cloud puff",
+    "match": "\\bcream (?:cloud )?puffs?\\b",
+    "translucent": [],
+    "sha256": "bb8eae3e90a68f0b",
+    "status": "ACTIVE",
+    "grid": false,
+    "states_sha256": {
+     "plain": "bbb7539f9ab33a7b",
+     "scooped": "42d7acb28f881ae0"
+    },
+    "views_sha256": {
+     "front": "b26e8e2474bbb70e",
+     "right": "bfb1b75c3360c15f",
+     "back": "2fbfd879e24c1955",
+     "left": "239b9efa6b44b732"
+    },
+    "layers_sha256": {},
+    "tile": "out/shorts/ep01/pack/props/cream-puff-s1.png",
+    "tile_sha256": "bbb7539f9ab33a7b",
+    "aliases": [
+     "\\bpuffs?\\b",
+     "\\bwhipped cream\\b",
+     "\\bcream (?:dollop|swirl|scoop)s?\\b"
+    ],
+    "material": "soft whipped cream: rounded, glossy, airy swirls with smooth round edges; it squishes like a marshmallow and springs back; a scoop or a lick leaves a smooth round dent, never a broken edge",
+    "never": [
+     "bites or bite marks",
+     "cracks, tears or torn edges",
+     "crumbs or crumbling",
+     "a hard shell, crust, pastry or biscuit texture",
+     "bursting, splitting or breaking open",
+     "jagged or broken rims"
+    ],
+    "never_match": "\\b(bites?|bitten|crumbs?|crumbl\\w*|crack\\w*|torn|tears?|shatter\\w*|shells?|crust\\w*|biscuit\\w*|pastry|jagged|burst\\w*|split\\w*|break\\w*|broken)\\b",
+    "material_rcca": "2026-10-25 finale RCCA: edit prompts asked this puff for 'a bite out of the top', 'Keep the bite missing' and 'cream crumbs popping off' and the rims came out cracked like biscuit (user 12:3x). material/never reach every key_edit and refs_clip prompt; gen/material_lint.py refuses a hit."
+   }
+  },
+  "sheet_history": [
+   {
+    "path": "out/shorts/ep01/pack/props-grid-5.png",
+    "sha256": "4116cb9572591411",
+    "why": "the five-prop grid sent with the R1/R2 takes (refs/R1-t*.json, R2-t*.json); pinned for history only, never attached to new clips (user 2026-10-23 22:4x: the can joins the asset sheet -> props-grid-6.png)"
+   },
+   {
+    "path": "out/shorts/ep01/pack/props-grid-6.png",
+    "sha256": "3b181502ebe035ff",
+    "why": "superseded_by_s1; historical grid, not a new-generation input"
+   }
+  ],
+  "sheet_sources": {
+   "cottage": "7facd066f5a7ab18",
+   "sky-island": "a174f74da88bb489",
+   "scoop-mailbox": "a890a005d714e093",
+   "spoon-pinwheel": "4c56726ef9693b65",
+   "berry-flower": "0fb88b25bd7edecc",
+   "lemon-can": "e6c004e8df08c36a"
+  },
+  "_label_note": "2026-10-24 RCCA: grid tile labels come from items.files.*.label (props_grid.py used to hard-code them and printed 'tulip bud' under the five-petal flower). Items with \"grid\": false are per-clip PROPS tiles only (props_sheet.py, by in_frame), never in the all-clip grid.",
+  "retired_files": {
+   "cottage": {
+    "path": "out/shorts/ep01/pack/props/cottage.png",
+    "sha256": "0129c042a77959ff",
+    "name_en": "cottage",
+    "label": "집 cottage",
+    "status": "retired"
+   },
+   "sky-island": {
+    "path": "out/shorts/ep01/pack/props/sky-island.png",
+    "sha256": "ba085ec5e48c9bf8",
+    "name_en": "sky island",
+    "note": "user 2026-10-24 09:2x: island v4 house — 'the house should be something kids love, e.g. snacks or an ice-cream house, eye-catching'; four I2I variants on v3 (H1 ice cream, H2 cupcake, H3 jelly, H4 macaron; intent/2026-10-24-ep01-island-v3/compare-v4-house.jpg); main picked H1 (strong silhouette at thumbnail size; sprinkles/icing glint = visible cause of the S3 sunrise sparkle). Was v3 083cfcf55ac6742a -> out/shorts/ep01/_archive/island-v3-20261024/sky-island.png. | user 2026-10-24: island v3 — the v2 sheet read as matte clay (lumpy clay grass, dark gaps between clumps, strong rock contrast); redrawn I2I (codex-imagegen, Image1 = v2 identity, Image2 = garden ground look intent/2026-10-24-ep01-cut-grammar/ground-look-t30.png) to fine sunlit grass blades, matte objects, soft low-contrast shading; variant C (garden match) picked by main from A/B/C (intent/2026-10-24-ep01-island-v3/compare-v3.jpg); was 902a0202231d71d5 -> out/shorts/ep01/_archive/island-v2-20261024/sky-island.png. | user 2026-10-23 20:1x: full redraw (anchors/sbm/islandv2: solid hut walls, closed rock, no hole) ; cream hut kept (gold hut tried, user 20:2x '별로다, 크림색으로' -> _archive/island-gold-20261023/sky-island-gold2.rejected.png); pick islandv2/job/isl1.png keyed; was c4d52b128e2ea8cc (hutfix paint-over, rock hole left) -> _archive/island-gold-20261023/",
+    "label": "하늘섬 sky island",
+    "status": "retired"
+   },
+   "pinwheel": {
+    "path": "out/shorts/ep01/pack/props/pinwheel.png",
+    "sha256": "f380464951d94a48",
+    "name_en": "pinwheel",
+    "label": "바람개비 pinwheel",
+    "status": "retired"
+   },
+   "heart-mailbox": {
+    "path": "out/shorts/ep01/pack/props/heart-mailbox.png",
+    "sha256": "e05a486628d8c607",
+    "name_en": "heart mailbox",
+    "label": "하트 우체통 heart mailbox",
+    "status": "retired"
+   },
+   "flower": {
+    "path": "out/shorts/ep01/pack/props/flower.png",
+    "sha256": "cf712fb30489ec5b",
+    "name_en": "pink five-petal garden flower with a yellow-orange centre",
+    "note": "2026-10-24 janitor Q3: the pinned tile is a five-petal bloom; the old name 'pink tulip bud' belongs to the story's tulip bud (text-only object in items.prompt), not to this tile.",
+    "label": "꽃 flower",
+    "status": "retired"
+   },
+   "watering-can": {
+    "path": "out/shorts/ep01/pack/props/watering-can.png",
+    "sha256": "2cf4cba26dcc2157",
+    "name_en": "yellow watering can",
+    "label": "물뿌리개 watering can",
+    "status": "retired"
+   },
+   "flower-states": {
+    "path": "out/shorts/ep01/pack/props/flower-states.png",
+    "sha256": "4bd9fc9fe77c20f0",
+    "name_en": "pink garden flower in four states (fresh, thirsty, wilted, revived)",
+    "label": "꽃 상태 flower states",
+    "grid": false,
+    "match": "\\b(droop\\w*|wilt\\w*|thirsty|reviv\\w*|bow(s|ed|ing)? (its|their) heads?)\\b",
+    "note": "user 2026-10-24 (\"에셋 시트도 다 다시 제작 … 필요한 에셋은 무조건 생성해서 에셋 시트에 추가, 그래야 중간에 안 변해\"): S5/S6/S8 wilting and revival look; same flower as items.files.flower; left to right fresh, thirsty, wilted (one petal fallen, cracked pale soil), revived (water drops, dark wet soil). Source: anchors/pack-v22-assets/flower-states/ (I2I on props/flower.png, codex-imagegen).",
+    "status": "retired"
+   },
+   "butterfly": {
+    "path": "out/shorts/ep01/pack/props/butterfly.png",
+    "sha256": "337fa73a24a38c7d",
+    "name_en": "small pastel butterfly (pink upper wings, yellow lower wings, lilac body)",
+    "label": "나비 butterfly",
+    "grid": false,
+    "match": "\\bbutterfl(y|ies)\\b",
+    "note": "user 2026-10-24 (\"에셋 시트도 다 다시 제작 … 필요한 에셋은 무조건 생성해서 에셋 시트에 추가, 그래야 중간에 안 변해\"): S4 surprise: lands on Moa's nose; tiny relative to Moa (wingspan about her nose width x3). Source: anchors/pack-v22-assets/butterfly/ (I2I on props/flower.png, codex-imagegen).",
+    "status": "retired"
+   },
+   "sprout": {
+    "path": "out/shorts/ep01/pack/props/sprout.png",
+    "sha256": "76ecb73f06114993",
+    "name_en": "tiny green sprout in three growth stages",
+    "label": "새싹 sprout",
+    "grid": false,
+    "match": "\\bsprouts?\\b",
+    "note": "user 2026-10-24 (\"에셋 시트도 다 다시 제작 … 필요한 에셋은 무조건 생성해서 에셋 시트에 추가, 그래야 중간에 안 변해\"): S6 signature surprise: sprouts pop up in a trail where the sloshed water lands; stages left to right = popping, half up, open. Source: anchors/pack-v22-assets/sprout/ (I2I on props/flower.png, codex-imagegen).",
+    "status": "retired"
+   }
+  }
+ },
+ "sets": {
+  "cottage": {
+   "ref": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png",
+   "sha256": "85370ed004d99631",
+   "role": "Approved Scoop Sky hill set: exact layout and colours; contains no character.",
+   "idle": "Background idle loop, running for the whole shot at one steady pace: a soft continuous curl of soft white puffs rises from the chimney and drifts gently right; the spoon pinwheel stays planted in exactly the same spot on its pretzel stick and only its four spoon-shaped blades turn slowly and steadily in place; the scoop mailbox never moves, turns or opens, only its little pink flag gently wiggles; tree leaves rustle while staying on the branches (no leaves fall or fly); flowers and grass nod in place; clouds drift slowly to the right; the floating island bobs gently up and down. Every prop keeps its exact position, size and facing from the first frame; nothing appears, pops out, falls or flies unless the action names it.",
+   "idle_note": "user 2026-10-22: the background read as a still image; idle animation like a game's idle state. RCA flying pinwheel: the A1 action asked for butterflies and for the pinwheel to 'start to turn' while it was absent from the first frame. RCA A2 t7: 'leaves rustle' produced flying leaves and the mailbox turned (its facing differed between K2A and K2B) -> each idle motion is bound to its object and states what must NOT move.",
+   "still": "Soft white chimney puffs curls up steadily. The spoon pinwheel turns slowly and steadily in place on its pretzel stick. The scoop mailbox stays fixed and faces the same way; only its little pink flag wiggles. The air is calm: only the grass sways gently and the clouds drift slowly; the sky island bobs gently in place.",
+   "structure": "The cottage follows cottage@normal: waffle-cone roof with a cream swirl and strawberry, biscuit chimney on the right slope, cream body with icing trim, pink door and two blue windows.",
+   "structure_note": "RCA 2026-10-22 (user: 'why is the roof cut?'): K3-v10 needed the roof above the medium shot's top edge; a codex outpaint invented it as a flat-topped roof because no SSOT described the set's structure and the key was not compared to the wide canon frame. Rule: a revealed set part comes from a crop of an approved canon frame when one shows it; outpaint only when none does, and then compare side by side with the canon frame before any paid call. Sheet = the master (user 2026-10-22: 'make a sheet and tag it'); the structure text is the short tag carried where a frames call cannot attach the sheet. Book art cottage.png is a different design (blue thatch); the shorts keep the user-approved K1 cottage.",
+   "sheet": "out/shorts/ep01/pack/props-grid-s1.png",
+   "sheet_sha256": "d69e62b9c0d74397",
+   "sheet_source": "pack/props-grid-5.png (same file as items.sheet). Was the 2x2 crop grid pack/props-grid-4.png and before that the 3x3 pack/props-grid.png (both archived).",
+   "still_parts": {
+    "air": "A soft breeze comes in gentle, uneven gusts; clouds keep their places in the background and only drift a little inside the frame — no cloud enters, crosses or leaves the frame.",
+    "meadow": "The strawberry blossoms sway and nod on their stems, each at its own rhythm; the grass ripples across the meadow in soft waves.",
+    "trees": "The distant cotton-candy trees far behind the cottage sway softly in place.",
+    "contact": "Whatever Moa touches reacts: her ears and neckerchief flutter in the breeze.",
+    "chimney": "Soft white puffs curl up steadily from the biscuit chimney.",
+    "pinwheel": "The spoon-pinwheel turns slowly and steadily in place, its spoon-shaped blades staying sharp and countable; it never stops or reverses.",
+    "mailbox": "The scoop-mailbox stays fixed and faces the same way; its pink flag wiggles and bounces on every gust.",
+    "island": "The sky island bobs gently in place.",
+    "petals": "A breeze lifts a few tiny white petals with pink-tinted tips from the berry bed in a steady trickle; they flutter and drift away."
+   },
+   "still_note": "RCA 2026-10-22 A5a t1: 'soft white chimney puffs' was in every prompt, so with the chimney out of frame a smoke wisp rose from behind the mailbox (same class as the flying pinwheel: describing an object that is not in frame makes the model conjure it). gen.py drops a still part whose key is listed in the first or last anchor's 'offscreen'. | 2026-10-22 living-world RCA (user: backgrounds too static): the v2 prompt carried 'The air is calm: only the grass sways', our own anti-drift wording, which froze flowers, trees and leaves. Rule now: position and design are fixed, motion in place is free and irregular (still_parts air/meadow/contact). Offscreen keys: add 'contact' when Moa is out of both keys, 'meadow' when no grass/flowers/trees show. | 2026-10-22 Astra review: one coherent wind — pinwheel speed and mailbox flag follow the same gusts as grass and flowers. RCA A4n1 t2 (2026-10-22): \"tree leaves rustle on their branches\" inside the meadow part conjured a near branch into a locked shot whose keys only show distant trees -> one still part per object, so anchor offscreen lists can drop it.",
+   "set_note": "2026-10-23 model pack: ref was anchors/final/K1.png (a shot frame with pencil-hatched sky and Moa in it) and sheet was cast/props/cottage-sheet.png (pencil crop of A1end-t9 with Moa's ear); both conflicted with style_short and moved to deprecated.",
+   "camera": "out/shorts/ep01/pack/camera/cameras.json",
+   "camera_sha256": "aff68b89cbe141e8",
+   "camera_note": "Camera SSOT for this set: scene cards S1-S6 measured on plate S1 (Moa's mark, 180 line, eyeline). CAMERA-SPEC.md is generated from it by pack/camera/make_camera_sheets.py; edit the JSON, regenerate, then re-pin camera_sha256 here."
+  },
+  "hill-crest": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP02, EP09",
+   "look": "the grassy hill ridge behind the cottage garden, one soft path over the crest, the cottage roof just visible below; open sky above",
+   "rule": "an updraft over the crest bends the grass upward (EP02 lift-off); EP09 the light path lands here",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "open-sky": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP02",
+   "look": "open clear blue sky above the hill; distant cloud islands at three depths (near blossom cloud, far cloud hills, farthest sky-sea horizon)",
+   "rule": "clouds stay where they are and drift slowly; nothing pops into the foreground",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "cloud-field": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP03, EP04",
+   "look": "an endless field of walkable cotton-candy cumulus tops under a clear afternoon sky",
+   "rule": "cloud tops are soft floor: feet and bottoms dent them slightly and they spring back",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "piyo-perch": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP03",
+   "look": "a few small blossom clouds with pink flowers on one small peak (Piyo's spot, the song stage); no nest, no tree",
+   "rule": "flowers nod softly; they never upstage Piyo",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "cloud-hills": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP03 (far), EP04",
+   "look": "rolling plump whipped-cream cloud hills, a soft hollow on each top (Mongsil's nap spots), warm afternoon light; the gap between hills = one Mongsil bounce",
+   "rule": "hills are floor; the bounce route crosses real gaps",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "sky-sea": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP05, EP06",
+   "look": "a golden sea of low flat clouds to the horizon with a distant rainbow arch standing in it",
+   "rule": "Nuri rises out of this cloud sea; the rainbow is far scenery until EP06",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "cloud-canyon": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP06",
+   "look": "tall cloud walls with a winding valley and one round cloud ring Nuri can pass through",
+   "rule": "speed is shown by fur, ears and the balloon trailing, never by camera shake",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "rainbow-road": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP06, EP07",
+   "look": "the rainbow unrolled into a seven-colour sparkling road across the golden sky; its end fades into a soft light haze",
+   "rule": "walkable only for Nuri's swim; the end is hidden until EP07",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "big-cloud": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP07",
+   "look": "a huge breathing cumulus wall where the rainbow road ends; a faint glint once at its right edge",
+   "rule": "slow breathing swell; no face, no mouth",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "hidden-nook": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP07, EP08",
+   "look": "a dim hollow behind the big cloud, grey-lavender shade, the small sky island curled up in the middle",
+   "rule": "EP08: as the island brightens, the light spreads from the nook to the whole sky (pink-gold)",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "light-path": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP09",
+   "look": "a gentle path of light from the island down through sunset clouds to the hill crest",
+   "rule": "Moa steps down lightly (사뿐사뿐); the friends wave from above",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "cottage-night": {
+   "ref": null,
+   "status": "PROPOSAL",
+   "episodes": "EP10",
+   "look": "the EP01 cottage garden at night (same layout as sets.cottage), warm window light, the island glowing above the house like a lantern",
+   "rule": "the watering can still lies on the grass where Moa set it down in EP02",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "open-sky-s1": {
+   "ref": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/sky-v1.png",
+   "sha256": "58db1e785bce8eca",
+   "size": [
+    1672,
+    941
+   ],
+   "episodes": "EP01",
+   "role": "Approved Scoop Sky open-sky backdrop (main accepted on sight 2026-10-24): colour-matched to plate-v4; no ground, cottage, island, character, text or object. Islands, clouds and states are composited on it.",
+   "clear_window_px": [
+    585,
+    188,
+    1087,
+    612
+   ],
+   "floor_zone": "faint pastel hill line in the bottom 6 percent (y 884-941); crop it out unless a tilt needs it",
+   "source": "reviews/workers/shorts-ep01-s1-sky-plate-20261024 (codex-imagegen I2I from plate-v4 sky band)"
+  },
+  "cottage-reverse-s1": {
+   "ref": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/reverse-r4-v1.png",
+   "sha256": "170ee0f788356916",
+   "size": [
+    1672,
+    941
+   ],
+   "episodes": "EP01",
+   "role": "Approved Scoop Sky reverse angle of the hill set (main accepted on sight 2026-10-24): same cottage world seen from the other side; contains no character.",
+   "source": "reviews/workers/shorts-ep01-s1-surveys-20261024/survey-reverse-r4-v1.json"
+  },
+  "cottage-flowerbed-s1": {
+   "ref": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r6-flowerbed-v1.png",
+   "sha256": "17cc7749289953e3",
+   "size": [
+    1672,
+    941
+   ],
+   "episodes": "EP01",
+   "role": "Scoop Sky R6 garden camera, character-free; R5R8 previs layout and world master designs. Main pinned on sight 2026-10-24.",
+   "source": "reviews/workers/shorts-ep01-s1keys-R5R8-20261024 (codex-imagegen I2I from plate-v4 + previs)"
+  },
+  "cottage-side-s1": {
+   "ref": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r7-side-v1.png",
+   "sha256": "035655850f9529b6",
+   "size": [
+    1672,
+    941
+   ],
+   "episodes": "EP01",
+   "role": "Scoop Sky R7 garden camera, character-free; R5R8 previs layout and world master designs. Main pinned on sight 2026-10-24.",
+   "source": "reviews/workers/shorts-ep01-s1keys-R5R8-20261024 (codex-imagegen I2I from plate-v4 + previs)",
+   "contact_correction": "Central cookie moved up 50 px by one I2I repair; only local feathered box [715,630,1060,795] composited into original plate. Previs END feet y=690 in 941 px plate."
+  },
+  "cottage-a-to-b-v22-s1": {
+   "ref": "out/shorts/ep01/anchors/s1/R7/plate-v22.png",
+   "sha256": "7bb9d622b9c91d69",
+   "role": "Scoop Sky wide from behind bed A toward open lawn B (EP01 R7): exact layout and colours; contains no character.",
+   "pinned": "main 2026-10-24 after viewing reviews/workers/shorts-ep01-s1keys-R5R8-20261024 keys",
+   "idle": "Background idle loop, running for the whole shot at one steady pace: a soft continuous curl of soft white puffs rises from the chimney and drifts gently right; the spoon pinwheel stays planted in exactly the same spot on its pretzel stick and only its four spoon-shaped blades turn slowly and steadily in place; the scoop mailbox never moves, turns or opens, only its little pink flag gently wiggles; tree leaves rustle while staying on the branches (no leaves fall or fly); flowers and grass nod in place; clouds drift slowly to the right; the floating island bobs gently up and down. Every prop keeps its exact position, size and facing from the first frame; nothing appears, pops out, falls or flies unless the action names it."
+  },
+  "lawn-b-front-v22-s1": {
+   "ref": "out/shorts/ep01/anchors/s1/R7b/plate-v22.png",
+   "sha256": "c993471ccc85fbc9",
+   "role": "Scoop Sky open lawn at spot B, front-side low medium (EP01 R7b, reusable for R10a): exact layout and colours; contains no character.",
+   "pinned": "main 2026-10-24 after viewing reviews/workers/shorts-ep01-s1keys-R5R8-20261024 keys",
+   "idle": "Background idle loop, running for the whole shot at one steady pace: the meadow grass ripples in soft waves, the bed flowers sway on their stems, the whipped-cream clouds drift only a little in place; no cottage or chimney is in view."
+  },
+  "bed-a-east-deep-v22-s1": {
+   "ref": "out/shorts/ep01/anchors/s1/R8/plate-v22.png",
+   "sha256": "8a85d5f46d81af88",
+   "role": "Scoop Sky deep staging from bed A toward B (EP01 R8): bed A foreground, B lawn background; exact layout and colours; contains no character.",
+   "pinned": "main 2026-10-24 after viewing reviews/workers/shorts-ep01-s1keys-R5R8-20261024 keys",
+   "idle": "Background idle loop, running for the whole shot at one steady pace: the meadow grass ripples in soft waves, the bed flowers sway on their stems, the whipped-cream clouds drift only a little in place; no cottage or chimney is in view."
+  }
+ },
+ "deprecated": [
+  {
+   "path": "out/shorts/ep01/refs/moa-sheet.png",
+   "why": "old Moa with long ears (root cause of long ears in A1 t1-t3)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/refs/moa-sheet.png"
+  },
+  {
+   "path": "out/shorts/ep01/refs/friends-sheet.png",
+   "why": "old friends: curly Mongsil, no Popo",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/refs/friends-sheet.png"
+  },
+  {
+   "path": "out/shorts/ep01/keyframes/S02-t1.png",
+   "why": "old long-eared Moa fed as a 'layout' ref into every anchor"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v2/",
+   "why": "inconsistent v2 sheets",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v2/"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v4/v4-moa.png",
+   "why": "superseded by v5 (ears)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v4/v4-moa.png"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v4/v4-moa-expr.png",
+   "why": "superseded by v5 (ears)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v4/v4-moa-expr.png"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v3/sheet-moa.png",
+   "why": "superseded by v5 (ears)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v3/sheet-moa.png"
+  },
+  {
+   "path": "art/bo-reference.jpg",
+   "why": "the old pink bear Bo"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v5/v5-moa.png",
+   "why": "v5 ears still too long (user 2026-10-22: halve them)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v5/"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v5/v5-moa-expr.png",
+   "why": "v5 ears",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v5/"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v6/v6-moa.png",
+   "why": "v6 lower face too angular (user 2026-10-22: rounder face)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v6/"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v6/v6-moa-expr.png",
+   "why": "v6 face",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v6/"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v4/v4-items.png",
+   "why": "items sheet v4 (pencil-era items on white); replaced by pack/props-grid.png (crops of the approved plate) (2026-10-23 model pack)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v4/v4-items.png"
+  },
+  {
+   "path": "out/shorts/ep01/cast/items-pinwheel.png",
+   "why": "single pinwheel sheet; the pinwheel tile in pack/props-grid.png replaces it (2026-10-23 model pack)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/items-pinwheel.png"
+  },
+  {
+   "path": "out/shorts/ep01/cast/props/cottage-sheet.png",
+   "why": "pencil-hatched cottage crop of A1end-t9 with Moa's ear in it; conflicts with style_short; replaced by pack/props-grid.png (2026-10-23 model pack)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/props/cottage-sheet.png"
+  },
+  {
+   "path": "out/shorts/ep01/cast/props/island-sheet.png",
+   "why": "book island (dome thatch, peach rock) differs from the approved shorts island in K0s2/A1s-end; replaced by the island tile of pack/props-grid.png (2026-10-23 model pack)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/props/island-sheet.png"
+  },
+  {
+   "path": "out/shorts/ep01/refs/world-props.png",
+   "why": "old world props sheet (other island, no fence/path/tree); gen.py key() attached it; replaced by pack/props-grid.png (2026-10-23 model pack)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/refs/world-props.png"
+  },
+  {
+   "path": "out/shorts/ep01/cast/items-can-grey.png",
+   "why": "unreferenced watering-can test (2026-10-23 model pack)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/items-can-grey.png"
+  },
+  {
+   "path": "art/pencil/pano-p1-sky2.webp",
+   "why": "book-relative path (reader/v2-20261012/classic-book/books/bo-sky-island/art/pencil/pano-p1-sky2.webp, the BOOK toneReference, not moved): pencil tone conflicts with style_short; shorts generators never attach it (book file stays untouched) (2026-10-23 model pack)"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props-grid.png",
+   "why": "3x3 props grid with fence, stone path, flower bed, tree and hills tiles; user 2026-10-23 '필요한 거는 우체통, 바람개비, 섬, 집 — 나머지는 배경에 들어갈 거야' -> replaced by pack/props-grid-4.png (2026-10-23)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/pack/props-grid.png"
+  },
+  {
+   "path": "out/shorts/ep01/pack/plate-cottage.png",
+   "why": "busy K0s2-derived plate (Moa removed): the two flanking leaf-clump trees grew and slid on the A1 push; user 2026-10-23 'S1이 제일 괜찮은 것 같아' -> replaced by pack/plate-cottage-s1.png",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/pack/plate-cottage.png"
+  },
+  {
+   "path": "out/shorts/ep01/pack/plate-cottage-s1.orig.png",
+   "why": "pre-fix S1 plate (sha 760788536c4e3dc4): sky island rock had a see-through hole and the cottage's left roof slope/eave read collapsed; user 2026-10-23 '하늘섬 뻥 뚫려 있고 집의 왼쪽이 무너져' -> local paint-over, outside-mask diff 0 (anchors/sbm/rv/platefix.jpg)",
+   "archived_to": "out/shorts/ep01/_archive/platefix-20261023/pack/plate-cottage-s1.orig.png"
+  },
+  {
+   "path": "out/shorts/ep01/pack/character-moa.png",
+   "why": "separate Moa turnaround sheet; merged with the expression sheet into pack/character-moa-sheet.png (user 2026-10-23 one character sheet)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/pack/character-moa.png"
+  },
+  {
+   "path": "out/shorts/ep01/pack/character-moa-expr.png",
+   "why": "separate Moa expression sheet; merged into pack/character-moa-sheet.png (user 2026-10-23)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/pack/character-moa-expr.png"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props-grid-4.png",
+   "why": "2x2 crop grid (cottage, island, pinwheel, mailbox); replaced by pack/props-grid-5.png + pack/props/*.png high-res transparent props incl. the flower (user 2026-10-23)",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/pack/props-grid-4.png"
+  },
+  {
+   "path": "out/shorts/ep01/anchors/plan-plate-simple/plate-S2.png",
+   "why": "candidate plate S2 (simplest); the user picked S1 on 2026-10-23",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/anchors/plan-plate-simple/plate-S2.png"
+  },
+  {
+   "path": "out/shorts/ep01/anchors/sbm/v3c/plate-v3c-1672.png",
+   "why": "SB6 hillside+lake plate v3c (pre-restore experiment); plate_keys.py loaded it until 2026-10-23; the plate is cast.json sets.cottage.ref. Kept in place as work-dir history (not moved)"
+  },
+  {
+   "path": "out/shorts/ep01/anchors/sbm/dawn3/plate-dawn-1672.png",
+   "why": "codex dawn repaint of plate v3c (sbm/dawn3/dawn.txt); plate_keys.py loaded it until 2026-10-23. No dawn plate in the pack yet: a dawn variant of the pinned plate must be reviewed and pinned first. Kept in place as work-dir history (not moved)"
+  },
+  {
+   "path": "out/shorts/ep01/cast/v6/",
+   "why": "whole v6 folder (angular face Moa, lineup.png group key art); bible README named v6/lineup.png until 2026-10-23",
+   "archived_to": "out/shorts/ep01/_archive/refs-20261023/cast/v6/"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1-t3.json",
+   "why": "refs clip refused by the refs timing gate (key gap 8 s > 4 s); main Q7 2026-10-23; kept in place"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1-t7.json",
+   "why": "refs clip refused by the refs gate (mid-keys need END_FRAME); main Q7 2026-10-23; kept in place"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1pva.json",
+   "why": "refs clip whose key image anchors/final/R1pv-k4.png is missing; main Q7 2026-10-23; kept in place"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R3pv.json",
+   "why": "refs clip whose key images anchors/final/R3pv-k3.png and R3pv-k6.png are missing; main Q7 2026-10-23; kept in place"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/sky-island.png@902a0202231d71d5",
+   "why": "island v2: matte clay grass with dark gaps and strong contrast (user 2026-10-24)",
+   "archived_to": "out/shorts/ep01/_archive/island-v2-20261024/sky-island.png"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/sky-island.png@083cfcf55ac6742a",
+   "why": "island v3 thatched cottage replaced by the ice-cream house (user 2026-10-24 09:2x)",
+   "archived_to": "out/shorts/ep01/_archive/island-v3-20261024/sky-island.png"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/cottage.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "0129c042a77959ff"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/sky-island.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "ba085ec5e48c9bf8"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/pinwheel.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "f380464951d94a48"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/heart-mailbox.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "e05a486628d8c607"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/flower.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "cf712fb30489ec5b"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/watering-can.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "2cf4cba26dcc2157"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/flower-states.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "4bd9fc9fe77c20f0"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/butterfly.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "337fa73a24a38c7d"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props/sprout.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "76ecb73f06114993"
+  },
+  {
+   "path": "out/shorts/ep01/pack/plate-cottage-s1.png",
+   "why": "retired by Scoop Sky S1, retained as immutable history",
+   "sha256": "511c91c0f9f2015d"
+  },
+  {
+   "path": "out/shorts/ep01/pack/props-grid-6.png",
+   "sha256": "3b181502ebe035ff",
+   "why": "retired by S1 state grid"
+  }
+ ],
+ "prompt_banned_words": {
+  "words": [
+   "bunny",
+   "rabbit",
+   "felt-like",
+   "felted",
+   "matte clay",
+   "clay-like"
+  ],
+  "why": "RCA 2026-10-22 A1 t5: a species word pulls Omni to long rabbit ears even with the sheet attached; gen.py:194 still leaked 'bunny' after the rule was written (found by the skill worker). cast.py check now scans generator sources and registry prompts. | 2026-10-25 RCCA: felt-like / felted / matte clay / clay-like drew felt fibre and woolly surfaces (A/B anchors/s1/abtest-felt); style_short, props prompts and the PROMPT-LOCK STYLE block are scanned too."
+ },
+ "props": {
+  "watering_can": {
+   "name_en": "the yellow watering can",
+   "match": "\\bwatering can\\b",
+   "sheet": "out/shorts/ep01/pack/props/watering-can.png",
+   "sha256": "2cf4cba26dcc2157",
+   "source": "R4 keys worker 2026-10-23 (reviews/workers/shorts-r4-keys-20261023/proposed-cast-can.json); main-reviewed against R4-can-consistency.jpg and the five R4 keys.",
+   "never": [
+    "a face or eyes on the can",
+    "a second can, a hose or a bucket",
+    "any colour but yellow"
+   ],
+   "prompt": "The same small yellow clay watering can in every shot: squat rounded body, round top filling opening, one thick rounded rear loop handle, short chunky spout ending in a round perforated sprinkler rose; all yellow, smooth softly polished clay, no ornaments or extra parts.",
+   "status": "retired"
+  },
+  "island": {
+   "name_en": "the sky island",
+   "match": "\\b(sky island|floating island|island)\\b",
+   "sheet": "out/shorts/ep01/anchors/s1-objects/sky-island/sheet.png",
+   "sha256": "06d615c5d35fd21d",
+   "source": "out/shorts/ep01/anchors/s1-objects/sky-island/sheet.png",
+   "prompt": "The sky-island follows its pinned state: cupcake-style soft-serve house with a cherry, pink cotton-candy tree, mint-cream tufts and tiny white blossoms above a pink-ribbon scoop, waffle-cone base with pink candy-ribbon tendrils.",
+   "never": [
+    "extra house",
+    "extra tree"
+   ],
+   "note": "RCA 2026-10-22: the hero object had no SSOT entry; A3 x1 used a 190 px crop (cottage dropped) and A3 t2 used the world/v1 turnaround (a different design: fence, stairs, dark rock, big cottage). Every generator now takes the island text and sheet only from here.",
+   "hole_note": "2026-10-23 sync: the old text said 'never a window or door in the rock' and omitted the hole, while the approved island (plate S1, props/sky-island.png) has one round hole through the rock -> prompt now names the hole; the never-line keeps out doors/windows only. | SUPERSEDED 2026-10-24 (janitor Q4): the user's 20:1x redraw (items.files.sky-island) has closed rock with NO hole; prompt and never-line now say so.",
+   "retired_patterns": [
+    "\\bhuts?\\b",
+    "\\bits (little |small |tiny )?cottage\\b",
+    "\\brock and cottage\\b",
+    "\\bthatch\\w*",
+    "tulip",
+    "heart[- ]mailbox",
+    "orange tile",
+    "red-orange tile",
+    "thatch",
+    "four[- ]blade",
+    "blue four-pane",
+    "watering[- ]can",
+    "\\blake\\b",
+    "pink blossom tree"
+   ],
+   "retired_note": "2026-10-24 RCCA: phrases of the retired v2/v3 thatched-cottage island; refs_clip.py refuses them at print time and cast.py check flags them in refs/*.json, sequences.json and gen/*.py. Never list retired designs in 'never' (negated words still prime the model)."
+  },
+  "balloon": {
+   "name_en": "the pink balloon",
+   "match": "\\bballoon\\b",
+   "sheet": null,
+   "status": "PROPOSAL",
+   "look": "one big round pink balloon (about 1.5x Moa's height), white string, no logo",
+   "rule": "lightness, not weightlessness: Moa rises slowly on a jump or a wind and settles slowly when still; string always in her right hand and taut upward; EP02 the wind brings it and snags it on the garden-edge fence post; kept through EP09; EP10 tied back to that fence post",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+  },
+  "lemon-can": {
+   "name_en": "the yellow lemon can",
+   "match": "\\blemon[- ]can\\b",
+   "sheet": "out/shorts/ep01/anchors/s1-objects/lemon-can/sheet.png",
+   "sha256": "96933e27e40ac9eb",
+   "source": "out/shorts/ep01/anchors/s1-objects/lemon-can/sheet.png",
+   "prompt": "The yellow lemon can follows the pinned lemon-can state: round yellow body, green leaf loop handle opposite its single yellow spout, open filling hole.",
+   "never": [
+    "extra handle",
+    "extra spout"
+   ],
+   "status": "ACTIVE"
+  }
+ },
+ "style_short": "Style: soft 3D velvety plush-toy characters with smooth, even short fur (objects and sets: soft clay-toy with a smooth, softly polished surface), never felt, fuzz, lumps or grainy matte texture in a warm pastel storybook world; the sky is a smooth soft pastel gradient with soft whipped-cream clouds, never pencil strokes, hatching or white scribbles; gentle morning light, cosy toddler mood; the character keeps the exact look of the first frame.",
+ "style_note": "2026-10-22 user: 'pastel is right, but the white coloured-pencil strokes in the sky are too strong.' RCA: style_short and PROMPT-LOCK STYLE asked for 'coloured-pencil world with paper grain', and every key inherited the hatched sky from the canon frame A1end-t9. Fix: style text + re-keyed frames from one approved style frame. | 2026-10-24 janitor Q9: one material word per layer — characters = velvety plush/felt-like fur (PROMPT-LOCK STYLE), objects/sets = soft matte clay-toy. | RCCA 2026-10-25 user (\"펠트 소재 느낌 … 표면이 매끄럽게\", Moa \"울퉁불퉁 그런 거 없었으면\"; \"클레이는 괜찮 … 펠트를 빼야\"): the lock itself asked for \"felt-like fur\" and \"matte clay\"; Nano Banana A/B (anchors/s1/abtest-felt, same prompt, only the style line changed) showed felt fibre on Moa (A) vs even velvet (B/C) and a woolly plane for \"matte clay\" vs a smooth one for \"smooth, softly polished clay\". Characters = velvety plush with smooth even short fur; objects/sets = smooth polished clay-toy. felt-like / matte clay / clay-like are prompt_banned_words.",
+ "superseded_refs": [
+  {
+   "path": "out/shorts/ep01/refs/R2-246draft.json",
+   "sha256": "c9d4512e61bd1695",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R2-t4.json",
+   "sha256": "a442efab695c8798",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R2-t3.json",
+   "sha256": "f86d6a17813d4aec",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R2-t5draft.json",
+   "sha256": "c133296199276ec2",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R2-v2.json",
+   "sha256": "9b4f84646919ee65",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1-t3.json",
+   "sha256": "52541d21a43fe217",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1-t1.json",
+   "sha256": "65b8c75ae27607b8",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R3c.t1.json",
+   "sha256": "1f56497e15c9b4df",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R2pv.t3.json",
+   "sha256": "40ada86c9eee0fce",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R3-v3.json",
+   "sha256": "fe129153cfe9b432",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1pva.json",
+   "sha256": "1060666b8baa685e",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R3pv.json",
+   "sha256": "6f64fab493463cec",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1-t4.json",
+   "sha256": "9d62984f30b7ae9d",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1b-t1.json",
+   "sha256": "e04654dbd018a494",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1-t7.json",
+   "sha256": "e2477ad6f7aba5b1",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1-t6.json",
+   "sha256": "9f9372e85f729991",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R2-t2.json",
+   "sha256": "782a945dc474d27d",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R2-t1.json",
+   "sha256": "5d672df7eab4287a",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1a-t1.json",
+   "sha256": "b5a677eb0031aabf",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R1-t5.json",
+   "sha256": "5fd695b2132d0483",
+   "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R2-t5.json",
+   "sha256": "8df0567f62861557",
+   "superseded_by_s1": true
+  }
+ ]
+}

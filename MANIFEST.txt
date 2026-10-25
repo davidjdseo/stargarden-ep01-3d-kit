@@ -1,0 +1,218 @@
+path	bytes	sha256	role
+repo/assets/room/cast-inputs/cast-check.jpg	270527	b9de73a220facfbdc98f2189b72c9c9fbbb16bdcae27bba8b062287cfa251c65	character turnaround input
+repo/assets/room/cast-inputs/contact.jpg	106954	ce2131c22472c814dc194dd40a129c42c1b2ef0f428c83077dbdc70c08a0c6ca	character turnaround input
+repo/assets/room/cast-inputs/manifest.json	3591	94cecedde764dd52d18c48c59b6e046cc557e9092d70425c73009138db1b3bfc	character turnaround input
+repo/assets/room/cast-inputs/mongsil/back.png	334133	21b1901cf8053878751349692108db508d68f883d93b9d4e71366a2226c3e73c	character turnaround input
+repo/assets/room/cast-inputs/mongsil/front.png	425168	90bd9da8c6497d8a00a948850183e2f20475aa9271ada7c888f330ee3f31d1aa	character turnaround input
+repo/assets/room/cast-inputs/mongsil/left.png	417147	fea5bc863c0def979e363bfd9a47acce8e363d6ad413bcd34f4747620b6ee676	character turnaround input
+repo/assets/room/cast-inputs/mongsil/right.png	360101	b00be2e8e7767edf3049a2544c85f121b7c2509af7bd6c43565c026dbc475b13	character turnaround input
+repo/assets/room/cast-inputs/nuri/back.png	387698	c4280e820a68888583466ec8b95e6237293774df5f579a6ae2b52ac66bdcd200	character turnaround input
+repo/assets/room/cast-inputs/nuri/front.png	436664	79588f619281e8e6d6f64192883407209dbf261511090766dac8f1668463385b	character turnaround input
+repo/assets/room/cast-inputs/nuri/left.png	393599	3d33b287991f925fd7dc6a36f86adb8b59c611633d80437ef33b1e78ac4020ca	character turnaround input
+repo/assets/room/cast-inputs/nuri/right.png	364503	dd8c7140ab9d7739a6203feea5d8642adcd7e8506e546591aecd22914ee92a1b	character turnaround input
+repo/assets/room/cast-inputs/piyo/back.png	458554	8f61e13d710361269e2684cc5b220dcd6918c0f3a9e492b2233f551cdfd5021a	character turnaround input
+repo/assets/room/cast-inputs/piyo/front.png	476824	ebf426a97dcb9d6680d3d7308903b104465f3f809b88ea94fda68b91c6b5603b	character turnaround input
+repo/assets/room/cast-inputs/piyo/left.png	489993	68418e87829756b2a582b678dc053530f6d7f5643dcd3570b2c066a45c67baf0	character turnaround input
+repo/assets/room/cast-inputs/piyo/right.png	405269	09698fb1fb364dc8b7c968dbe85683dddf027fbcc6c1ccb6d54cbde88998592f	character turnaround input
+repo/assets/room/cast-inputs/popo/back.png	618535	c8644277bbe0eaed0ac25026de887b42b4d8dfc377c60ea0aba6aa4d42292854	character turnaround input
+repo/assets/room/cast-inputs/popo/front.png	571170	d7bf7abec449f6bad757793499325ad24ab67698f0719df3026509885064f685	character turnaround input
+repo/assets/room/cast-inputs/popo/left.png	572364	0d60f05dc84ce70c715ca54bd590ad8938d6b17aa2ee0acfba75986d8d169b17	character turnaround input
+repo/assets/room/cast-inputs/popo/right.png	546889	3373bcc69367419b2b92b60ba795731e51e0ba5b4ed9a22ed4bc52a5614bc685	character turnaround input
+repo/assets/room/scoop/berry-butterfly.glb	450056	83b47953760bfbd51e3aaf7579d85a73de559164520319c7c989aa2477f29792	current room GLB
+repo/assets/room/scoop/berry-flower.glb	417828	d169fe55784a4b87c31477e915b9126bfbe3c4a804186d528b74104e041398a2	current room GLB
+repo/assets/room/scoop/berry-sprout.glb	334280	9b86c62c0be6ed1ff0d8d1ef30cab708ee4452862104f4b156464603acc1e227	current room GLB
+repo/assets/room/scoop/cottage.glb	796216	03adb92b1a6b193fdf06aee6c88e7b745b2099028d1c06ee67933d927404fc0a	current room GLB
+repo/assets/room/scoop/cream-cloud.glb	297804	65976c9245777ae5eb8b2786d7e4856e4692c2145f220dec6c2a7abddcfa4a43	current room GLB
+repo/assets/room/scoop/cream-puff.glb	324780	5fc42171f7af1306ee86c34d629cd4416e3e6beef81182f301a668aa4f4f1579	current room GLB
+repo/assets/room/scoop/icepop-xylophone.glb	555372	c7613ebd554ad93d33d8c1bdb64af248aa5bf88729baa54a498c342f126aa229	current room GLB
+repo/assets/room/scoop/lemon-can.glb	420852	f1329f69cff9a2e7070b334a168ff5bc8c820692c2832c2bf9daca441257a739	current room GLB
+repo/assets/room/scoop/look.json	8738	0799f04f72e48569e8e22492b70efdc3721fd98a58bbe15f0dbdb791318a5502	room manifest / look
+repo/assets/room/scoop/manifest.json	28613	aed3ee6fc885dcc1fa47634fe674a529c3839c23a22d055633de116db9a0cd17	room manifest / look
+repo/assets/room/scoop/moa.glb	1503196	e379858b13396411379569a727eeb53d72843847c339c53e1724d01fc8ffbab8	current room GLB
+repo/assets/room/scoop/mongsil.glb	408944	efc560f84c5644a013edbde4def5837f7b51a1f948b6395c52bdbcbcab1874e0	current room GLB
+repo/assets/room/scoop/nuri.glb	355408	ee091809c50bbf80512c95fe00dfac3155b54882f6a38b5f577231872ebdddac	current room GLB
+repo/assets/room/scoop/piyo.glb	494272	3b2da364804a94cc07a6d030837a6c2bec146d630afe0e01fe7a2aff18099a82	current room GLB
+repo/assets/room/scoop/popo.glb	574560	baa5969255c311a337a2ebeb2010323f542e92bbcf72d84a7febc4c4e7b23f58	current room GLB
+repo/assets/room/scoop/roll-snail.glb	329952	edd320523d639a79f9e8ae905ecb0aae5dd3b752eb3a1eda794ca3322c1bba72	current room GLB
+repo/assets/room/scoop/scoop-mailbox.glb	408032	70e5853dfb71d99d97d7c24a0d82b013689cc83966d3930c791c384f0491269c	current room GLB
+repo/assets/room/scoop/set/env.glb	4968084	bfe911a268437c54a31b6a986dc5b46a8a9fc7c9213ad5a4d3d9f6fa77b9ef8c	set draft (env / pieces)
+repo/assets/room/scoop/set/env.json	19937	84d377e896172f1def4385c05dc34cdf03437af2ceb0a350b58b8aa8e35db2cc	set draft (env / pieces)
+repo/assets/room/scoop/set/pieces.json	6446	99f379009e05dd258ee408d4aac0905e5bdb6c765d3f9e640b4bcba0cc4cb59c	set draft (env / pieces)
+repo/assets/room/scoop/set/tree-pink.glb	981072	312af010938e5efd0042072d2f53d4309e21114950743d54b05ef8f22052f2a5	set draft (env / pieces)
+repo/assets/room/scoop/sky-island.glb	855620	ffacbfb9d172f508854408f3dec71a5d2220ef75565c3fd2210ad29f8519c7c9	current room GLB
+repo/assets/room/scoop/sky-plane.glb	373916	9678be8814b84c5f11b750a9a3605b22c988487f5b6414afb56c25b7534e48dc	current room GLB
+repo/assets/room/scoop/spoon-pinwheel.glb	394584	a2ce7820b7be9609714f018f1be2185605f71623baf06eacb04178c0747b4fdc	current room GLB
+repo/assets/room/scoop/swirl-sun.glb	414840	891346a63cc9ef0d9c9bc99d00a7a64315014e9b016851f7bde79f6b53e2716d	current room GLB
+repo/build/room-meshy/mongsil/retex/asset_model_urls_glb.glb	4213856	783ed31f8ae6aa9d8185510e53db06d0ff19b5db0006e54bd0718a4d432a27c3	cast Meshy source (2K)
+repo/build/room-meshy/nuri/retex/asset_model_urls_glb.glb	4052236	9cc50d271787ae6aebb870897e0df751f27437a3344c14f99bf4a963042f051d	cast Meshy source (2K)
+repo/build/room-meshy/piyo/retex/asset_model_urls_glb.glb	5669964	7e0ff3a16684bad055e4ff606357ea3c048d3ab4133900a0513526227fa24db8	cast Meshy source (2K)
+repo/build/room-meshy/popo/retex/asset_model_urls_glb.glb	6091088	14d5e99aeb3b5546b4a53633f19bf4ab92385ae9f8b8eb13bd3377fb55521fca	cast Meshy source (2K)
+repo/docs/room-hub/DESIGN.md	12991	da04d37597b5a2143383179257cfe4915c9a7cb990e36746edeff9f2d58a7761	room design
+repo/docs/shorts/bible/cast.json	95247	c499722506c7380635fd67ffd7874bbf791e02d9f266af8cfe52f004adba18cf	locked cast bible
+repo/intent/2026-10-25-room-scoop-sky-hub/intent.md	5366	dfe764f936c4e928bddfce164eeb2e3da6bb2fdc330b2147b590b4d80587f931	room intent
+repo/out/shorts/ep01/anchors/s1-objects/balloon/sheet.png	344727	51d0522075d10d1a87faf6b73e6e5d954f189ba510cced485d3b6f030d0c10eb	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/balloon/turn/back.png	85077	f72da230bc262f9fcc972efefbe263283d20618a279a8f245a33e9bbe50189d9	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/balloon/turn/front.png	90515	6fdf1f46b7731d5ea834f648762056a25a73bf62abae3c7d846ce0da0a24fd49	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/balloon/turn/left.png	76652	866927016ba364e63095d938170149764888c7c699bb7778b0ec31b3582598f3	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/balloon/turn/right.png	75590	6cd30a36b25da0ae18a97cddd0f99076843bb63fa5452742453ff2ce5ae1f45f	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-butterfly/sheet.png	713351	a65fc28f4bd03491f5a154c1e575f2381a8f2358266f179f7f479fa1e1905e2c	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/back.png	226248	5070a19c8765c7d644d5e5ca012632bbbd8bffd01f8fe3fdf4043ba4bcb5d050	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/front.png	237695	dd5a4da6e4327da4f7b7f9591e3fc7d0461d11a5bac13c14ab9bf7f29c220054	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/left.png	138211	f2f519499b03b9f5a3b5a564eae8bde5025973c8361b814227f6e764c9fb6f71	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-butterfly/turn/right.png	135997	66b1a1feaea2ac362f572e9389da922ea620326b556e145f6e91c26b931d7ea5	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-flower/sheet.png	596741	49f730fea2451a73d98833043ed7a5993e51959637f675877c915fe4ec0087a8	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/berry-flower/turn/back.png	151322	7b2d26d6cc0ebf85a5655ba41fed1528270ca266408da32f12236ce7e8d9c3e1	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-flower/turn/front.png	163779	18f473d690881665ebed831499765fc3432cced4aa645304fc813bf4c40c7800	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-flower/turn/left.png	139897	d562001bc143c9e40fb360e1d169e100178d85a7bb24957417cf0ba19a12451e	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-flower/turn/right.png	119661	24347806cb536beb7114efb490a913df7396fba6ce35b427e15c5dfac8fe35fa	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-sprout/sheet.png	506340	b495a217b8fa00db27f2ba900069f36a3b02ace185f16b4a1dd1fe44f41c9553	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/back.png	152963	00c2cb6afa8b765119b3b09638c9988452c830c54236f4a135a8bddc5812c376	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/front.png	163781	bc07b92c5e123bcd5a2db13e4147ecddb49f429c437195b539fed30058be0b1d	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/left.png	131796	2fae2258dd74cb921dfbd87e0815b59ef33ad04fe7aedadd6740d41bd9e78006	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/berry-sprout/turn/right.png	144672	09202e461b1a714be77c341f546a79e8812f842850fe5016483ceada69d199dc	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cookie-stone/sheet.png	560506	ee3e8652dba024ae33abd6a4360166bd2b3837dd9e5e132e06be356a6623dc2a	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/back.png	231993	7a634a6e8aa82dcc65cae5755508435ab51dda568fb8634aebe5d9c142b0bff2	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/front.png	240983	27fe2fb0da806bc8ce135e816a36f85e34e9ce877c7a95c4026f6764ad47d7cf	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/left.png	128875	e937199fc1dad4235c992281496cd66104b3b0e5600589b2a1ec16a56c553740	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cookie-stone/turn/right.png	147842	39034c372c134f40df19925d3ec21d85df07676356f3144c8158db09494ef38b	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cottage/sheet.png	859272	762f9bcfd8c36c44ade400e0256077d3603bea89577aea5d0a3ae540ceb723bc	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/cottage/turn/back.png	205792	718258090eac4f75f4c63a41d68bf14b2b063bf0258241fbd001f4a7edf5ec23	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cottage/turn/front.png	205790	be4326d12d527d1805b3a5c1e91db69699fc94087133e141cbce34c2a4808956	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cottage/turn/left.png	188404	d0b1ae825b1b27214522cd08cb93e17a26f4e4a65b67cbcc773388a9f956c12c	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cottage/turn/right.png	196765	a8a557cd49ba61d3586d1e28ddda3d85f600e3908509a401fca0c371ef46424e	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cream-cloud/sheet.png	444444	bc27e9bfa301cbc9b4f087053516bb7c550b198237c6b40df40a2a0d88a23899	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/back.png	149158	09563bc2f2d10de6f5d001723b2d6b0b8d9aed88f453cec354065a1f00940721	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/front.png	151165	793fa37125796214dd809423e2481674dd78d5b4a3c537c6d077b03d85ad4719	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/left.png	134774	e2574129e0f80c6693b37f8d15b5aa2f04609fc243775aae9f3b3dc7e35c7405	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cream-cloud/turn/right.png	137771	1dcbbdd2319248cb23c9e9af1a0b84cb62721ad98bd14f084715ea11152c2529	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cream-puff/sheet.png	328246	bb8eae3e90a68f0b0dc3255d0d8b65ea730e928aef3c7e47bacedd6fb71c18cf	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/cream-puff/turn/back.png	50052	2fbfd879e24c19552d2abff77fec428c840400d955283ed74a65e590b78b0cc3	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cream-puff/turn/front.png	50686	b26e8e2474bbb70eb2a7f3d237abe0cbd77e6b6a42e3c77e40fda69f3b7a276c	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cream-puff/turn/left.png	44754	239b9efa6b44b732d4f416ae6d629d5b3b6dd39e4199886d318b3c2b5872a111	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/cream-puff/turn/right.png	45208	bfb1b75c3360c15f621731950a741d440e00589dad6b06e92e7c0f79965e43e3	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/icepop-xylophone/sheet.png	812059	e8dca777b644424ab946e5eb6a22c174fc6e4e79779ef4edbd16b00cb25c705c	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/back.png	215872	635ef1e3a408ab8671b189bf110ad5f04afd2a152a9c6880e5e39689f1434d6e	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/front.png	209425	7968d8ce7b0973c9e85f043df61c3a052ebb34b037f3a97dad9b9ddb550524ce	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/left.png	133541	941185c095de9b8e6856e8fa533ddad2c1b66d0ab932bf9e454e45ebb5d187f1	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/icepop-xylophone/turn/right.png	110307	a0c3d0957096fc46f9ef6f91d57671c31d282abeb7093b1f19524de4ca3f8d2e	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/jelly-rainbow/sheet.png	542495	7858009ba50fe85a468bc44f8ccdc129349c3f16980fcf930c33ce356ab55430	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/jelly-rainbow/turn/back.png	186205	550786013da7a547dc70ba8d751d966570a1a8a74a5d5575d46c0871c851b5ba	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/jelly-rainbow/turn/front.png	184849	684f19df1d096e9976641cb30f8524b5a76d9471f72a4de3538d66a907b90196	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/jelly-rainbow/turn/left.png	197697	4427d7c449da85328642ad2adc2ebb1fdf702b3ec1ca13ed0176addecf466e44	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/jelly-rainbow/turn/right.png	202229	dec7fe91fb931c87effcffab3ee5c3e59a0e7b0a84062da68a82a1d9094db4f1	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/lemon-can/sheet.png	686937	96933e27e40ac9ebe07ee4d70bd0922f0b9346d578767e2ac0c561910eb9bfa2	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/lemon-can/turn/back.png	128013	dd94da2fb0cf871136e073d9605b8e2abe6b323b22cb389df0b292771b8b7be3	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/lemon-can/turn/front.png	206674	5c2ed7778bf83144bf581e2e421f9f4e24e10cfd7713bf046c6dbd4a7958ed28	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/lemon-can/turn/left.png	160670	f6ca6ae14aa70232da705dcbf5e7664a41ff4b10ea75cf4fba3b2f897be23def	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/lemon-can/turn/right.png	148710	f686af7bfa14ef889d2b5c2805030df9b81c31e8f0af24a1c82b9aa44eb0a109	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/roll-snail/sheet.png	608599	f177851d9adde9e02602d30ccafbaaf3212ba16e307759c2309686018b27c36c	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/roll-snail/turn/back.png	159754	964a8604a69e85a220ec5b45f654a0eb99073a9b462cad64867a233e9c8efb92	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/roll-snail/turn/front.png	139355	75d1c8c61d7fb17e1b23de9b6d37cd11e170291473ce39f740c4c0ccd8cc873b	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/roll-snail/turn/left.png	180968	8f54c6fdcb0c7264bf05f0526b73362da597027452d027e2515a648550cd6acf	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/roll-snail/turn/right.png	177989	b5e035a769407d9ffc6fbd41307e3bd0591328a6eeda25fe02b43ff1dcf9af6d	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/scoop-mailbox/sheet.png	633061	5a12890f11c5afb0243e6d38ac0cc734bf00fa1bbb219ae40e0fc31d78d8d509	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/back.png	147692	5dc650e41bfc0d3a32fcf3db587619e38cf37f55206aa9fedc65ae5f80075f94	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/front.png	151472	b799ada4e3c33459437c64bb9c11fa720b1bfaedc8d21bdaa78046184d515d4f	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/left.png	139999	0c78ea61bf2049be9cd77e191945d88f02b75dac72cc3a4d90efb3b19a5fb065	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/scoop-mailbox/turn/right.png	144968	a27fb0873eb89bae8de1c0de8e5b9e5dcd4b2e794bfc7f29de095658eebfa04a	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sky-island/sheet.png	990784	06d615c5d35fd21d07a2195fc4be42d5fa6fc5d93b7f104e5f511436a1488d53	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/sky-island/turn/back.png	212869	7db656bb516cde57a50fd158ef4b660c65a3d2a8f73710d7c23781e550d4af73	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sky-island/turn/front.png	260339	0b5977b3366162d3fa657be2110cc378479a806e868e0dfe4f506d04fd4437c5	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sky-island/turn/left.png	236340	ef8436d9c523c16ddb7fb3bdd00810d560a9c12a559487174aaaac9cabaeb635	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sky-island/turn/right.png	236395	3da7a961399b859a8f0389adcb8bc6e3139a3820cd295ec13cb5bc97bbed58a7	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sky-plane/sheet.png	292706	b5dc22f2cfbe9a1e2ac75f8f1b8d5d325e5df92ddf580c033eea2a9387aae4c8	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/sky-plane/turn/back.png	48824	fc0bd02fb3efb36b38b9be7ccaa0145fe3249c8ba9b0bdca2bd5e0aa5229198e	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sky-plane/turn/front.png	49558	111f88230b29fecb3715801ade424ce2b6082e07ad35fa7d46f8cfc72e926ea2	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sky-plane/turn/left.png	55795	1079d6ee1c07f46d8fa5f3a6709eff13d3193663d4abad6c4d8ceb5db9b28c7f	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sky-plane/turn/right.png	56046	eec4741879752a8a8c0f8da5dcd5994884ee16cbb9c2240155df1f28caa3c48e	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/sheet.png	390286	2611734e348a4e5ad194808abcf9f7a055557622e9b0bda0a28f6144e413f769	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/back.png	105676	8b9b360f73dd7e35763abe68d9cb27bf4340be8fda396f6b897adaa9367ca52c	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/front.png	112135	442cfe318fb2574f8a0fdddd16aaf9b0960ba31506d3af2f3289eb11202902e1	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/left.png	73678	b0cc7c0f0e23eb1b5124a9a313e8f16f044eb89241adca1c4e691e8fe6953e31	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/spoon-pinwheel/turn/right.png	79158	f35caa314438752a646a217e062e389b6ce51e99a6743c58960aef6e498e74df	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sprinkle-star/sheet.png	782696	ebf0d9891728a3b72b0c417431c43287b739e807c1f5e846f78a2c30639e13b2	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/sprinkle-star/turn/back.png	181413	de17815dfc11cb04a957ed48b3815e75c550208ecaf5167ab66a42491d047d84	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sprinkle-star/turn/front.png	187881	8b2836cdfc39d5a7ae953a3564d1cb24e9ea1f88406756f6ca7ab6652a180769	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sprinkle-star/turn/left.png	180586	fcf218919c26df6b10e561b7f7d3b0d5fe3128a267ddc32b3590739e6300571d	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/sprinkle-star/turn/right.png	163262	2593bd6880e6ade605b60cff25c0072deaab92275a594aaab58694f1acdbe931	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/swirl-sun/sheet.png	631319	8752a5476c65f1cec1b5945ab76cf1d383cbfc603c65823912815f33202e9423	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/back.png	217628	5db99014cbea49cddab6ca55eb077f1d55b89320d398a09526feff41eddc7dfa	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/front.png	210606	5e80c975bb9eb3ce27699430b00de45fcf9d20ffc4fedf2a18a4dccf7fc64a5a	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/left.png	196411	d323acd5779b16d85e097da0f66197007543797f07c427929acd619731973d28	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/swirl-sun/turn/right.png	190168	73dab4e836c93b0ea3ded5e6d74771bda817dee6a11e87fe7684749575b1d81a	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/wafer-fence/sheet.png	567471	3df8382ec07f80259a3088a2625696d56ec05180e1116fc7888184b906034040	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/back.png	189941	bdf54b16f9de14ec5e15a395b477aab33dc7256226a665e3496c14409c4f0fe8	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/front.png	195874	feb8e0f985a4a322748f748b4c3511e4e64ddd1bb4a285e3472f4b3b78349b51	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/left.png	111141	166fa9f4ca2ac988aa96dc93679b97ee621ec055ca64637fe14f60938e06381a	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/wafer-fence/turn/right.png	148188	0b1fc92ecc027d9408aa83a8bbf677e045575315db92fea9c3913c6b4455bcff	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/whip-cream/sheet.png	425907	c0243daac22fe54746c9c9069d2731c7e7b197ea6e46a6896b8a1b0d746bbc12	locked object sheet
+repo/out/shorts/ep01/anchors/s1-objects/whip-cream/turn/back.png	89395	1664eb5a4874a894b5f6cd1f280430f8c74da1b245b434b61d0b2ab5154bf3cc	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/whip-cream/turn/front.png	95742	0873708b316a4f3e171e98d2339bcc7c20e08b296a7e30b95117612e249a7ceb	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/whip-cream/turn/left.png	49732	225b367a96496ed19c274c9070c852353cdbd2babbfbb7ffac12b02cd5e5ca11	object turnaround
+repo/out/shorts/ep01/anchors/s1-objects/whip-cream/turn/right.png	50670	8344cac2f0dc0eb17fa8072d2fbd132bebc93f1fd078ccda61c2a3e37e0d635b	object turnaround
+repo/out/shorts/ep01/anchors/s1/R7/plate-v22.png	2136440	7bb9d622b9c91d6930332efbbe7be8479b44f80c7d154c7dc8642afb86e6e2fb	approved set ref: cottage-a-to-b-v22-s1
+repo/out/shorts/ep01/anchors/s1/R7b/plate-v22.png	1751869	c993471ccc85fbc9972496a37212ffd64c9a1586efbe5343621df4d141636116	approved set ref: lawn-b-front-v22-s1
+repo/out/shorts/ep01/anchors/s1/R8/plate-v22.png	2046321	8a85d5f46d81af88d2af8794cfa0095737d488b752735e07c2f8ab1973c115d5	approved set ref: bed-a-east-deep-v22-s1
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/image.png	2021213	0fea947bdcae9e35f4973495ed36f79af301e414e0f8f48d9c8e2e3b2246e99c	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/manifest.json	493	ec2ed5e9e64f0e3c83890e2ec9af9a0c7c52493dcc524564f3eb4c2f64e0aad2	plate anchors / manifest
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v2.png	1883902	5ed552954978b84a020a0fcbb4f713eb2282c3aa49aafa4a86e946018085a41b	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v3.png	1886105	dbe79e0594272c451fc832d2770ba2cdaaf1293343c26d35af3a9ea55a9eecfc	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4-noisland.png	1881659	dba916754206ed1fadcdf8c17a43cfc7643ea22c966f2a30666e02bef41c7eb6	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.anchors.json	4297	c136ba165be6b4cc207c18e6f2e65c3083fc111c35f5fba5c7810666dda57ca6	plate anchors / manifest
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png	1887980	85370ed004d9963180dfe109a22e0161561d6394ed9398cbe933d9af4875fd06	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r6-flowerbed-v1.png	2062333	17cc7749289953e32dca3f6cf324eac1b3bfcaca517b6a48f5250839636a8462	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r7-side-v1.png	2029693	035655850f9529b664935e55e23818aa77fffe3350b95b27f92c499b79cdd130	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/reverse-r4-v1.png	1907082	170ee0f788356916f088e1108ad802faf61ea4ddc719fe3a0d1fba24412f0598	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/sky-v1.png	1456053	58db1e785bce8eca51a31c03e61ec8dc8a1321207eff5a47dad476aa807cc764	approved world plate
+repo/out/shorts/ep01/cast/s1/mongsil-expr.png	1594043	06f5e8d5785f5769ccc29b9395fb831653d239697108f125bb1e711784c2cadc	locked character expr: mongsil
+repo/out/shorts/ep01/cast/s1/mongsil-sheet.png	1150288	c6330ec92a0050612cf4295fd309c9e0ff3e6b220118da91288959998a6f6ba8	locked character sheet: mongsil
+repo/out/shorts/ep01/cast/s1/nuri-sheet.png	832078	ae4d2e7717e1fbab02ed8878a440c478d5d1a46c17eb430fe87ea26355840091	locked character sheet: nuri
+repo/out/shorts/ep01/cast/s1/piyo-expr.png	1652098	01eaa4c8a6d05384d6388d11c8d7f542745c430297d3233a83e5d42bcd46405f	locked character expr: piyo
+repo/out/shorts/ep01/cast/s1/piyo-sheet.png	1413187	29b088e1ec8a2142cc5d646b55898c2727fba946c42a13b7772ffd6dedece6d9	locked character sheet: piyo
+repo/out/shorts/ep01/cast/s1/popo-expr.png	1737706	0192b08e3bb0214dd33a25583471f46e4fb735f91af923a87a6e3914534013b7	locked character expr: popo
+repo/out/shorts/ep01/cast/s1/popo-sheet.png	1774696	0899710af184a7f35eaa3b3bbfdd44802f62d5471b4b869dd39433133725cc6a	locked character sheet: popo
+repo/out/shorts/ep01/cast3d/moa/walk/asset_result_animation_glb_url.glb	14145424	68048346743a7697b9e0cbd280f7c61052c031a23e1b6bc34d60b7de91e3f54c	Moa source (4K, rigged)
+repo/out/shorts/ep01/pack/character-moa-sheet.png	3245777	c41361c06509b1f10f4fca7ee3f44d14be6ebfee4ff196890acc485dab57c5cb	locked character sheet: moa
+repo/out/shorts/ep01/pack/props-grid-s1.png	883024	d69e62b9c0d74397c3323a268f502cc44ecfe64061da80c9a750386ebc180c21	locked items sheet
+repo/out/shorts/ep01/pack/props/watering-can.png	1276751	2cf4cba26dcc2157b8f704d849140efc4133ff6c0761fe86e72a5010c6fcce6f	locked prop sheet: watering_can
+repo/pipeline/room-env.sh	3946	d9f5682829cd807d45db0f2d3e2b7e50ed72561155350683d036b1b0b20c5801	env runner (JOB keys)
+repo/pipeline/room-glb-yaw.json	4586	77af46b03be5aa0ef5c46b82556473dc39e2b2cfc9a4dedeb9191e01aef7a3d0	GLB yaw table
+repo/pipeline/room-setpieces.sh	11840	28cd44614745bb56d9a7885fcdef0c832453064391153f3a886edc0d4e68a453	set runner (reference)
+repo/reviews/20261025/room/cast-rig/before-grid-front-side.jpg	160846	fac96cabae44d7b9d831e38343db967e6d2dac1f1220d87d59cc2241ba96870b	cast evidence
+repo/reviews/20261025/room/cast-seam/before.txt	293	4242198105716b586bac86bfd2cd20d0523907f412495f60983917d1a82c2f9e	seam diagnosis evidence
+repo/reviews/20261025/room/cast-seam/faceseam.py	1068	0894658aa3dc8989e391ea4020ff270dc78984618670113118ca04ee0508d951	seam diagnosis evidence
+repo/reviews/20261025/room/cast-seam/glbseam.py	2410	43b2e22132b370c7e8a9487ddc41017c56f6ecf6e08540cbcd7a25db15113ea4	seam diagnosis evidence
+repo/reviews/20261025/room/cast-seam/piyo-blender-variants.jpg	79057	753fc32388371cb6edd52425dde5f7c540c72d135d8f1595ca67030f04f63218	seam diagnosis evidence
+repo/reviews/20261025/room/cast-seam/piyo-face-crop.png	222374	b8c4ee9682581abd88eddab4f4dcef756333a13c73bc9440dbbba7e6fcc89283	seam diagnosis evidence
+repo/reviews/20261025/room/env/draft-plate-match.jpg	197960	7b4c35fe09617e49ce0b9a6c180eb43fe7938d7bf1fa470610c74c858ad0957a	env draft renders
+repo/reviews/20261025/room/env/plate-match.jpg	226638	659981b9e468f3426187716546583edd5c04a9a7e6c6ae3597e838a21f53a2e1	env draft renders
+repo/reviews/20261025/room/env/room-1280.jpg	381889	188cdc4888f847b5a077b56ccf1cf973c47c99706d71c1ef705aab80316cd2b1	env draft renders
+repo/reviews/20261025/room/env/room-844.jpg	131285	4d52475031d856c03a1e7d3e7bc70d0a06e8e3f281b32399ec03b9a2770e0179	env draft renders
+repo/reviews/20261025/room/env/wide.jpg	340033	4267a62cb8f69fed70e9f1272d2f6dbcd14292a4d28c99941e73c52db84c56e6	env draft renders
+repo/reviews/20261025/room/scoop-v9-look/shot-1280x800-0.png	1775652	83d85ee94b666d33cf31a11d7abd6722239b596caafe05cc4425db1185547edd	current room capture
+repo/reviews/20261025/room/scoop-v9-look/shot-1280x800-1-cream-puff.png	1755774	9c231eafdbc246d70d10bcc4fce1cce97cf4efea22ddb208ef0ed8d30d105d22	current room capture
+repo/reviews/20261025/room/scoop-v9-look/shot-1280x800-2-sky-plane.png	1724529	09cfcf3f8be675ea2fd0bb444f58f832161ac05ee2983debe455dfb3f00f4a39	current room capture
+repo/reviews/20261025/room/scoop-v9-look/shot-844x390-0.png	875024	38253021fc7df888648faca0939f470c39355b0b5d415252bcce0a662867c537	current room capture
+repo/reviews/20261025/room/scoop-v9-look/shot-844x390-1-cream-puff.png	865245	402f00d7928e03657cbffd0c6a8861d19e6c1045d807858ba504ad04e104ac96	current room capture
+repo/reviews/20261025/room/scoop-v9-look/shot-844x390-2-sky-plane.png	855587	f1b326ab0827e3008852f7bef350d5262efccdddd8630850a4c0776e8ffdf94d	current room capture
+repo/reviews/20261025/room/set-views/tree-pink.jpg	102344	9e282048c61588e2ebb20bcb198d8d4fe816609a8c84b719008bcc215c755cd7	set draft renders
+repo/runtime_src/scoop_sky/anim.mjs	18055	c014e1736cc7d6ac7611b9c537bf4a37b77768610bebd7424e98022624cf0da9	runtime (read only)
+repo/runtime_src/scoop_sky/bundle-manifest.json	1786	09e0915595645df2e84128dc740d436767add560f5ebb046c764140c2705328a	runtime (read only)
+repo/runtime_src/scoop_sky/layout.mjs	6263	34c0796ee75f7b02b0ff02b496b6542b9273fa0b933dcba283458bb3007fa611	runtime (read only)
+repo/runtime_src/scoop_sky/main.mjs	17584	d07c83ad5cca17beeb501a382a6c2107b3b101aee5aef671658b7e22a2129165	runtime (read only)
+repo/runtime_src/scoop_sky/moa.mjs	7945	31f323da39631383bcc43a1a0d61a70683c45aaf9ec4402cb89d8fdc162d651a	runtime (read only)
+repo/runtime_src/scoop_sky/props.json	14857	c9a85bbfd312b16b9160fe0f18277730dd6895ebf7c6f7ea51438ba92030c943	runtime (read only)
+repo/runtime_src/scoop_sky/reactions.mjs	2447	288a0229fb39fadf304ae2ca0d197a7e1280a35c499f185a0d7f19b5ed1e219b	runtime (read only)
+repo/runtime_src/scoop_sky/reactions.selftest.mjs	10488	a1a8ae9515e0b1f45a78a44dec6f5a2b05c74acae1bcb9c61c7da5e650036767	runtime (read only)
+repo/runtime_src/scoop_sky/scoop.css	322	cf6e199e2b0ea5649bba2a058925e1e4927b87d1bb467bf7a2f20600da332519	runtime (read only)
+repo/runtime_src/scoop_sky/shade.mjs	3016	dfed45e8008c2b8d669b0637790026f4e26d57f9d25d7684c2d9bbe5389f4db1	runtime (read only)
+repo/runtime_src/scoop_sky/sound.mjs	4282	045874bf8d45aafd46d0eb374f371cf8c4023cd75ea9f1264640120ea0e75f79	runtime (read only)
+repo/runtime_src/scoop_sky/stations.mjs	23860	ff37b9d75c1e952aae114ede991eb3e38ccd152f5649e9812a3990765c6df477	runtime (read only)
+repo/runtime_src/scoop_sky/world.mjs	23466	6846b32765560bcb0d695d50f4972eaa53f836110ef163462e0bebfe0e559342	runtime (read only)
+repo/skills/stargarden-room-delivery/references/scoop-room.md	14616	b5acabcd9679e812117d706191c9c4d9c3651eb07a7db396c107494511ffbdde	room rules
+repo/tool/room_cast_build.py	45827	5dddd460704c4e70f941029e0d01077f4ab02da76a74961060d552af0c6198e3	cast script (never run)
+repo/tool/room_env_build.py	78223	3d2bdf9c29e3b2eb46b693765d82105578e3d9b983f2ee58fc90624cfe3aee61	env script (draft)
+repo/tool/room_look_sheet.py	2547	9ca285771ddfa2fe937970a7847263d20a4480a0134416f48f0ccca5ef348dea	plate compare sheet
+repo/tool/room_seam_check.py	5112	b91e2a12589736cc27e87155b9980b858b1c6dfec5c41181c37b5294d4cb1f27	seam gate
+repo/tool/room_setpieces_build.py	53458	4aa5bffa8aea9ac57a0f98b593a8e17bea2dbbccc8b15b615f809d821302b634	set script (draft)
+repo/tool/room_tex_means.py	4390	7cbab4b535d8d326869dfce08a2277053ecb3600569553791b9c78a3710a0be5	look.json writer

@@ -1,0 +1,657 @@
+{
+ "version": 1,
+ "camera": {
+  "technique": "static locked-off establishing 3/4 high angle",
+  "reason": "tap targets stay put for pre-readers; no camera moves in the skeleton",
+  "pos": [
+   0,
+   5.51,
+   8.07
+  ],
+  "target": [
+   0,
+   0.51,
+   -0.9
+  ],
+  "fov_landscape": 28.42,
+  "fov_portrait": 50,
+  "sky": {
+   "blue_deg": -16,
+   "cream_deg": -40
+  },
+  "why": [
+   "v2 (2026-10-25, after main's capture scoop-v1 showed tiny props and grey rim). Island r 4.4, layout x0.72, props x1.5, Moa 1.5 m, cottage 2.2 m (main chose option A). Grid search in node: cam y 2..10, cam z 3..14, target y -1..2.5, target z -2..2, fov 30..42, aspect 844/390, real GLB footprints from assets/room/scoop/manifest.json bbox_after. Every prop base and top must project inside |NDC| <= 0.95. A finer grid then ran around the best result.",
+   "Result: pos (0,4.75,7.25), target (0,1.75,2), fov 32, pitch 29.7 deg, vertical half-angle 16 deg.",
+   "Acceptance at 844x390 (fraction of frame height): Moa at start (0,0.43) 0.286 (>= 0.16). Props: mailbox 0.248, pinwheel 0.270, flowers 0.156/0.171/0.179, lemon-can 0.184, xylophone 0.179, cream-cloud 0.29, so the smallest is 0.156 (>= 0.12). Cottage 0.353 (target 30-35; it trades off against grass width, and the best grid point is 0.3 points over). Grass at Moa depth fills 0.852 of the width (>= 0.85). Back rim at NDC y 0.502, so the sky band is the top 25%. 34 rim points land in the bottom corners, the cream sliver. The front rim (NDC y -1.96) leaves the frame, as allowed.",
+   "The top of the frame looks 13.7 deg below the horizon, so the sky gradient is keyed to view elevation (blue from -16 deg, cream at -40 deg). Sky items sit low and behind the island so they land in the sky band: sky-island 2.2 m at (7, y -2.7, -13) projects to NDC x 0.46..0.63 and y 0.59..0.95, which is 18% of the frame height (v1 was 13%), and it stays inside at 1280x800 (x <= 0.86). Swirl-sun at (-7, y -2, -11) projects to x -0.67..-0.53 and y 0.58..0.94.",
+   "All 12 clouds sit at z <= -14 (the sky-island is at -13, the sun at -11), so a drifting cloud never covers the island, the sky-island or the sun.",
+   "Rejected: (B) cottage 2.0 m (32.5%, only 1.33x Moa). (C) cottage 3.4 m: with grass >= 85% it projects to >= 56%, and relaxing grass to 55% still gives 43%. Infeasible because grass >= 85% puts Moa within about 6.2 m of the camera and the cottage sits about 3 m deeper.",
+   "v3 friends (piyo 0.75 m, mongsil 1.0, popo 0.95, nuri 1.15) placed by an exhaustive order search over the island: footprints from manifest bbox x height, >= 0.32 m from every prop, fence post, tree, Moa start and the cream-cloud shadow, off the path, inside the rim, in frame, maximising the smallest frame share. Result: piyo (-3.15,2.45) 0.156, mongsil (-3.65,-0.9) 0.169, popo (-3.75,1.25) 0.185, nuri (1.3,-0.4) 0.202 of the frame height (>= 0.14). The right and front-centre of the island are full (can, xylophone, flowers, path), so three friends stand on the left.",
+   "v4 (main round 4: mongsil hidden by the cream-cloud, crowded left side, piyo jammed in the corner). Added a selftest gate: at 844x390 and 1280x800 every tappable's screen bbox (manifest half width/depth x height) keeps a 4% edge margin, and no nearer object covers more than 20% of it. On v3 the gate failed with 17 problems, including mongsil 53% under the cream-cloud and piyo/popo past the edge. Re-solved camera and layout jointly by simulated annealing (a /tmp script). Kept fixed: cottage (0,-2.6), path, Moa start. Hard constraints: >= 0.32 m gaps (props, friends, fence posts, trees, Moa), inside the rim, off the path, edge margin, cover <= 18%, min shares, friends 2 left (piyo, mongsil) / 2 right (popo, nuri), cream-cloud floating over the island (y 1.3..2.4), sky-island at z -16..-9 with share >= 0.16, sun at z -14..-8 with share >= 0.13, both above the back rim. Soft: cottage 30-35%, grass >= 85%, sky band. Result: pos (0,5.51,8.07), target (0,0.51,-0.9), fov 28.42.",
+   "v4 numbers at 844x390 (share of frame height): Moa 0.280, cottage 0.353, mailbox 0.257, pinwheel 0.268, flowers 0.164/0.150/0.139, lemon-can 0.157, xylophone 0.207, cream-cloud 0.262, sky-island 0.172, sun 0.167, piyo 0.145, mongsil 0.186, popo 0.179, nuri 0.205. Grass 0.854 of the width at Moa's depth; back rim NDC 0.406, so the top ~30% is sky. Screens narrower than 844/390 keep the horizontal field: vertical fov = atan(tan(fov/2) * design_aspect / aspect), 37.8 deg at 1280x800, so the island sides never leave the frame there (layout.verticalFov, the same rule in main.mjs resize).",
+   "v5 (2026-10-25, room-hub): framingProblems now counts tree canopies and fences as occluders (the sky-island sat 100% behind tree (2.2,-3.5) in v4/v5 while the gate passed). sky-island moved to (9.25,-14.4) y -3.75, the only clean sky slot. Three phase-2 props added by reviews/20261025/room/place-search/run2.mjs (one at a time against every selftest gate plus 3D air clearance: floating things never intersect a tappable or set piece and stay out of Moa's way): sky-plane h 0.75 over the right side at (2,-0.5) y 1.75 (share 0.152), berry-butterfly h 0.5 at (-2.2,2.3) y 1.8 above Piyo and clear of Moa's start box (0.126), cream-puff h 1 in the left sky (0.126). roll-snail and berry-sprout found no ground slot at min share 0.12 (ground full); the sprout waits for mission 4."
+  ],
+  "min_frame_frac": {
+   "moa": 0.16,
+   "prop": 0.12,
+   "friend": 0.14,
+   "aspect": [
+    844,
+    390
+   ]
+  },
+  "design_aspect": 2.1641
+ },
+ "island": {
+  "radius_m": 4.4,
+  "walk_radius_m": 3.8,
+  "prop_clearance_m": 0.6,
+  "path": {
+   "from": [
+    0,
+    3.9
+   ],
+   "to": [
+    0,
+    -1.6
+   ],
+   "stones": 6,
+   "r": 0.34,
+   "wobble": 0.12
+  }
+ },
+ "moa": {
+  "id": "moa",
+  "start": [
+   0,
+   0.43
+  ],
+  "height_m": 1.5,
+  "speed_mps": 1.4,
+  "word": "hi",
+  "reaction": "hop",
+  "glb": "assets/room/scoop/moa.glb",
+  "fallback_glb": "out/shorts/ep01/cast3d/moa/walk/asset_result_animation_glb_url.glb",
+  "clips": {
+   "idle": [
+    "idle"
+   ],
+   "walk": [
+    "walk",
+    "Armature|walking_2_inplace|baselayer"
+   ],
+   "gestures": {
+    "wave": [
+     "wave"
+    ],
+    "jump": [
+     "jump"
+    ],
+    "sway": [
+     "sway"
+    ],
+    "dance": [
+     "dance"
+    ]
+   }
+  },
+  "hop_m": 0.5,
+  "footprint_m": 0.61,
+  "half_wd": [
+   0.61,
+   0.43
+  ]
+ },
+ "props": [
+  {
+   "id": "cottage",
+   "glb": "cottage",
+   "stand": "cottage",
+   "pos": [
+    0,
+    -2.6
+   ],
+   "y": 0,
+   "yaw": 0,
+   "height_m": 2.2,
+   "word": "house",
+   "reaction": "door",
+   "color": "#ffd6e0",
+   "route": {
+    "type": "enter",
+    "route": "/books",
+    "book": "bo-sky-island",
+    "preview": true
+   },
+   "footprint_m": 0.89,
+   "half_wd": [
+    0.89,
+    0.84
+   ]
+  },
+  {
+   "id": "scoop-mailbox",
+   "glb": "scoop-mailbox",
+   "stand": "mailbox",
+   "pos": [
+    1.08,
+    -0.97
+   ],
+   "y": 0,
+   "yaw": -20,
+   "height_m": 1.5,
+   "word": "mailbox",
+   "reaction": "hop",
+   "color": "#ff9fb8",
+   "footprint_m": 0.44,
+   "half_wd": [
+    0.44,
+    0.44
+   ]
+  },
+  {
+   "id": "spoon-pinwheel",
+   "glb": "spoon-pinwheel",
+   "stand": "pinwheel",
+   "pos": [
+    -3.17,
+    -1.43
+   ],
+   "y": 0,
+   "yaw": 15,
+   "height_m": 1.6,
+   "word": "pinwheel",
+   "reaction": "spin",
+   "color": "#9fd8ff",
+   "footprint_m": 0.58,
+   "half_wd": [
+    0.58,
+    0.13
+   ]
+  },
+  {
+   "id": "berry-flower-1",
+   "glb": "berry-flower",
+   "stand": "flower",
+   "pos": [
+    -1.22,
+    1.51
+   ],
+   "y": 0,
+   "yaw": 10,
+   "height_m": 0.85,
+   "word": "flower",
+   "reaction": "bloom",
+   "color": "#ff7fa8",
+   "footprint_m": 0.55,
+   "half_wd": [
+    0.55,
+    0.46
+   ]
+  },
+  {
+   "id": "berry-flower-2",
+   "glb": "berry-flower",
+   "stand": "flower",
+   "pos": [
+    -2.22,
+    0.05
+   ],
+   "y": 0,
+   "yaw": -15,
+   "height_m": 0.85,
+   "word": "flower",
+   "reaction": "bloom",
+   "color": "#c9a2ff",
+   "footprint_m": 0.55,
+   "half_wd": [
+    0.55,
+    0.46
+   ]
+  },
+  {
+   "id": "berry-flower-3",
+   "glb": "berry-flower",
+   "stand": "flower",
+   "pos": [
+    -1.34,
+    -1.18
+   ],
+   "y": 0,
+   "yaw": 25,
+   "height_m": 0.85,
+   "word": "flower",
+   "reaction": "bloom",
+   "color": "#ffb36b",
+   "footprint_m": 0.55,
+   "half_wd": [
+    0.55,
+    0.46
+   ]
+  },
+  {
+   "id": "lemon-can",
+   "glb": "lemon-can",
+   "stand": "can",
+   "pos": [
+    3.01,
+    -1.13
+   ],
+   "y": 0,
+   "yaw": -30,
+   "height_m": 0.95,
+   "word": "water",
+   "reaction": "pour",
+   "color": "#ffe46b",
+   "footprint_m": 0.94,
+   "half_wd": [
+    0.54,
+    0.94
+   ]
+  },
+  {
+   "id": "icepop-xylophone",
+   "glb": "icepop-xylophone",
+   "stand": "xylophone",
+   "pos": [
+    1.26,
+    1.7
+   ],
+   "y": 0,
+   "yaw": -35,
+   "height_m": 1.05,
+   "word": "song",
+   "reaction": "notes",
+   "color": "#ffffff",
+   "footprint_m": 0.75,
+   "half_wd": [
+    0.75,
+    0.17
+   ]
+  },
+  {
+   "id": "cream-cloud",
+   "glb": "cream-cloud",
+   "stand": "cloud",
+   "pos": [
+    -1.26,
+    -0.63
+   ],
+   "y": 1.5,
+   "yaw": 0,
+   "height_m": 1.3,
+   "word": "cloud",
+   "reaction": "puff",
+   "color": "#fffaf7",
+   "footprint_m": 0.74,
+   "half_wd": [
+    0.74,
+    0.62
+   ]
+  },
+  {
+   "id": "sky-island",
+   "glb": "sky-island",
+   "stand": "skyisland",
+   "pos": [
+    9.25,
+    -14.4
+   ],
+   "y": -3.75,
+   "yaw": -20,
+   "height_m": 2.2,
+   "word": "island",
+   "reaction": "glow",
+   "color": "#a6dc84",
+   "sky": true,
+   "footprint_m": 0.92,
+   "half_wd": [
+    0.92,
+    0.82
+   ]
+  },
+  {
+   "id": "swirl-sun",
+   "glb": null,
+   "stand": "sun",
+   "pos": [
+    -9.98,
+    -13.88
+   ],
+   "y": -2.92,
+   "yaw": 0,
+   "height_m": 2,
+   "word": "sun",
+   "reaction": "blink",
+   "color": "#ffd76a",
+   "sky": true,
+   "billboard": true,
+   "footprint_m": 1.04,
+   "half_wd": [
+    1.04,
+    0.19
+   ]
+  },
+  {
+   "id": "sky-plane",
+   "glb": "sky-plane",
+   "stand": "plane",
+   "pos": [
+    2,
+    -0.5
+   ],
+   "y": 1.75,
+   "yaw": 90,
+   "height_m": 0.75,
+   "word": "sky",
+   "words": [
+    "sky",
+    "go"
+   ],
+   "reaction": "fly",
+   "flight": "loop",
+   "idle": "hover",
+   "sfx": "spin",
+   "color": "#bfeee0",
+   "sky": true,
+   "footprint_m": 0.94,
+   "half_wd": [
+    0.79,
+    0.94
+   ]
+  },
+  {
+   "id": "berry-butterfly",
+   "glb": "berry-butterfly",
+   "stand": "butterfly",
+   "pos": [
+    -2.2,
+    2.3
+   ],
+   "y": 1.8,
+   "yaw": 0,
+   "height_m": 0.5,
+   "word": "fly",
+   "reaction": "fly",
+   "flight": "flit",
+   "idle": "flap",
+   "sfx": "flutter",
+   "color": "#ff6b6b",
+   "footprint_m": 0.35,
+   "half_wd": [
+    0.35,
+    0.11
+   ]
+  },
+  {
+   "id": "cream-puff",
+   "glb": "cream-puff",
+   "stand": "cloud",
+   "pos": [
+    -5.25,
+    -6
+   ],
+   "y": -0.25,
+   "yaw": 0,
+   "height_m": 1,
+   "word": "float",
+   "reaction": "puff",
+   "idle": "drift",
+   "color": "#ffd9e6",
+   "sky": true,
+   "footprint_m": 0.61,
+   "half_wd": [
+    0.61,
+    0.61
+   ]
+  },
+  {
+   "id": "piyo",
+   "glb": "piyo",
+   "stand": "friend",
+   "pos": [
+    -2.54,
+    1.65
+   ],
+   "y": 0,
+   "yaw": 30,
+   "height_m": 0.75,
+   "footprint_m": 0.32,
+   "word": "bird",
+   "words": [
+    "bird",
+    "sing"
+   ],
+   "reaction": "friend",
+   "style": "piyo",
+   "sfx": "flutter",
+   "color": "#ffd84d",
+   "friend": true,
+   "half_wd": [
+    0.3,
+    0.32
+   ]
+  },
+  {
+   "id": "mongsil",
+   "glb": "mongsil",
+   "stand": "friend",
+   "pos": [
+    -3.5,
+    0.84
+   ],
+   "y": 0,
+   "yaw": 50,
+   "height_m": 1,
+   "footprint_m": 0.59,
+   "word": "sheep",
+   "words": [
+    "sheep",
+    "bounce"
+   ],
+   "reaction": "friend",
+   "style": "mongsil",
+   "sfx": "hop",
+   "color": "#ffffff",
+   "friend": true,
+   "half_wd": [
+    0.59,
+    0.41
+   ]
+  },
+  {
+   "id": "popo",
+   "glb": "popo",
+   "stand": "friend",
+   "pos": [
+    3.05,
+    1.06
+   ],
+   "y": 0,
+   "yaw": 45,
+   "height_m": 0.95,
+   "footprint_m": 0.38,
+   "word": "hop",
+   "words": [
+    "hop"
+   ],
+   "reaction": "friend",
+   "style": "popo",
+   "sfx": "hop",
+   "color": "#9fd8ff",
+   "friend": true,
+   "half_wd": [
+    0.38,
+    0.33
+   ]
+  },
+  {
+   "id": "nuri",
+   "glb": "nuri",
+   "stand": "friend",
+   "pos": [
+    1.77,
+    0.01
+   ],
+   "y": 0,
+   "yaw": -15,
+   "height_m": 1.15,
+   "footprint_m": 0.4,
+   "word": "hi",
+   "words": [
+    "hi",
+    "smile"
+   ],
+   "reaction": "friend",
+   "style": "nuri",
+   "sfx": "giggle",
+   "color": "#ffb3c8",
+   "friend": true,
+   "half_wd": [
+    0.4,
+    0.35
+   ]
+  }
+ ],
+ "set": {
+  "fences": [
+   {
+    "x0": -1.15,
+    "x1": -2.45,
+    "z": -2.95,
+    "h": 0.62
+   },
+   {
+    "x0": 1.15,
+    "x1": 2.45,
+    "z": -2.95,
+    "h": 0.62
+   }
+  ],
+  "trees": [
+   [
+    -2.45,
+    -3.35,
+    0
+   ],
+   [
+    2.2,
+    -3.5,
+    1
+   ],
+   [
+    -1.37,
+    -3.6,
+    1
+   ]
+  ],
+  "tree_scale": 1.25,
+  "sprinkles": {
+   "count": 60,
+   "length_m": 0.12,
+   "seed": 61
+  },
+  "clouds": [
+   [
+    -13,
+    -1.6,
+    -16.6,
+    1.8
+   ],
+   [
+    -7,
+    -2.2,
+    -20.1,
+    2.2
+   ],
+   [
+    0.7,
+    -2.2,
+    -18.1,
+    2
+   ],
+   [
+    7.2,
+    -2.5,
+    -21.1,
+    2.2
+   ],
+   [
+    13,
+    -1.6,
+    -16.6,
+    1.8
+   ],
+   [
+    -3.5,
+    -2.9,
+    -16.6,
+    1.4
+   ],
+   [
+    3.5,
+    -2.7,
+    -16.6,
+    1.3
+   ],
+   [
+    -10.6,
+    -3.1,
+    -16.6,
+    1.5
+   ],
+   [
+    13.9,
+    -3.3,
+    -16.6,
+    1.5
+   ],
+   [
+    -15.9,
+    -3.6,
+    -17.1,
+    1.8
+   ],
+   [
+    12.2,
+    -5.7,
+    -22.1,
+    2.4
+   ],
+   [
+    -0.9,
+    -5.9,
+    -22.1,
+    2.4
+   ]
+  ],
+  "cloud_wrap_x": 22
+ },
+ "lights": {
+  "hemi": {
+   "sky": "#cfe8ff",
+   "ground": "#ffe6cc",
+   "intensity": 1.4
+  },
+  "key": {
+   "color": "#fff4e6",
+   "intensity": 1.2,
+   "dir": [
+    -5,
+    9,
+    6
+   ]
+  },
+  "why": "one block for the scene lights and the cream colour gate (shade.mjs); change here, the gate re-checks the cream"
+ },
+ "look": {
+  "why": "Every GLB (props, friends, Moa) gets base-colour factor pi/irradiance at `normal` from the lights block (shade.mjs lightNeutralMult), plus a flat white emissive_offset equal to the 0.04 the Khronos PBR Neutral tone map subtracts (meant for a specular F0 this hemisphere-lit scene does not add), so its front face shows its own texture colour instead of 0.63x of it; colours above the tone map's 0.76 shoulder still roll off by design. Measured 2026-10-25: under these lights every Meshy texture rendered 15-40% darker than its sheet (cream-puff read dark lilac); the cream-only emissive tune had passed its gate on a stale pre-retex texture mean. Rejected: per-object per-channel calibration to the sheet mean (atlas area ratios differ from the front view: flowers and plane turned pink, scoop-v8-look/sheet-vs-room.jpg). Texture-vs-sheet distance is reported by the selftest from assets/room/scoop/look.json (tool/room_tex_means.py) to pick retex candidates, never to tint at run time.",
+  "normal": [
+   0,
+   0.45,
+   0.9
+  ],
+  "emissive_offset": 0.04,
+  "report_tex_sheet_srgb": 40
+ }
+}
