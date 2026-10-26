@@ -1,0 +1,26 @@
+{
+  "plan_sha256": "589a8015246240b248b46468b5efc9195c2bd246e49d4e3a6599069279873b01",
+  "backend": "codex",
+  "completed": {
+    "nuri": {
+      "path": "nuri.png",
+      "label": "nuri",
+      "sha256": "aa89b24195c7774be32a41eb87317ecb7f787f0bb297c7666fcef3d8b4d6791c",
+      "image_model": "managed by Codex; not reported",
+      "review": "pending"
+    },
+    "mongsil": {
+      "path": "mongsil.png",
+      "label": "mongsil",
+      "sha256": "6222e9eb66d9328bcab8d4c6e089ba9d9eb9e2b1cda7082d4a0ba9c84763afde",
+      "image_model": "managed by Codex; not reported",
+      "review": "pending"
+    }
+  },
+  "status": "complete",
+  "total": 2,
+  "pid": 1125133,
+  "updated_at": 1792928446.9554884,
+  "errors": {},
+  "running": []
+}

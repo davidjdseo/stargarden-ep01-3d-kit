@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "book": "bo-sky-island",
+  "toneReference": {
+    "file": "art/scoop/pano-p1-sky2.webp",
+    "role": "tone reference / setting / material",
+    "sha256": "b09ae7a8a8628b24e7a41df9e4bf7cbf7266f4208c96dc214b3051bf8e86b1e9",
+    "why": "Scoop Sky re-skin (user 2026-10-24): p1 panorama redrawn by I2I in the same pastel coloured-pencil medium with the Season 1 designs (docs/shorts/bible/OBJECTS-S1.md); match its light grain and soft cloud gradients across the book. This pins the source, not approval of every current scene."
+  },
+  "layers": {
+    "far": "panorama band (art painted into the shell pano)",
+    "transition": "terrain rise + distance fog, no cards",
+    "near": "cutout cards that sway/act, white paper border"
+  },
+  "clouds": "soft fluffy cotton candy: cream-white cores, pale pink/lilac shade, smooth gradients, light grain, no hatching, no outline",
+  "grain": "light coloured-pencil grain as the reference plate, never heavier",
+  "palette": "Airy pastel blue sky, cream-white light, pale pink/lilac shadows, yellow-green meadow and soft green foliage; keep subject/background separation without dark hatching.",
+  "sceneLayers": "An object belongs to one layer; when a page swaps the ground for the sky, ground-layer cards leave with it. Far scenery stays painted into the pano, transition geometry blends with distance fog, near acting cards keep their paper edge.",
+  "characters": {
+    "identity": {
+      "file": "cast.json",
+      "role": "cast identity / canonical sprite routes",
+      "sha256": "a33162f2e85425dbf07124562c4a5c40bc011537208fd84c729220a5a8cd73c3"
+    },
+    "anchors": {
+      "file": "art/sprites/anchors.json",
+      "role": "sprite anchors / contact",
+      "sha256": "5bd56325481fee87e32b15256df9978f18e63c4f38ae34516ace66faa6e800e4"
+    },
+    "medium": "the Season 1 sheet render for every character and named prop: friends are the S1 character sheet views as they are (docs/shorts/bible/cast.json, pipeline/sheet-cut.py + sheet-place.py), props with an S1 object anchor are its state images as they are (out/shorts/ep01/anchors/s1-objects); Moa keeps the plush render (user pick B 2026-10-19); scenery layers (sky, ground, clusters, scenery clouds) stay pastel coloured pencil (user 2026-10-25: S1 시트 그대로)",
+    "rule": "Reuse the cast registry and original sprite families across pages; pose changes preserve identity. This lock is not a new character approval."
+  },
+  "groundStage": {
+    "approval": "reviews/workers/b160sky-20261022/ANSWERS-2.md",
+    "structure": "shared panorama, continuous cloud floor 1, raised terrace 2, far range and frame-bounded low lip",
+    "art": [
+      {
+        "file": "art/pencil/sky-ridge.webp",
+        "role": "ground stage far ridge (sky pages)",
+        "sha256": "e11cee02a56832821e93f53e24bc796a3262f1f4069bc9e7be1df54c0ee2ccfe",
+        "provenance": "art/pencil/sky-ridge.provenance.json"
+      },
+      {
+        "file": "art/pencil/sky-front.webp",
+        "role": "ground stage front lip (sky pages)",
+        "sha256": "4f4258455468161bca75a551ed7e267c04a02f34df0658994899d672de2af34b",
+        "provenance": "art/pencil/sky-front.provenance.json"
+      },
+      {
+        "file": "art/scoop/floor-sky-cloud.webp",
+        "role": "ground stage continuous cloud floor (sky pages)",
+        "sha256": "9b03df6844ade8be10d0adba096eafecc97f32ed207130e3b47710bcd1b6f507",
+        "provenance": "art/scoop/generation.json"
+      }
+    ],
+    "rule": "Enable the ground per page. Airborne page two preserves its existing blue sky and individual friend puffs. Approved page three owns its bank set. Original cast, captions and HUD retain their owners.",
+    "module": "ground-stage.js",
+    "sourceAssets": [
+      "art/scoop/pano-p1-sky2.webp"
+    ]
+  }
+}

@@ -48,8 +48,20 @@ repo/build/room-meshy/nuri/retex/asset_model_urls_glb.glb	4052236	9cc50d271787ae
 repo/build/room-meshy/piyo/retex/asset_model_urls_glb.glb	5669964	7e0ff3a16684bad055e4ff606357ea3c048d3ab4133900a0513526227fa24db8	cast Meshy source (2K)
 repo/build/room-meshy/popo/retex/asset_model_urls_glb.glb	6091088	14d5e99aeb3b5546b4a53633f19bf4ab92385ae9f8b8eb13bd3377fb55521fca	cast Meshy source (2K)
 repo/docs/room-hub/DESIGN.md	12991	da04d37597b5a2143383179257cfe4915c9a7cb990e36746edeff9f2d58a7761	room design
-repo/docs/shorts/bible/cast.json	95247	c499722506c7380635fd67ffd7874bbf791e02d9f266af8cfe52f004adba18cf	locked cast bible
-repo/intent/2026-10-25-room-scoop-sky-hub/intent.md	5366	dfe764f936c4e928bddfce164eeb2e3da6bb2fdc330b2147b590b4d80587f931	room intent
+repo/docs/shorts/bible/cast.json	104960	fb7cd675bf071b513b633bec255483c5d68282346f9c1d6860db2d0ffb664e7e	locked cast bible
+repo/docs/shorts/bible/moa-hero-mode.md	3583	cfaec6df582f9d60be612d4344b5ef46835abeaa6c43710cdddf69df7e22b962	Moa hero mode
+repo/docs/shorts/heroes/GOGGLES-LOOK.md	3768	a7ad4e1a4d69dbd24e942ed9133f5f44054baf63a9f201f81f5de83cc5ed9676	goggles look
+repo/docs/shorts/heroes/art/item-sheets/manifest-2.json	734	fc3a710710b4a3e89b4e80ee28b2f36bf2dc48a00c33c65e1fbea1b9a59f734f	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/manifest.json	389	87610e03d6cf96308f8649992f650c8ccc8968ff14c3df78559a6d04174970eb	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/mongsil.jpg	79424	957255a86fb680ff44ba5e0acc2bf03a89ee0bb323e15047a027f622e9a7c710	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/mongsil.png	1413152	6222e9eb66d9328bcab8d4c6e089ba9d9eb9e2b1cda7082d4a0ba9c84763afde	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/nuri.jpg	71653	2f18d3d0e09cfe14bd16f9ba8c006ace903a4965b1644ae083b43ba0d89ba865	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/nuri.png	1512526	aa89b24195c7774be32a41eb87317ecb7f787f0bb297c7666fcef3d8b4d6791c	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/piyo.jpg	102783	cb88de2302242d8601e92d06c27a25ca65ab0810d06c810a533489b1232dc1b7	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/piyo.png	1715828	86d9dba05ed1bdb71796576cd209fe70772352acb65759a1dbf33a3d16e1c061	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/popo.jpg	127770	8714b30d1c1de801ed31be102d33832fe1dd028f386aaea0eb66648237eeb18f	hero item sheet
+repo/docs/shorts/heroes/art/item-sheets/popo.png	1984091	ed0e81af8b3ecfb66d1035d6fa3ecb80a52b4c094db2fe3732af024a2c332086	hero item sheet
+repo/intent/2026-10-25-room-scoop-sky-hub/intent.md	6131	fb017206aa8339009c5956119bfa84a50df106e49f576cb1a061037c628713cc	room intent
 repo/out/shorts/ep01/anchors/s1-objects/balloon/sheet.png	344727	51d0522075d10d1a87faf6b73e6e5d954f189ba510cced485d3b6f030d0c10eb	locked object sheet
 repo/out/shorts/ep01/anchors/s1-objects/balloon/turn/back.png	85077	f72da230bc262f9fcc972efefbe263283d20618a279a8f245a33e9bbe50189d9	object turnaround
 repo/out/shorts/ep01/anchors/s1-objects/balloon/turn/front.png	90515	6fdf1f46b7731d5ea834f648762056a25a73bf62abae3c7d846ce0da0a24fd49	object turnaround
@@ -157,6 +169,7 @@ repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/image.png	2021213	0fea94
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/manifest.json	493	ec2ed5e9e64f0e3c83890e2ec9af9a0c7c52493dcc524564f3eb4c2f64e0aad2	plate anchors / manifest
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v2.png	1883902	5ed552954978b84a020a0fcbb4f713eb2282c3aa49aafa4a86e946018085a41b	approved world plate
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v3.png	1886105	dbe79e0594272c451fc832d2770ba2cdaaf1293343c26d35af3a9ea55a9eecfc	approved world plate
+repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4-bare-stick.png	1972324	c0362dc5f2e76c8f8a5e7489ac73bc0159b6f8a276fac28789a8921d6a4dd361	approved world plate
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4-noisland.png	1881659	dba916754206ed1fadcdf8c17a43cfc7643ea22c966f2a30666e02bef41c7eb6	approved world plate
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.anchors.json	4297	c136ba165be6b4cc207c18e6f2e65c3083fc111c35f5fba5c7810666dda57ca6	plate anchors / manifest
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4.png	1887980	85370ed004d9963180dfe109a22e0161561d6394ed9398cbe933d9af4875fd06	approved world plate
@@ -164,6 +177,10 @@ repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r6-flowerbed-v1.png	2062
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/r7-side-v1.png	2029693	035655850f9529b664935e55e23818aa77fffe3350b95b27f92c499b79cdd130	approved world plate
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/reverse-r4-v1.png	1907082	170ee0f788356916f088e1108ad802faf61ea4ddc719fe3a0d1fba24412f0598	approved world plate
 repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/sky-v1.png	1456053	58db1e785bce8eca51a31c03e61ec8dc8a1321207eff5a47dad476aa807cc764	approved world plate
+repo/out/shorts/ep01/cast/goggles/goggle-A-ref.png	393245	6bbe9a4b654acf2b0b183f5f571b79e4540b4429da2312352343886fe2057d58	Moa goggles reference
+repo/out/shorts/ep01/cast/goggles/moa-goggles-sheet-preview.jpg	209538	e31ceb953d75fdbf601e846ecaf865bce26672678c702b3b4f33aa87622fefb6	Moa goggles reference
+repo/out/shorts/ep01/cast/goggles/moa-goggles-sheet.png	4831672	ac00ff65d1cd2e94d4486ef5c8f634fd47d30e82d74a0f3bf9db3dbc73bfd3db	Moa goggles reference
+repo/out/shorts/ep01/cast/goggles/nb-turn.png	4397214	c7be7f1e9a0f863e6d185db3d2cb3497831e83854e8cdfd90b42fe8fe9970a6f	Moa goggles reference
 repo/out/shorts/ep01/cast/s1/mongsil-expr.png	1594043	06f5e8d5785f5769ccc29b9395fb831653d239697108f125bb1e711784c2cadc	locked character expr: mongsil
 repo/out/shorts/ep01/cast/s1/mongsil-sheet.png	1150288	c6330ec92a0050612cf4295fd309c9e0ff3e6b220118da91288959998a6f6ba8	locked character sheet: mongsil
 repo/out/shorts/ep01/cast/s1/nuri-sheet.png	832078	ae4d2e7717e1fbab02ed8878a440c478d5d1a46c17eb430fe87ea26355840091	locked character sheet: nuri
@@ -172,12 +189,106 @@ repo/out/shorts/ep01/cast/s1/piyo-sheet.png	1413187	29b088e1ec8a2142cc5d646b5589
 repo/out/shorts/ep01/cast/s1/popo-expr.png	1737706	0192b08e3bb0214dd33a25583471f46e4fb735f91af923a87a6e3914534013b7	locked character expr: popo
 repo/out/shorts/ep01/cast/s1/popo-sheet.png	1774696	0899710af184a7f35eaa3b3bbfdd44802f62d5471b4b869dd39433133725cc6a	locked character sheet: popo
 repo/out/shorts/ep01/cast3d/moa/walk/asset_result_animation_glb_url.glb	14145424	68048346743a7697b9e0cbd280f7c61052c031a23e1b6bc34d60b7de91e3f54c	Moa source (4K, rigged)
-repo/out/shorts/ep01/pack/character-moa-sheet.png	3245777	c41361c06509b1f10f4fca7ee3f44d14be6ebfee4ff196890acc485dab57c5cb	locked character sheet: moa
+repo/out/shorts/ep01/pack/character-moa-goggles-sheet.png	4831672	ac00ff65d1cd2e94d4486ef5c8f634fd47d30e82d74a0f3bf9db3dbc73bfd3db	locked character sheet: moa
 repo/out/shorts/ep01/pack/props-grid-s1.png	883024	d69e62b9c0d74397c3323a268f502cc44ecfe64061da80c9a750386ebc180c21	locked items sheet
 repo/out/shorts/ep01/pack/props/watering-can.png	1276751	2cf4cba26dcc2157b8f704d849140efc4133ff6c0761fe86e72a5010c6fcce6f	locked prop sheet: watering_can
 repo/pipeline/room-env.sh	3946	d9f5682829cd807d45db0f2d3e2b7e50ed72561155350683d036b1b0b20c5801	env runner (JOB keys)
 repo/pipeline/room-glb-yaw.json	4586	77af46b03be5aa0ef5c46b82556473dc39e2b2cfc9a4dedeb9191e01aef7a3d0	GLB yaw table
 repo/pipeline/room-setpieces.sh	11840	28cd44614745bb56d9a7885fcdef0c832453064391153f3a886edc0d4e68a453	set runner (reference)
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/backdrop.json	24578	1a70c03e3e0f238b4bc68dcb280530672c86505f393148bcc5ab45371b106d6f	book backdrop layout
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-smile.webp	96112	233ec48dfbd1145b31a36b8166e31a6817432cda973c0e0b335c99b7b1db7a8c	book Moa expressions
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-smileb.webp	90754	2e54d047ffd5274f366fb0e4b6c5f87fae2e2a3afe702243e6a435687bfa939b	book Moa expressions
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-smilehop.webp	102704	18cffcb85159dc4b89e9f972c7c4363526c36fdb7e7e8efa5780f325457d5ba5	book Moa expressions
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-windA.webp	118560	24690886cea30ad055af1ff8efb608dfa137bd0a0e220278893a7a93f8a41f37	book Moa expressions
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-windB.webp	147784	7960886acd3cbd886f447569c52621dd4cdc1393fe153d7179b76d14db9f6527	book Moa expressions
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/ref/moa-v7-dialogue-20261022.png	1673252	32caae525eadd65cecded686b945efad6d7a201ac21fa89ca89469364cd4385f	book Moa ref
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/ref/moa-v7-sheet.png	1673252	32caae525eadd65cecded686b945efad6d7a201ac21fa89ca89469364cd4385f	book Moa ref
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/balloon-held.webp	136666	320d26a69f8866ae9c9b9733154d13f7cea2b74ecf8590d3f2de7dec527669ab	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/balloon-tied.webp	45444	f49e62bb7696a666cc17af7d6d1f96d36c31ab42a9370985d4b5eafe8b376fff	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-p1-box.webp	1878964	66979df0c8fb6e06cba4d1a8b42e892f4638dab1e427d44bd0b0ad4613187fb9	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-p1-paper.webp	1776492	8af05526cd3a76bd092f09d889f52ebbd79d632c5b7102d8478a95207f336986	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-p1-pencil.webp	1640840	9428c98c1544937fd3e0c361ba72742637e5825e564113abf3e6c3b0f21a8898	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-sea-calm.webp	300786	c238fda29f983c13d10cc6c5a6c01c2abb2d9e8b900d9d9571d7e2f5c71c29f7	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-sky-cloud.webp	102090	9b03df6844ade8be10d0adba096eafecc97f32ed207130e3b47710bcd1b6f507	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/friends/glimpse-bird.webp	25696	815bd61c108e8e803d91ac252025ba81064f9724f6e3130e24b6618864b9a904	book friends
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/friends/glimpse-sheep.webp	31658	e0d904f882f9f0ac5425c500e47e0be6ee9e9e0cdd927a005d1308a6a1b997b8	book friends
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/friends/glimpse-whale.webp	53920	f6bd9760badf7901e9c99bb9068a14d1c643369b2c0026e1887f6cfe3efcd912	book friends
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-box-corner-l.webp	163746	142555233e455ed0645266e932ed98a6398aabae8a6994832bc6c74236a6c9eb	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-box-corner-r.webp	151736	72f644c11d19b180adc64191f03a29b8c591c537296cd3d6cc69b119ac02bcd4	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-box-tuft.webp	83996	b433b9b912b91b9de291d230cf98410bc1feb1e2f95ba604334e80635796a366	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-front.webp	203098	32e5c1bd5898eba92205ca9935a0f507d9a4cb3f7a64b534ece48d516203e416	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-mailbox-body.webp	31768	896c3b778dc10296924435269452b89c0ff41d984bcfd58b9e4eda4341e2674e	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-mailbox-flag.webp	3628	a3a998a23a1bfa8277d1754db2c45d017a4ab46723f3a004a49ce6bbaae9be33	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-ridge.webp	229804	4e4a17f226fc689abc68c696987f094aa647eca3b85e91864bcbf451d0cc4377	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pano-p1-calm.webp	283458	ce4ed918c553186638b8b77543fd87d204a3579a3a432c09379674db156903d7	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pano-p1-sky2-rt.webp	277334	444f43d149c03b475f672c06f0d05bb98abfa363267aae84e2a4e6c16afa6a45	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pano-p1-sky2.webp	655602	b09ae7a8a8628b24e7a41df9e4bf7cbf7266f4208c96dc214b3051bf8e86b1e9	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-bloom-wilt2.webp	72986	255fd7055b4a7edc1a608728be4ab3dca22c2b693868e3a267b38b39e13ec461	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-bloom.webp	91142	c6f1f72a80cc7b790ec800c23acc432dfa83b50ddba9cec9c629e95078f9559e	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-pink-st.webp	338036	4c3044a46156924eaa8d0b33d49b91a879506dc856ded0879481d3333358f70b	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-pink-wilt2-st.webp	300480	271e084f8b70de3e11cea496fe1d733ef501f3f3048aaf67895799741d7daaba	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-pink-wilt2.webp	102374	61204eeb6454217ef23b683c5cbfff492c9240eb315e187e5a4823960bbbca0a	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-pink.webp	107080	21b178670b0f9fe78a7d8184d96990b6e8e7ef18c95eac4b3a6f6a5f11088f6e	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-trio.webp	138430	9b9fc8855e258d5a85baa296e2e7af09640dd6d7c5d2de473dc347df0096241b	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cloud-big-st.webp	72690	6814e96b6fbb42addfdbbace4875ba5aa95d0cf2cef0e299e17d93e92577337b	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cloud-big.webp	30196	8be9320a972f828ab3a0393a16305b64311b9aac6d780e34d75fff83f4e4649f	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cloud-puff-a.webp	21066	a663d06ba3328789a89dbf1a425327f74cea23877fdd7b3e7d7e42679390094a	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cloud-puff-b.webp	13692	9b30397747ad47a358d5beeedc68c88b7c933a13a2c09e06e1ad81650317200e	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cmid.webp	35512	d5c1724bd5225c7e4e1d88b001012062b16daa611f4c980996ed78608244fb88	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cmound-big.webp	21734	3403d35f6fac7bcf4b2f3a1077c6d7900c74e19e3d9b4455faf9faefdb858bd1	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cwisp.webp	15324	7576cd112de5e2ff55ee274b409cb5266a890b636b44cc0377d974b31c86b473	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-dbush.webp	166600	53254c63f74430551baef6cfd14c9b2d089200b931744c2826ca8b620a68f8d3	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-dgrass.webp	320016	bd38885b7d00463ebd03d3afd87b8dd9c1c45b4a9a40b99800a605a0077597e8	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-dshrub.webp	386322	44d04a1492fbe68ba2a65f335982a47675556d139650a2c86872829160ec58cc	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-fence.webp	39726	ffeb5f024e52dc71a52f2585f0b04ee72a8726c32691248ef430e6ec475427ae	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-flower-daisy-wilt.webp	79354	bb210bba7aac398d4bbddc6eb93263dc16063e84c4bf0a03d50d3b6642d269de	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-flower-daisy.webp	82530	98870afdb720cbaefac255e969b70e029e5ebdc38454f20b68a7bafc2272f824	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-flower-pink-wilt.webp	81818	6857c69695b4de9e3f12743b1a99b99070a70111d243c5bc26ec6e010a2288b1	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-flower-pink.webp	95950	4ac24c62f653a206b79d18c306cdbf0c39802058d7929c0aff179df703cc8ebc	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-hedge-bloom.webp	66698	2a4a6ec5bd33991667d72c22a69a8b17179b57015bc49b8ef6de81f7c89fdf67	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-house-st.webp	156420	bdb0b66a3fff6bc9e0cecd934185ae81b3e8f0b0c026bc657c1c5a620a288694	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-house.webp	49480	29f654a08b752882517c81134d6eadf7fa9b1a947f373788a36d1f028a7383db	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-mailbox.webp	31892	5f20d6e41aab120667d829f9e4abb7071c4d704b9b3ba046803640a6b853c82e	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-meadow-l.webp	151084	f76748f7d8806e894071105cf19c17fc50930669649c3ecf23675125c5c1213b	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-meadow-r.webp	176370	41f5d0ac38a08b73fb59c5797e596e8da226646fa1302c44c79b3b7c32e9d9a4	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-pcloud-a.webp	16320	9ebf1a253926f778e6cbfda63b886a4c01ea3559094f0dc5369b28d3fb1ef5e4	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-pcloud-b.webp	12022	e717b52105870fd2e9cd0b53e3f042228722cae44190439e329a8d9404663970	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-pcloud-c.webp	10188	bb5696ae1dcbc4d39729bcb475ce4ac28e602bb8ccded5a15d16b2a5670077c5	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-pcloud-d.webp	14218	bd840afa0d01421393f313b5d62b66225ea33ec4b6ea6ca372bb17be08f18c2f	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-rock.webp	20524	25ff2eebeae12a2b27ac3d1d83500c517c06eb8eb3549b4edca6ff2a913d2305	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-a.webp	36756	03a5a4fea78c8886c62880fa3e8d2e34a429b0f8b3b8b7d6d47066319d12be8a	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-b.webp	40408	e697c4dc96c1b7456e21f7b42425d1bc81a9798dd3b93667e46ad6d648915355	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-c.webp	21896	b145e01c94ded7dc0161ec7da72665a3cbf193532826600a33505a92e63d1589	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-d.webp	21778	2f8eb8618d4736bad9f027bc8c77d6b935cd5d4cb0556078dc36a11a5dace016	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-e.webp	27582	cb6d970f9b6752f97c756d34820a9aadd2b23b221f936623f0974457fb2f57fc	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-grove-a.webp	166674	b0473b26d4f3da2bbc53c968e7c1556a3927c52b92bbefff61c365336ac39fa5	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-grove-b.webp	162378	a5b84450c18443d909bab84f3fb6e7f47ccbd7719434d3345465c4e5652ec13d	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-round.webp	90992	0e98804a2b622aaeb92415fbc5654a0010b906ee7e8fb0ce7d90299efe74bc21	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-slim.webp	30994	26c0044cc2a9b971a1436d8ee2ca5d131fd564ffc0a7cb29417ce59bbdf60725	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-tall.webp	53732	7da2d8a886e2a9b42fa1d6588bf3afed59149020646c6e7c886d7a7405c3cf47	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tuft.webp	274138	f655a1b762a4cad22ab68778de5987073aa510afd8f0b7bdb4d6d406d7b13257	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-watering-can-st.webp	92666	04ecfea23ac170fba63711a1ab3faa4f5b7e144bee71779d69a7e976aed42ef2	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-watering-can.webp	34354	2a5d349f0c8ba6a3053b52e689cf28fd843766ce3b8be7dfd275eb4c9004d4c4	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-pour-st.webp	109932	7d4e6c27683ebef7615e1a0f8e99e9c6e4bc223489eff4474145682aeda3966b	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-pour.webp	127144	486c9e410fa04ed067a64f974ca2b69dce14080f7aa6dbb455c5f3f5521aea71	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-st.webp	112440	8515e2ca9be90079f5b366e8eee623e2a53f119cd5546b663ec1e04deaa68d54	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-tip-st.webp	113994	5dc18c854381aaa7b1bc7816cd7815c3a7aa175fe70f1103c4e300fc6e1bd86d	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-tip.webp	123724	7171d71d84af18f10724eae370df9adaf5c38c5927497d539425274dd278eece	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can.webp	129662	93edc0fd4a91fcbe6e805cb02a8e3d042f4e2664fc08ec997471098a12e7f097	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-a-st.webp	98598	c7a6594766a5f188ba2925b87171386e0d69be085406fb3faddceb31ee3496f5	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-a.webp	108154	e7a457d3f8828b36b5decffedc5e8e7fabfe383d713671cb380dea8556c5d3f4	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-b-st.webp	93888	d86336734a3e63c5b67cd3241c9bce415abe0c72986c221336ef3478b3b9db3c	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-b.webp	105386	caf348ee01c07871ea3cd6e572a69e4fc43e063a41ecfc0f59544e45c8ae2c84	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-c-st.webp	104216	2f451725075ce5e7a676f8bf8353b6a84123ff09e7c83b891ce425c7bca16a45	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-c.webp	114524	d536a4775d70afac70b77513509be137fe382e6d054880e5ee4927bf0eec3e2e	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/water-glint.webp	42624	5df894c92eebda6cdccf6a2abd808e0a707911fc2f08fd716a790c9547d9cd33	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/water-splash.webp	49984	3a4ce925d3ffec917d036ab594cbdb4961a5cfd85e05ece50e425e393cfabf91	book page-1 Moa frames
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/st-tree-round.webp	97924	3e87573ee0509df29274249eb58d0457c8f7cd9208eb20b51fbdf27f4139fc10	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sun-clay-st.webp	147328	b56ad2a2319f5fe7e1aadebc28c18ff94d0a89e05bccfeb71e9bd33284f9ab24	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sun-clay.webp	48326	c190a4f5a12061cf4d12f4c0d1af1a1838300dbd73e7156b5ba40e1d13b969b1	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sun-pencil-st.webp	70808	b8e0def864ed09270a39d9999586522274b3f59b7a4ed9e158630342468ca7ac	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sun-pencil.webp	25346	159d2ebca9128c9b5a1cd103cf7a9628ec97008e18b4be3c30abe07e446dfeb4	book page-1 Scoop Sky art
+repo/reader/v2-20261012/classic-book/books/bo-sky-island/visual-lock.json	3783	fc35d1f2817db4107effc703930cdd5f78ea5ce63a0661933e07a6cb3c11252b	book tone lock
 repo/reviews/20261025/room/cast-rig/before-grid-front-side.jpg	160846	fac96cabae44d7b9d831e38343db967e6d2dac1f1220d87d59cc2241ba96870b	cast evidence
 repo/reviews/20261025/room/cast-seam/before.txt	293	4242198105716b586bac86bfd2cd20d0523907f412495f60983917d1a82c2f9e	seam diagnosis evidence
 repo/reviews/20261025/room/cast-seam/faceseam.py	1068	0894658aa3dc8989e391ea4020ff270dc78984618670113118ca04ee0508d951	seam diagnosis evidence
@@ -196,20 +307,34 @@ repo/reviews/20261025/room/scoop-v9-look/shot-844x390-0.png	875024	38253021fc7df
 repo/reviews/20261025/room/scoop-v9-look/shot-844x390-1-cream-puff.png	865245	402f00d7928e03657cbffd0c6a8861d19e6c1045d807858ba504ad04e104ac96	current room capture
 repo/reviews/20261025/room/scoop-v9-look/shot-844x390-2-sky-plane.png	855587	f1b326ab0827e3008852f7bef350d5262efccdddd8630850a4c0776e8ffdf94d	current room capture
 repo/reviews/20261025/room/set-views/tree-pink.jpg	102344	9e282048c61588e2ebb20bcb198d8d4fe816609a8c84b719008bcc215c755cd7	set draft renders
+repo/reviews/20261025/room/stations/ball.jpg	266936	f4530d77e804e080692ea57e64255867bc820c12776d7fbee5a1d3a6e406c4b3	station captures
+repo/reviews/20261025/room/stations/book.jpg	143941	e1f5564adcdf5f2466f7ceda0d6ac22819eb9df11ee186d47b8edf5b48d2e5b0	station captures
+repo/reviews/20261025/room/stations/colours.jpg	295700	6d3e0bfdb163f17c0b201525ec0fa249991c4f237082da8c2d07e7dc14787e3b	station captures
+repo/reviews/20261025/room/stations/music.jpg	334435	254e917717dbe850c1005a47e0e3305a4fab453ee828bbfd173630e376904e5b	station captures
+repo/reviews/20261025/room/stations/numbers.jpg	264557	bf67f1cf0adf2cd3b38ce7aec770f22f533a355e5096bcf09a6ae5e8ca127693	station captures
+repo/reviews/20261026/astra-p1/p1-grid.jpg	573895	b01a061db5593a5e073c38c74281ba48a218df10ff932369a4bca4cde4cca259	book page-1 latest capture grid
+repo/reviews/workers/shadowsoft-20261026/user-phone-p1.jpg	1028047	b9ec12ff34c52273f2127f18b8a51bd55ba23a9d63abbdb24588075cbfc3c162	book page-1 phone capture
+repo/runtime_src/scoop_sky/activities/ball.mjs	3356	27ab6a46ceb459cbc1cf226b87fb28f3ac6cf9a81735caa73eb643b18d9c3873	runtime stations (read only)
+repo/runtime_src/scoop_sky/activities/book.mjs	902	5e9c77474b28baa2d913e8bcb766b1064baa796ea82c4ca234eef61fbe3c7916	runtime stations (read only)
+repo/runtime_src/scoop_sky/activities/colours.mjs	5038	3910b8d79bdef351fc252a2011b6ee0bc0c5d53693d4a03d16bc543bbe4c7d35	runtime stations (read only)
+repo/runtime_src/scoop_sky/activities/kit.mjs	6866	efee761ebc5d8b18153340efe617489cd8b4d92a29d748d783576e02cecb7cdf	runtime stations (read only)
+repo/runtime_src/scoop_sky/activities/music.mjs	3239	7a09c8af044fe5a6494f0a002a306070712fc20b5fa62fd0589b51f2d8ba3b29	runtime stations (read only)
+repo/runtime_src/scoop_sky/activities/numbers.mjs	3353	23cf914296b54588c9b5d05d8b962d25abf8d38fc96a8aca657e67107975b31f	runtime stations (read only)
 repo/runtime_src/scoop_sky/anim.mjs	18055	c014e1736cc7d6ac7611b9c537bf4a37b77768610bebd7424e98022624cf0da9	runtime (read only)
-repo/runtime_src/scoop_sky/bundle-manifest.json	1786	09e0915595645df2e84128dc740d436767add560f5ebb046c764140c2705328a	runtime (read only)
+repo/runtime_src/scoop_sky/bundle-manifest.json	3146	c7bb565a0f66466e17062c588f4e962440ab7da0ae9f690d334bd419ddaa245b	runtime (read only)
 repo/runtime_src/scoop_sky/layout.mjs	6263	34c0796ee75f7b02b0ff02b496b6542b9273fa0b933dcba283458bb3007fa611	runtime (read only)
-repo/runtime_src/scoop_sky/main.mjs	17584	d07c83ad5cca17beeb501a382a6c2107b3b101aee5aef671658b7e22a2129165	runtime (read only)
-repo/runtime_src/scoop_sky/moa.mjs	7945	31f323da39631383bcc43a1a0d61a70683c45aaf9ec4402cb89d8fdc162d651a	runtime (read only)
-repo/runtime_src/scoop_sky/props.json	14857	c9a85bbfd312b16b9160fe0f18277730dd6895ebf7c6f7ea51438ba92030c943	runtime (read only)
+repo/runtime_src/scoop_sky/main.mjs	18516	902d45c01153207752e8d763aebc147a4a15b7144a5180205d0d7029aba14d0b	runtime (read only)
+repo/runtime_src/scoop_sky/moa.mjs	9091	5540e59d36bd3197020df2c59002b5ef4ae9b3587202ebb4d6bc25b852369471	runtime (read only)
+repo/runtime_src/scoop_sky/props.json	16480	3dc25f4517637862a0ead7bf5770aa5bf972bce5148b25ac29d9ea09d7dcf959	runtime (read only)
 repo/runtime_src/scoop_sky/reactions.mjs	2447	288a0229fb39fadf304ae2ca0d197a7e1280a35c499f185a0d7f19b5ed1e219b	runtime (read only)
 repo/runtime_src/scoop_sky/reactions.selftest.mjs	10488	a1a8ae9515e0b1f45a78a44dec6f5a2b05c74acae1bcb9c61c7da5e650036767	runtime (read only)
 repo/runtime_src/scoop_sky/scoop.css	322	cf6e199e2b0ea5649bba2a058925e1e4927b87d1bb467bf7a2f20600da332519	runtime (read only)
 repo/runtime_src/scoop_sky/shade.mjs	3016	dfed45e8008c2b8d669b0637790026f4e26d57f9d25d7684c2d9bbe5389f4db1	runtime (read only)
-repo/runtime_src/scoop_sky/sound.mjs	4282	045874bf8d45aafd46d0eb374f371cf8c4023cd75ea9f1264640120ea0e75f79	runtime (read only)
-repo/runtime_src/scoop_sky/stations.mjs	23860	ff37b9d75c1e952aae114ede991eb3e38ccd152f5649e9812a3990765c6df477	runtime (read only)
+repo/runtime_src/scoop_sky/sound.mjs	5078	75a05ef67f0d06861a1b13e1a26441a88772f97000ffe88cab466c96cfd3bab7	runtime (read only)
+repo/runtime_src/scoop_sky/stations.mjs	26490	e439c25e70ff24df2a23dc05d3e0afc731bf0136dbfb39fed151449c5f7d9844	runtime (read only)
+repo/runtime_src/scoop_sky/stations.selftest.mjs	19332	5bac49f636054c81e2664e5b10922f7bbef655986d64a33b1093bf993d3a4d1f	runtime (read only)
 repo/runtime_src/scoop_sky/world.mjs	23466	6846b32765560bcb0d695d50f4972eaa53f836110ef163462e0bebfe0e559342	runtime (read only)
-repo/skills/stargarden-room-delivery/references/scoop-room.md	14616	b5acabcd9679e812117d706191c9c4d9c3651eb07a7db396c107494511ffbdde	room rules
+repo/skills/stargarden-room-delivery/references/scoop-room.md	17647	365a1afd78c709e317af2a1c8d5b4df82c7a51b0ca0b56244f9bfddffc8dcfab	room rules
 repo/tool/room_cast_build.py	45827	5dddd460704c4e70f941029e0d01077f4ab02da76a74961060d552af0c6198e3	cast script (never run)
 repo/tool/room_env_build.py	78223	3d2bdf9c29e3b2eb46b693765d82105578e3d9b983f2ee58fc90624cfe3aee61	env script (draft)
 repo/tool/room_look_sheet.py	2547	9ca285771ddfa2fe937970a7847263d20a4480a0134416f48f0ccca5ef348dea	plate compare sheet

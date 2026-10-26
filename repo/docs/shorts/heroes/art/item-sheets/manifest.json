@@ -1,0 +1,14 @@
+{
+  "plan_sha256": "3cdfaf58c743e975762c3f092a5f81cde9ab0a8230edc71c2f0e52963a7cbb91",
+  "backend": "codex",
+  "completed": {},
+  "status": "failed",
+  "total": 4,
+  "pid": 1104971,
+  "updated_at": 1792928189.98579,
+  "errors": {
+    "piyo": "launcher exited 2; inspect worker.log before resuming",
+    "popo": "launcher exited 2; inspect worker.log before resuming"
+  },
+  "running": []
+}

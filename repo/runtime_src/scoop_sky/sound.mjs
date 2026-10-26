@@ -17,6 +17,14 @@ const SFX = {
 };
 export const NOTE_HZ = [523.25, 587.33, 659.25, 783.99, 880.0];
 const WORD_DIR = 'reader/v2-20261012/classic-book/books/bo-sky-island/words/en/';
+// stations (w7): the room's own words (same storyteller voice, assets/room/voice/en/) are listed here so no fetch ever 404s;
+// every other word is a book word. stations.selftest.mjs checks each listed word has its file (else lists it as pending).
+export const BOOK_WORD_DIR = WORD_DIR;
+export const ROOM_WORD_DIR = 'assets/room/voice/en/';
+export const ROOM_WORDS = new Set(['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen',
+  'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty', 'red', 'blue', 'yellow', 'green', 'pink', 'purple', 'orange',
+  'white', 'ball', 'kick', 'book', 'music', 'yay']);
+export const wordPath = (w) => (ROOM_WORDS.has(w) ? ROOM_WORD_DIR : WORD_DIR) + w + '.mp3';   // stations
 
 export function createSound({ assetUrl, post }) {
   let ctx = null; let master = null; let muted = false;
@@ -77,7 +85,7 @@ export function createSound({ assetUrl, post }) {
 
   function word(w, delayMs = 220) {
     if (muted || !ctx || !w) return;
-    const path = WORD_DIR + w + '.mp3';
+    const path = wordPath(w);   // stations
     load(path).then((b) => {
       if (!b || muted) return;
       setTimeout(() => {

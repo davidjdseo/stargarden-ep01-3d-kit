@@ -9,7 +9,7 @@
 //   box  = host + c*box.dist, w along r, d along c, shifted along r until it lies on the walkable lawn;
 //   slots = the activity's maxTargets evenly across the box; each slot's hit sphere projects HIT_PX wide at the design
 //           viewport (>= TARGET_PX = design/tokens.json size.targetChild), capped at HIT_FILL of the slot spacing.
-import { groundFootprints, setOccluders, projector, MIN_GAP_M } from './layout.mjs';
+import { groundFootprints, setOccluders, projector, screenBox, MIN_GAP_M, MAX_COVER } from './layout.mjs';
 import { createNavGrid, findPath, isFree } from '../aquarium_cafe/nav_core.mjs';
 import { QUESTS, nextLevel } from '../aquarium_cafe/room_core.mjs';
 import book from './activities/book.mjs';
@@ -26,6 +26,7 @@ export const DESIGN_VP = [844, 390];
 export const VIEWPORTS = [[844, 390], [1280, 800], [390, 844]];
 export const SPOT_PAD = 0.15;
 export const SLOT_Y = 0.3;
+export const PIECE_M = [0.7, 0.3];   // a visual play piece (kit.mjs TOY-scaled): height, half width
 export const GREET = 'wave';
 export const CHEER = 'dance';
 export const MS = { greet: 1000, celebrate: 1800, fold: 2000, foldFade: 350 };
@@ -66,11 +67,28 @@ export function navGrid(PROPS) {
 export const planPath = (PROPS, from, to) => findPath(navGrid(PROPS), { x: from[0], z: from[1] }, { x: to[0], z: to[1] });
 export const spotFree = (PROPS, p) => isFree(navManifest(PROPS), p[0], p[1], clearanceM(PROPS));
 
+/**
+ * Clip plan for a host: the GLB clip when it has one by that name, else the host's own procedural reaction (anim.mjs KIND_ANIM,
+ * squash + kind move on the prop root). Moa: its clip, else a procedural gesture moa.mjs always has (wave/jump/sway/dance).
+ */
+export const MOA_PROCEDURAL = ['wave', 'jump', 'sway', 'dance'];
+export function hostPlan(entry, hasClip, name) { return hasClip(name) ? { clip: name } : { procedural: entry.reaction, squash: name === CHEER ? 1.4 : 0.8, combo: name === CHEER }; }
+export function moaPlan(gestureClips, name) { return gestureClips?.[name] ? { clip: name } : { procedural: MOA_PROCEDURAL.includes(name) ? name : MOA_FALLBACK[name] || 'jump' }; }
+
 function slotHitR(P, W, x, y, z, r, spacing) {
   const a = P([x - r[0] * 0.5, y, z - r[1] * 0.5]); const b = P([x + r[0] * 0.5, y, z + r[1] * 0.5]);
   const pxPerM = Math.abs(b[0] - a[0]) * W / 2;
   const want = (HIT_PX / 2) / pxPerM;
   return Math.min(want, spacing * HIT_FILL);
+}
+
+/** Icon bubble centre: above the host; lowered (down to the host's middle) until it is inside the design frame. */
+export function iconPos(PROPS, st) {
+  const h = hostOf(PROPS, st); const s = st.icon_m || 0.5; const y0 = (h.y || 0) + h.height_m + 0.3 + s * 0.5;
+  const P = projector(PROPS.camera, DESIGN_VP[0] / DESIGN_VP[1]);
+  let y = y0;
+  while (y > (h.y || 0) + h.height_m * 0.5 && P([h.pos[0], y + s * 0.5, h.pos[1]])[1] > 0.9) y -= 0.05;
+  return [h.pos[0], y, h.pos[1]];
 }
 
 /** Everything a station needs in world space. Pure; same numbers in node and in the browser. */
@@ -88,17 +106,32 @@ export function stationGeometry(PROPS, st) {
   const { w, d } = st.box; const walk = PROPS.island.walk_radius_m;
   const base = [hx + c[0] * st.box.dist, hz + c[1] * st.box.dist];
   const inside = (s) => [-0.5, 0.5].every((u) => [-0.5, 0.5].every((v) => hyp(base[0] + r[0] * (s + u * w) + c[0] * v * d, base[1] + r[1] * (s + u * w) + c[1] * v * d) <= walk));
-  const toward = -Math.sign(base[0] * r[0] + base[1] * r[1]) || 1;
-  let shift = 0;
-  for (let k = 0; k <= 120 && !inside(shift); k++) shift = toward * k * 0.05;
-  const centre = [base[0] + r[0] * shift, base[1] + r[1] * shift];
-  const at = (u, v = 0) => [centre[0] + r[0] * u * w + c[0] * v * d, centre[1] + r[1] * u * w + c[1] * v * d];
   const P = projector(PROPS.camera, DESIGN_VP[0] / DESIGN_VP[1]);
   const n = act.maxTargets; const spacing = w / n;
+  // shift along screen-right: the smallest |shift| that keeps the box on the lawn AND leaves the host visible (its pieces cover
+  // <= MAX_COVER of it on screen; 2026-10-25 capture: a 5-bar row centred on Piyo hid Piyo); fit-only when nothing does both
+  const hb = screenBox(P, hx, h.y || 0, hz, h.height_m, ...(h.half_wd || [footOf(h), footOf(h)]));
+  const hostCover = (sh) => Math.max(0, ...Array.from({ length: n }, (_, i) => {
+    const u = -0.5 + (i + 0.5) / n; const x = base[0] + r[0] * (sh + u * w); const z = base[1] + r[1] * (sh + u * w);
+    const b = screenBox(P, x, 0, z, PIECE_M[0], PIECE_M[1], PIECE_M[1]); if (b.depth >= hb.depth) return 0;
+    const ow = Math.min(b.x1, hb.x1) - Math.max(b.x0, hb.x0); const oh = Math.min(b.y1, hb.y1) - Math.max(b.y0, hb.y0);
+    return ow > 0 && oh > 0 ? (ow * oh) / ((hb.x1 - hb.x0) * (hb.y1 - hb.y0)) : 0;
+  }));
+  const toward = -Math.sign(base[0] * r[0] + base[1] * r[1]) || 1;
+  let shift = null; let fitOnly = null;
+  for (let k = 0; k <= 160 && shift === null; k++) for (const sg of k ? [toward, -toward] : [1]) {
+    const sh = sg * k * 0.05; if (!inside(sh)) continue;
+    if (fitOnly === null) fitOnly = sh;
+    if (hostCover(sh) <= MAX_COVER) { shift = sh; break; }
+  }
+  if (shift === null) shift = fitOnly ?? 0;
+  const centre = [base[0] + r[0] * shift, base[1] + r[1] * shift];
+  const at = (u, v = 0) => [centre[0] + r[0] * u * w + c[0] * v * d, centre[1] + r[1] * u * w + c[1] * v * d];
   const slots = [];
   for (let i = 0; i < n; i++) {
     const [x, z] = at(-0.5 + (i + 0.5) / n, 0);
-    slots.push({ i, x, y: SLOT_Y, z, hitR: slotHitR(P, DESIGN_VP[0], x, SLOT_Y, z, r, n > 1 ? spacing : Math.min(w, d * 2)) });
+    const hitR = slotHitR(P, DESIGN_VP[0], x, SLOT_Y, z, r, n > 1 ? spacing : Math.min(w, d * 2));
+    slots.push({ i, x, y: Math.max(SLOT_Y, hitR), z, hitR });   // the hit sphere rests on the lawn (its screen box never hangs below it)
   }
   return { ...geo, box: { centre, w, d, shift, fits: inside(shift) }, slots, at, spacing };
 }
@@ -219,17 +252,17 @@ export function createStations(ctx) {
   }
   function hostPlay(prop, name, variant = 0) {
     const p = clips.get(prop.id);
-    if (p?.play(name)) return 'clip';
-    const fn = ctx.KIND_ANIM[prop.entry.reaction];
-    A.squash(prop.squash, name === CHEER ? 1.4 : 0.8, `${prop.id}:squash`);
-    if (fn) fn(A, prop, { variant, combo: name === CHEER });
+    const plan = hostPlan(prop.entry, (n) => !!p?.has(n), name);
+    if (plan.clip && p.play(name)) return 'clip';
+    const fn = ctx.KIND_ANIM[plan.procedural || prop.entry.reaction];
+    A.squash(prop.squash, plan.squash || 0.8, `${prop.id}:squash`);
+    try { fn?.(A, prop, { variant, combo: !!plan.combo }); } catch (err) { console.warn('[scoop] station move', prop.id, name, err); }
     return 'procedural';
   }
   function moaPlay(name) {
     const moa = ctx.moa(); if (!moa) return null;
-    if (moa.clipInfo?.gestures?.[name]) return moa.gesture(name);
-    const fb = MOA_FALLBACK[name] || name;
-    return moa.gesture(fb);
+    const plan = moaPlan(moa.clipInfo?.gestures, name);
+    return moa.gesture(plan.clip || plan.procedural);
   }
 
   // ---- icon bubbles over every station host (quiet, always there; pulse on tap) + hidden accessible buttons
@@ -242,7 +275,7 @@ export function createStations(ctx) {
       const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace;
       const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: tex, transparent: true, opacity: 0.92, depthWrite: false, toneMapped: false }));
       const s = st.icon_m || 0.5; sp.scale.set(s, s, 1);
-      const base = V(prop.anchor.position.x, prop.anchor.position.y + prop.entry.height_m + 0.3 + s * 0.5, prop.anchor.position.z);
+      const base = V(...iconPos(PROPS, st)); base.y += prop.anchor.position.y - (prop.entry.y || 0);
       sp.position.copy(base); sp.renderOrder = 5;
       scene.add(sp);
       icons.set(st.id, { sp, base, s, ph: Math.random() * 6 });

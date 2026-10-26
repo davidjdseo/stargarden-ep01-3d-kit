@@ -193,6 +193,7 @@ function propSound(prop, r, ctx) {
 }
 
 function tapProp(id, point) {
+  const sta = stations.onTap(id, point); if (sta) return sta; // stations
   const prop = propById.get(id);
   if (!prop) return null;
   const r = reactions.tap(id);
@@ -206,7 +207,7 @@ function tapProp(id, point) {
   const out = react(A, prop, r, ctx);
   propSound(prop, r, ctx);
   if (out.waterAfterMs && ctx.target) later(out.waterAfterMs, () => water(ctx.target));
-  if (out.routeAfterMs && prop.entry.route) {
+  if (out.routeAfterMs && prop.entry.route && !stations.ownsRoute(id)) { // stations
     const now = performance.now();
     if (now > routeLock) {
       routeLock = now + 2500;
@@ -248,6 +249,7 @@ function tapMoa() {
 }
 
 function tapGround(point) {
+  stations.onGround(); // stations
   taps.push({ id: 'ground', kind: 'walk', t: Math.round(performance.now()) });
   A.sparkle(point.clone().setY(point.y + 0.05), 6, [0xffffff, 0xbfe9d6, 0xffc2d6]);
   sound.sfx('tap', { gain: 0.6 });
@@ -304,6 +306,7 @@ window.__scoop = {
   tap(id) {
     if (!state.ready) return null;
     if (id === 'moa') return tapMoa();
+    if (stations.has(id)) return stations.tapId(id); // stations
     const p = propById.get(id);
     if (!p) return null;
     return tapProp(id, p.anchor.localToWorld(new THREE.Vector3(0, p.entry.height_m * 0.6, 0)));
@@ -318,6 +321,17 @@ window.__scoop = {
     };
   },
 };
+
+// ---- stations (w7): tap a place or a friend -> Moa walks there -> play (stations.mjs, props.json stations) -- BEGIN
+import { createStations } from './stations.mjs';
+import { friendClips } from './moa.mjs';
+const stations = createStations({
+  THREE, PROPS, scene, canvas, A, KIND_ANIM, SPRINKLES, sound, post, pickables, propById, friendClips,
+  moa: () => moa, groundY: (x, z) => groundY(x, z, ISLAND.radius_m), reduced: () => state.reduced,
+});
+{ const hostReceive = window.sgHostReceive; window.sgHostReceive = (c) => { if (!stations.receive(c)) hostReceive(c); }; }
+window.__scoop.stations = () => stations.state();
+// ---- stations (w7) -- END
 
 // ---------------------------------------------------------------- loading
 async function boot() {
@@ -344,7 +358,7 @@ async function boot() {
   for (const entry of PROPS.props) {
     const g = entry.glb ? loaded.get(entry.glb) : null;
     if (entry.glb && !g) { missing.push(entry.id); console.warn('[scoop] missing', entry.id); }
-    buildProp(entry, g);
+    stations.attach(buildProp(entry, g), g); // stations
   }
   const moaGltf = await moaLoad;
   if (moaGltf) calibrateLook(moaGltf.scene, GLB_MULT, PROPS.look.emissive_offset);
@@ -386,6 +400,7 @@ function frame(now) {
   }
   if (moa) faceFriends(dt);
   moa?.update(dt, state.reduced);
+  stations.update(dt); // stations
   renderer.render(scene, camera);
   if (!state.ready && moa) {
     state.ready = true;

@@ -1,0 +1,1389 @@
+{
+ "version": 2,
+ "note": "W71/W77 painted cutouts (no white border) per backdrop art id (optional '<id>@<page>' = per-page override on a shared plate); depth via dz. See super-storybook references/backdrop-walls.md",
+ "backdrops": {
+  "pano-hill-calm": {
+   "stickers": [
+    {
+     "file": "art/pt-house.webp",
+     "nx": 0.885,
+     "ny": 0.45,
+     "w": 0.085,
+     "dz": 0.06,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-tree-tall.webp",
+     "nx": 0.98,
+     "ny": 0.45,
+     "w": 0.04,
+     "dz": 0.05,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-tree-slim.webp",
+     "nx": 0.998,
+     "ny": 0.44,
+     "w": 0.036,
+     "dz": 0.07,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-pcloud-a.webp",
+     "nx": 0.228,
+     "ny": 0.778,
+     "w": 0.235,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-pcloud-c.webp",
+     "nx": 0.748,
+     "ny": 0.569,
+     "w": 0.17,
+     "dz": 0.09,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-pcloud-b.webp",
+     "nx": 0.896,
+     "ny": 0.751,
+     "w": 0.188,
+     "dz": 0.14,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-mailbox.webp",
+     "nx": 0.78,
+     "ny": 0,
+     "w": 0.075,
+     "dz": 0.26,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-fence.webp",
+     "nx": 0.875,
+     "ny": 0,
+     "w": 0.16,
+     "dz": 0.24,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-pinwheel.webp",
+     "nx": 0.9,
+     "ny": 0,
+     "w": 0.055,
+     "dz": 0.18,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-bush-pink.webp",
+     "nx": 1.0,
+     "ny": 0,
+     "w": 0.26,
+     "dz": 0.5,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-watering-can.webp",
+     "nx": 1.01,
+     "ny": 0,
+     "w": 0.14,
+     "dz": 0.64,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-flower-daisy.webp",
+     "nx": 0.213,
+     "ny": -0.202,
+     "w": 0.083,
+     "dz": 0.2,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-flower-pink.webp",
+     "nx": 0.368,
+     "ny": -0.352,
+     "w": 0.105,
+     "dz": 0.34,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-rock.webp",
+     "nx": 0.168,
+     "ny": -0.348,
+     "w": 0.124,
+     "dz": 0.45,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-tuft.webp",
+     "nx": 0.819,
+     "ny": -0.378,
+     "w": 0.158,
+     "dz": 0.56,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.161,
+     "ny": 0.333,
+     "w": 0.025,
+     "dz": 0.08,
+     "anchor": "c",
+     "shadow": false
+    }
+   ],
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   }
+  },
+  "pano-hill-ring-calm": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-tree-tall.webp",
+     "nx": 0.96,
+     "ny": 0.43,
+     "w": 0.04,
+     "dz": 0.05,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-tree-slim.webp",
+     "nx": 0.985,
+     "ny": 0.42,
+     "w": 0.036,
+     "dz": 0.07,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-ring.webp",
+     "nx": 0.626,
+     "ny": 0.453,
+     "w": 0.362,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-pcloud-d.webp",
+     "nx": 0.154,
+     "ny": 0.769,
+     "w": 0.217,
+     "dz": 0.07,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-flower-daisy.webp",
+     "nx": 0.392,
+     "ny": -0.102,
+     "w": 0.102,
+     "dz": 0.22,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-rock.webp",
+     "nx": 0.835,
+     "ny": -0.172,
+     "w": 0.143,
+     "dz": 0.34,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-bush-bloom.webp",
+     "nx": -0.043,
+     "ny": -0.188,
+     "w": 0.203,
+     "dz": 0.3,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-tuft.webp",
+     "nx": 0.262,
+     "ny": -0.285,
+     "w": 0.23,
+     "dz": 0.5,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-flower-pink.webp",
+     "nx": 1.046,
+     "ny": -0.216,
+     "w": 0.182,
+     "dz": 0.58,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.242,
+     "ny": 0.682,
+     "w": 0.028,
+     "dz": 0.04,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.856,
+     "ny": 0.715,
+     "w": 0.033,
+     "dz": 0.1,
+     "anchor": "c",
+     "shadow": false
+    }
+   ]
+  },
+  "pano-sea-calm@3": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-pcloud-c.webp",
+     "nx": 0.11,
+     "ny": 0.52,
+     "w": 0.148,
+     "dz": 0.12,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cwisp.webp",
+     "nx": 0.763,
+     "ny": 0.376,
+     "w": 0.169,
+     "dz": 0.14,
+     "anchor": "b",
+     "shadow": false,
+     "puppetOwn": 4
+    },
+    {
+     "file": "art/pt-cmid.webp",
+     "nx": -0.039,
+     "ny": 0.175,
+     "w": 0.231,
+     "dz": 0.27,
+     "anchor": "b",
+     "shadow": 0.25,
+     "puppetOwn": 1
+    },
+    {
+     "file": "art/pt-cmound-big.webp",
+     "nx": 0.809,
+     "ny": 0.066,
+     "w": 0.225,
+     "dz": 0.5,
+     "anchor": "b",
+     "shadow": 0.3,
+     "puppetOwn": 3
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.127,
+     "ny": 0.75,
+     "w": 0.023,
+     "dz": 0.05,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.602,
+     "ny": 0.797,
+     "w": 0.027,
+     "dz": 0.08,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.816,
+     "ny": 0.653,
+     "w": 0.031,
+     "dz": 0.18,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": -0.037,
+     "ny": 0.575,
+     "w": 0.033,
+     "dz": 0.32,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-puff-a.webp",
+     "nx": 0.16,
+     "ny": 0.386695341,
+     "w": 0.12,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-puff-b.webp",
+     "nx": 0.9,
+     "ny": 0.397777778,
+     "w": 0.1,
+     "dz": 0.06,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-big.webp",
+     "nx": 0,
+     "ny": -0.090000000,
+     "w": 0.27,
+     "dz": 0.55,
+     "anchor": "b",
+     "shadow": 0.3,
+     "puppetOwn": 2
+    }
+   ]
+  },
+  "pano-sea-calm@4": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-pcloud-c.webp",
+     "nx": 0.064,
+     "ny": 0.518,
+     "w": 0.146,
+     "dz": 0.12,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cwisp.webp",
+     "nx": 0.713,
+     "ny": 0.375,
+     "w": 0.166,
+     "dz": 0.14,
+     "anchor": "b",
+     "shadow": false,
+     "puppetOwn": 4
+    },
+    {
+     "file": "art/pt-cmid.webp",
+     "nx": -0.039,
+     "ny": 0.149,
+     "w": 0.229,
+     "dz": 0.27,
+     "anchor": "b",
+     "shadow": 0.25,
+     "puppetOwn": 1
+    },
+    {
+     "file": "art/pt-cmound-big.webp",
+     "nx": 0.731,
+     "ny": 0.043,
+     "w": 0.222,
+     "dz": 0.5,
+     "anchor": "b",
+     "shadow": 0.3,
+     "puppetOwn": 3
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.057,
+     "ny": 0.718,
+     "w": 0.023,
+     "dz": 0.05,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.527,
+     "ny": 0.765,
+     "w": 0.027,
+     "dz": 0.08,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.74,
+     "ny": 0.623,
+     "w": 0.031,
+     "dz": 0.18,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": -0.046,
+     "ny": 0.545,
+     "w": 0.033,
+     "dz": 0.32,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-puff-a.webp",
+     "nx": 0.86,
+     "ny": 0.396695341,
+     "w": 0.12,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-puff-b.webp",
+     "nx": 0.12,
+     "ny": 0.367777778,
+     "w": 0.1,
+     "dz": 0.06,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-big.webp",
+     "nx": -0.03,
+     "ny": -0.083333333,
+     "w": 0.25,
+     "dz": 0.55,
+     "anchor": "b",
+     "shadow": 0.3,
+     "puppetOwn": 2
+    }
+   ]
+  },
+  "pano-sea-calm@5": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-cstrip-a.webp",
+     "nx": 0.482,
+     "ny": 0.446,
+     "w": 0.627,
+     "dz": 0.04,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cstrip-b.webp",
+     "nx": 0.98,
+     "ny": 0.445,
+     "w": 0.478,
+     "dz": 0.045,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.555,
+     "ny": 0.747,
+     "w": 0.023,
+     "dz": 0.05,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.98,
+     "ny": 0.794,
+     "w": 0.027,
+     "dz": 0.08,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.98,
+     "ny": 0.653,
+     "w": 0.03,
+     "dz": 0.18,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": 0.394,
+     "ny": 0.576,
+     "w": 0.032,
+     "dz": 0.32,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-rainbow.webp",
+     "nx": 0.58,
+     "ny": 0.36,
+     "w": 0.62,
+     "dz": 0.07,
+     "anchor": "b",
+     "shadow": false,
+     "puppetOwn": 1
+    },
+    {
+     "file": "art/pt-rcloud-m.webp",
+     "nx": 0.27,
+     "ny": 0.34,
+     "w": 0.16,
+     "dz": 0.09,
+     "anchor": "b",
+     "shadow": false,
+     "puppetOwn": 2
+    },
+    {
+     "file": "art/pt-rcloud-s.webp",
+     "nx": 0.89,
+     "ny": 0.314811345,
+     "w": 0.11,
+     "dz": 0.095,
+     "anchor": "b",
+     "shadow": false,
+     "puppetOwn": 3
+    },
+    {
+     "file": "art/pt-cloud-big.webp",
+     "nx": 0.3,
+     "ny": -0.083333333,
+     "w": 0.25,
+     "dz": 0.55,
+     "anchor": "b",
+     "shadow": 0.3
+    },
+    {
+     "file": "art/pt-cwisp.webp",
+     "nx": 0.98,
+     "ny": 0.289,
+     "w": 0.167,
+     "dz": 0.14,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cmid.webp",
+     "nx": 1.043,
+     "ny": -0.008,
+     "w": 0.19,
+     "dz": 0.3,
+     "anchor": "b",
+     "shadow": 0.25
+    }
+   ]
+  },
+  "pano-sea-calm@6": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-cstrip-a.webp",
+     "nx": 0.436,
+     "ny": 0.446,
+     "w": 0.608,
+     "dz": 0.04,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cstrip-b.webp",
+     "nx": 0.98,
+     "ny": 0.445,
+     "w": 0.463,
+     "dz": 0.045,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.378,
+     "ny": 0.715,
+     "w": 0.022,
+     "dz": 0.05,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.837,
+     "ny": 0.761,
+     "w": 0.026,
+     "dz": 0.08,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.98,
+     "ny": 0.622,
+     "w": 0.03,
+     "dz": 0.18,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": 0.222,
+     "ny": 0.546,
+     "w": 0.032,
+     "dz": 0.32,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-rainbow.webp",
+     "nx": 0.22,
+     "ny": 0.36,
+     "w": 0.65,
+     "dz": 0.07,
+     "anchor": "b",
+     "shadow": false,
+     "puppetOwn": 1
+    },
+    {
+     "file": "art/pt-rcloud-s.webp",
+     "nx": -0.02,
+     "ny": 0.317101223,
+     "w": 0.1,
+     "dz": 0.09,
+     "anchor": "b",
+     "shadow": false,
+     "puppetOwn": 3
+    },
+    {
+     "file": "art/pt-rcloud-m.webp",
+     "nx": 0.54,
+     "ny": 0.34,
+     "w": 0.15,
+     "dz": 0.095,
+     "anchor": "b",
+     "shadow": false,
+     "puppetOwn": 2
+    },
+    {
+     "file": "art/pt-cmid.webp",
+     "nx": 0.133,
+     "ny": 0.16,
+     "w": 0.223,
+     "dz": 0.27,
+     "anchor": "b",
+     "shadow": 0.25
+    },
+    {
+     "file": "art/pt-cmound-big.webp",
+     "nx": 1.034,
+     "ny": 0.059,
+     "w": 0.216,
+     "dz": 0.5,
+     "anchor": "b",
+     "shadow": 0.3
+    }
+   ]
+  },
+  "pano-sea-calm@7": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-cstrip-a.webp",
+     "nx": 0.151,
+     "ny": 0.443,
+     "w": 0.648,
+     "dz": 0.04,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cstrip-b.webp",
+     "nx": 0.773,
+     "ny": 0.441,
+     "w": 0.493,
+     "dz": 0.045,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.25,
+     "ny": 0.705,
+     "w": 0.023,
+     "dz": 0.05,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.736,
+     "ny": 0.754,
+     "w": 0.028,
+     "dz": 0.08,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.956,
+     "ny": 0.607,
+     "w": 0.032,
+     "dz": 0.18,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": 0.081,
+     "ny": 0.526,
+     "w": 0.034,
+     "dz": 0.32,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-puff-a.webp",
+     "nx": 0.16,
+     "ny": 0.386695341,
+     "w": 0.12,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-puff-b.webp",
+     "nx": 0.92,
+     "ny": 0.397777778,
+     "w": 0.1,
+     "dz": 0.06,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-big.webp",
+     "nx": 0,
+     "ny": -0.090000000,
+     "w": 0.27,
+     "dz": 0.55,
+     "anchor": "b",
+     "shadow": 0.3,
+     "puppetOwn": 1
+    },
+    {
+     "file": "art/pt-pcloud-c.webp",
+     "nx": 0.095,
+     "ny": 0.518,
+     "w": 0.152,
+     "dz": 0.12,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cmid.webp",
+     "nx": -0.013,
+     "ny": 0.115,
+     "w": 0.237,
+     "dz": 0.27,
+     "anchor": "b",
+     "shadow": 0.25,
+     "puppetOwn": 2
+    },
+    {
+     "file": "art/pt-cmound-big.webp",
+     "nx": 0.956,
+     "ny": 0.002,
+     "w": 0.232,
+     "dz": 0.5,
+     "anchor": "b",
+     "shadow": 0.3,
+     "puppetOwn": 3
+    }
+   ]
+  },
+  "pano-sea-calm@8": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-cstrip-a.webp",
+     "nx": 0.238,
+     "ny": 0.444,
+     "w": 0.611,
+     "dz": 0.04,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cstrip-b.webp",
+     "nx": 0.832,
+     "ny": 0.444,
+     "w": 0.464,
+     "dz": 0.045,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.34,
+     "ny": 0.73,
+     "w": 0.022,
+     "dz": 0.05,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.796,
+     "ny": 0.776,
+     "w": 0.026,
+     "dz": 0.08,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.98,
+     "ny": 0.638,
+     "w": 0.03,
+     "dz": 0.18,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": 0.186,
+     "ny": 0.563,
+     "w": 0.032,
+     "dz": 0.32,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-puff-a.webp",
+     "nx": 0.14,
+     "ny": 0.396695341,
+     "w": 0.12,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cloud-puff-b.webp",
+     "nx": 0.9,
+     "ny": 0.377777778,
+     "w": 0.1,
+     "dz": 0.06,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-pcloud-c.webp",
+     "nx": 0.152,
+     "ny": 0.519,
+     "w": 0.143,
+     "dz": 0.12,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cwisp.webp",
+     "nx": 0.918,
+     "ny": 0.594,
+     "w": 0.158,
+     "dz": 0.15,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-cmid.webp",
+     "nx": 0.097,
+     "ny": 0.18,
+     "w": 0.221,
+     "dz": 0.27,
+     "anchor": "b",
+     "shadow": 0.25
+    },
+    {
+     "file": "art/pt-cmound-big.webp",
+     "nx": 0.662,
+     "ny": 0.064,
+     "w": 0.209,
+     "dz": 0.5,
+     "anchor": "b",
+     "shadow": 0.3
+    }
+   ]
+  },
+  "pano-dusk-calm@9": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-dtree-tall.webp",
+     "nx": 0.93,
+     "ny": 0.42,
+     "w": 0.03,
+     "dz": 0.05,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dtree-round.webp",
+     "nx": 0.985,
+     "ny": 0.44,
+     "w": 0.05,
+     "dz": 0.06,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dcloud-a.webp",
+     "nx": 0.126,
+     "ny": 0.662,
+     "w": 0.212,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-dcloud-b.webp",
+     "nx": 0.873,
+     "ny": 0.604,
+     "w": 0.165,
+     "dz": 0.07,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-dshrub.webp",
+     "nx": 0.548,
+     "ny": 0.419,
+     "w": 0.104,
+     "dz": 0.07,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dtuft.webp",
+     "nx": 0.98,
+     "ny": 0.3,
+     "w": 0.108,
+     "dz": 0.16,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-dflower.webp",
+     "nx": 0.941,
+     "ny": 0.212,
+     "w": 0.078,
+     "dz": 0.3,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-drock.webp",
+     "nx": 1.053,
+     "ny": 0.264,
+     "w": 0.122,
+     "dz": 0.42,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-dtuft.webp",
+     "nx": 0.323,
+     "ny": 0.267,
+     "w": 0.152,
+     "dz": 0.52,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.448,
+     "ny": 0.922,
+     "w": 0.018,
+     "dz": 0.04,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.834,
+     "ny": 0.947,
+     "w": 0.022,
+     "dz": 0.07,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.98,
+     "ny": 0.848,
+     "w": 0.023,
+     "dz": 0.15,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-e.webp",
+     "nx": 0.324,
+     "ny": 0.807,
+     "w": 0.025,
+     "dz": 0.28,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": 0.665,
+     "ny": 0.875,
+     "w": 0.02,
+     "dz": 0.06,
+     "anchor": "c",
+     "shadow": false
+    }
+   ]
+  },
+  "pano-dusk-calm@10": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-dtree-tall.webp",
+     "nx": 0.9,
+     "ny": 0.42,
+     "w": 0.03,
+     "dz": 0.05,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dtree-round.webp",
+     "nx": 0.96,
+     "ny": 0.43,
+     "w": 0.05,
+     "dz": 0.06,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dcloud-a.webp",
+     "nx": 0.126,
+     "ny": 0.662,
+     "w": 0.212,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-dcloud-b.webp",
+     "nx": 0.873,
+     "ny": 0.604,
+     "w": 0.165,
+     "dz": 0.07,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-dshrub.webp",
+     "nx": 0.92,
+     "ny": 0.345,
+     "w": 0.124,
+     "dz": 0.07,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dfence.webp",
+     "nx": 0.42,
+     "ny": 0.03,
+     "w": 0.13,
+     "dz": 0.15,
+     "anchor": "b",
+     "shadow": 0.5
+    },
+    {
+     "file": "art/pt-dflower.webp",
+     "nx": 0.219,
+     "ny": -0.188,
+     "w": 0.091,
+     "dz": 0.22,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-dpebbles.webp",
+     "nx": 0.48,
+     "ny": -0.206,
+     "w": 0.098,
+     "dz": 0.3,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-drock.webp",
+     "nx": 0.895,
+     "ny": -0.223,
+     "w": 0.143,
+     "dz": 0.38,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-dtuft.webp",
+     "nx": 0.2,
+     "ny": -0.1,
+     "w": 0.15,
+     "dz": 0.55,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.342,
+     "ny": 0.568,
+     "w": 0.021,
+     "dz": 0.04,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.8,
+     "ny": 0.599,
+     "w": 0.026,
+     "dz": 0.07,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.98,
+     "ny": 0.481,
+     "w": 0.027,
+     "dz": 0.15,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-e.webp",
+     "nx": 0.182,
+     "ny": 0.433,
+     "w": 0.03,
+     "dz": 0.28,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": 0.599,
+     "ny": 0.513,
+     "w": 0.024,
+     "dz": 0.06,
+     "anchor": "c",
+     "shadow": false
+    }
+   ]
+  },
+  "pano-dusk-calm@11": {
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.08
+   },
+   "stickers": [
+    {
+     "file": "art/pt-dtree-tall.webp",
+     "nx": 0.9,
+     "ny": 0.42,
+     "w": 0.03,
+     "dz": 0.05,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dtree-round.webp",
+     "nx": 0.96,
+     "ny": 0.43,
+     "w": 0.05,
+     "dz": 0.06,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dcloud-a.webp",
+     "nx": 0.126,
+     "ny": 0.662,
+     "w": 0.212,
+     "dz": 0.05,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-dcloud-b.webp",
+     "nx": 0.873,
+     "ny": 0.604,
+     "w": 0.165,
+     "dz": 0.07,
+     "anchor": "b",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-dshrub.webp",
+     "nx": 0.919,
+     "ny": 0.382,
+     "w": 0.119,
+     "dz": 0.07,
+     "anchor": "b"
+    },
+    {
+     "file": "art/pt-dflower.webp",
+     "nx": 0.516,
+     "ny": -0.16,
+     "w": 0.087,
+     "dz": 0.22,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-dpebbles.webp",
+     "nx": 0.912,
+     "ny": -0.171,
+     "w": 0.091,
+     "dz": 0.3,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-drock.webp",
+     "nx": 0.277,
+     "ny": -0.213,
+     "w": 0.149,
+     "dz": 0.4,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-dtuft.webp",
+     "nx": 1.0,
+     "ny": -0.01,
+     "w": 0.15,
+     "dz": 0.55,
+     "anchor": "b",
+     "shadow": 0.4
+    },
+    {
+     "file": "art/pt-star-a.webp",
+     "nx": 0.474,
+     "ny": 0.535,
+     "w": 0.02,
+     "dz": 0.04,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-b.webp",
+     "nx": 0.916,
+     "ny": 0.564,
+     "w": 0.025,
+     "dz": 0.07,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-c.webp",
+     "nx": 0.98,
+     "ny": 0.451,
+     "w": 0.026,
+     "dz": 0.15,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-e.webp",
+     "nx": 0.323,
+     "ny": 0.404,
+     "w": 0.029,
+     "dz": 0.28,
+     "anchor": "c",
+     "shadow": false
+    },
+    {
+     "file": "art/pt-star-d.webp",
+     "nx": 0.722,
+     "ny": 0.482,
+     "w": 0.023,
+     "dz": 0.06,
+     "anchor": "c",
+     "shadow": false
+    }
+   ]
+  },
+  "pano-p1-calm": {
+   "shell": "diorama",
+   "box": {
+    "pano": "art/pencil/pano-p1-sky2-rt.webp",
+    "floor": "art/floor-p1-box.webp",
+    "ao": 0.05,
+    "pano_prev": "art/pano-p1-box.jpg"
+   },
+   "feather": {
+    "x": 0.1,
+    "top": 0.12,
+    "bottom": 0.0
+   },
+   "stickers": [],
+   "world": {
+    "deckDeco": ["art/pt-tuft.webp", "art/p1-box-tuft.webp"],
+    "r": 3.6,
+    "h": 4.4,
+    "sink": 1.15,
+    "ground": 18,
+    "arc": 360,
+    "cz": 1.0,
+    "grainTex": "art/floor-p1-pencil.webp",
+    "grainMode": "tint",
+    "grainScale": 1.2,
+    "grain": 0.85,
+    "grainFar": 1.0,
+    "groundBlend": 0.12,
+    "paperDeck": {
+     "width": 2.9,
+     "depth": 1.05,
+     "z": -0.12,
+     "paper": "#fff3db",
+     "edge": "#dec7a6",
+     "lift": 0.012,
+     "backdropOffset": 0.08,
+     "backdropScale": [
+      1.8,
+      1.18
+     ]
+    }
+   }
+  }
+ },
+ "_w89": "puppetOwn:N = this cutout is shown by the 2D puppet page (puppet-pN.js: puffIn / revealRainbow one at a time, reveals.js) and skipped here while the 2D puppets are on; &puppet=0 keeps it as a plain sticker."
+}

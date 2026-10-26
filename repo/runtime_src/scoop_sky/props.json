@@ -653,5 +653,118 @@
   ],
   "emissive_offset": 0.04,
   "report_tex_sheet_srgb": 40
- }
+ },
+ "stations": [
+  {
+   "id": "book",
+   "host": "cottage",
+   "activity": "book",
+   "icon": "book",
+   "words": [
+    "book",
+    "house"
+   ],
+   "host_clip": "open",
+   "moa_clip": "happy",
+   "ladder": null,
+   "spot": {
+    "side": 0,
+    "dist": 1.5
+   },
+   "box": null
+  },
+  {
+   "id": "music",
+   "host": "piyo",
+   "also": [
+    "icepop-xylophone"
+   ],
+   "activity": "music",
+   "icon": "note",
+   "words": [
+    "music",
+    "song",
+    "yay"
+   ],
+   "host_clip": "sing",
+   "moa_clip": "sway",
+   "ladder": "xylophone",
+   "spot": {
+    "side": 1,
+    "dist": -0.4
+   },
+   "box": {
+    "dist": 0.3,
+    "w": 5.0,
+    "d": 1.0
+   }
+  },
+  {
+   "id": "ball",
+   "host": "popo",
+   "activity": "ball",
+   "icon": "ball",
+   "words": [
+    "ball",
+    "kick",
+    "yay"
+   ],
+   "host_clip": "kick",
+   "moa_clip": "kick",
+   "ladder": "counting",
+   "spot": {
+    "side": -1,
+    "dist": 0
+   },
+   "box": {
+    "dist": 1.0,
+    "w": 1.2,
+    "d": 1.0
+   }
+  },
+  {
+   "id": "numbers",
+   "host": "nuri",
+   "activity": "numbers",
+   "icon": "123",
+   "words": [
+    "hi",
+    "yay"
+   ],
+   "host_clip": "count",
+   "moa_clip": "happy",
+   "ladder": "counting",
+   "spot": {
+    "side": -1,
+    "dist": 0.3
+   },
+   "box": {
+    "dist": 1.2,
+    "w": 3.0,
+    "d": 1.0
+   }
+  },
+  {
+   "id": "colours",
+   "host": "mongsil",
+   "activity": "colours",
+   "icon": "palette",
+   "words": [
+    "rainbow",
+    "yay"
+   ],
+   "host_clip": "bounce",
+   "moa_clip": "happy",
+   "ladder": "sorting",
+   "spot": {
+    "side": 1,
+    "dist": 0
+   },
+   "box": {
+    "dist": 1.0,
+    "w": 3.0,
+    "d": 1.0
+   }
+  }
+ ]
 }

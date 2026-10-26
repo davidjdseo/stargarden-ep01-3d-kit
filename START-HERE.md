@@ -1,4 +1,6 @@
-# START HERE — StarGarden EP01 "Scoop Sky" 3D kit: Blender job (2026-10-25)
+# START HERE — StarGarden EP01 "Scoop Sky" 3D kit: Blender job (2026-10-25, kit v2 2026-10-26)
+
+> **Kit v2 (2026-10-26): read `UPDATE-v2.md` first.** Moa now wears Sparkle Goggles, there is a new material rule, and book page 1 was redrawn. `CHANGES.txt` lists every file that changed since v1.
 
 You work alone in a cloud Linux box that has Blender. Nobody can answer questions live. When something is ambiguous:
 - pick the recommended default written here or in the briefs;

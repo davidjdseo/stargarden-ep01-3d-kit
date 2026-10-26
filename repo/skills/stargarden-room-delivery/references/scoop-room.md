@@ -117,7 +117,27 @@
 - 규칙: 캐릭터 GLB는 얼굴 앞(정면 ±35°, 머리 높이)에 UV 이음선이 없어야 한다. 다시 UV를 펴고 기존 텍스처를 새 UV로 굽고, 노멀맵은 넣지 않는다. 검사는 `python3 tool/room_seam_check.py <glb>`로 한다. 판정은 three.js 실캡처 확대로 한다.
 - 일반화: 쇼츠와 책의 3D 캐스트에도 같은 검사를 쓴다. 새 Meshy 출력은 이 검사를 통과하기 전에는 들이지 않는다.
 
-## 8. 미검증
+## 8. 외부 클라우드 에이전트에 3D 작업 넘기기 (2026-10-25)
+
+- 언제: 사용자가 블렌더 작업을 무료 외부 에이전트(예: Codex DOTS)로 옮기라고 할 때. 이쪽 호스트 전용 지시서(opi128, macpro, ssh, SendMessage)는 그대로 보내지 않는다.
+- 키트: `python3 tool/room_dots_kit.py` 실행.
+  - 결과물: `build/dots-kit/stargarden-ep01-3d-kit.zip`과 sha256.
+  - 파일은 `repo/` 아래에 저장소 상대경로 그대로 들어가서 스크립트를 고치지 않고 돌릴 수 있다. 돌려받은 결과 zip도 그대로 저장소에 풀린다.
+  - 넣는 것: 확정 시트(cast.json의 PROPOSAL 제외), 원화, 현재 GLB, 원본 메시, 초안 스크립트, 지시서, STATUS, RCCA 블록.
+  - 비밀값 검사에 하나라도 걸리면 zip을 만들지 않는다.
+- 기본 경로는 공개 GitHub 저장소다. 사용자가 공개 업로드를 직접 허락한 경우에만 쓴다(2026-10-25 "아예 GitHub에 올려줘"). github.com은 클라우드 에이전트가 기본으로 접속할 수 있는 도메인이다.
+  - macpro의 `gh`(davidjdseo 로그인)로 올린다: `gh repo create <kit> --public --source . --push`로 저장소를 만들고, `gh release create <tag> <zip>`으로 같은 zip을 릴리스에 붙인다.
+  - 확인은 로그인 없는 상태에서 한다: `git -c credential.helper= clone`이 되는지, 릴리스를 `curl -L`로 받은 파일의 sha256이 원본과 같은지 본다.
+  - 프롬프트는 `ONE-SHOT-PROMPT-GITHUB.md`를 쓴다. 작업이 끝나면 저장소를 지우거나 비공개로 돌릴지 사용자에게 묻는다.
+- 첨부 차선: 클라우드 에이전트는 허용 도메인 밖으로 나가는 접속을 막는다. 2026-10-25 DOTS가 trycloudflare 링크에서 403을 받았고, 우리 서버 로그에는 요청이 하나도 없었다. 그래서 키트 생성기가 함께 만드는 `build/dots-kit/parts/*.zip`(조각마다 26 MiB 이하, 따로 풀림, `SHA256SUMS.txt`)을 대화 첨부로 먼저 보낸다. 대화 첨부는 파일당 30 MiB까지다. 프롬프트는 `ONE-SHOT-PROMPT-ATTACH.md`.
+- 링크는 그다음: `bash pipeline/temp-share.sh <zip> 3600` 실행.
+  - quick tunnel과 32자리 토큰 경로로 공유하고, 디렉터리 목록은 보이지 않게 한다. 시간이 지나면 프로세스를 끄고 사본을 지운다.
+  - 보내기 전에 공개 URL에서 받은 파일의 sha256이 원본과 같은지 확인한다.
+- 지시서: `reviews/workers/room-hub-20261025/dots/START-HERE.md`(계약, 환경 덮어쓰기, 작업별 "Done when")와 `ONE-SHOT-PROMPT.md`(URL, sha256, 만료 시각).
+  - 외부 에이전트에게는 실시간으로 답할 수 없다. 그래서 질문은 막지 말고 추천 기본값으로 진행하게 하고, 그 값을 REPORT.md에 적게 한다.
+- 돌려받기: 에이전트가 답변에 결과 zip을 첨부한다. 받으면 풀고 seam check, selftest, Mac 캡처로 다시 판정한다. 외부 에이전트의 PASS 표기만 보고 완료로 치지 않는다.
+
+## 9. 미검증
 
 - Mac 실캡처와 실제 `log.json`: 2026-10-25 메인이 `scoop-v5-glb`(844x390·1280x800, 탭 6개)로 실행했고 위 검사 코드가 통과했다(errs [], missing [], 탭 모두 ok).
 - `git-private.sh check`·`commit`·`--selftest`: git 금지 작업이라 실행하지 않았다.

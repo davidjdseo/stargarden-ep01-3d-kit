@@ -6,17 +6,17 @@
   "To change a character: make the new sheet, review it, then update sheet + sha256 + prompt here in the same edit and move the old path to deprecated.",
   "Current assets are the active registry items and sets. Deprecated images and superseded_refs are preserved with pins for history only; generators refuse their attachment."
  ],
- "version": "2026-10-25.6",
+ "version": "2026-10-25.7",
  "characters": {
   "moa": {
    "name_ko": "모아",
    "name_en": "Moa",
    "role": "hero",
-   "sheet": "out/shorts/ep01/pack/character-moa-sheet.png",
-   "sha256": "c41361c06509b1f1",
-   "expr": "out/shorts/ep01/pack/character-moa-sheet.png",
-   "expr_sha256": "c41361c06509b1f1",
-   "prompt": "Moa, a small chubby round plush character with saturated bubblegum-pink smooth, even short fur (exactly the sheet's pink: not pale, not peach, not washed out), cream face patch and cream belly, toddler proportions (head about 45% of body height), a soft perfectly round face like a mochi ball with chubby round cheeks and a round chin (never an angular or squared jaw), two TINY rounded ears like a teddy bear's, only small nubs that barely peek above the beret, pale pink inside, big glossy dark-brown eyes with white highlights, rosy round cheeks, tiny pink nose, a cream knitted beret with a teal band and an orange starfish clip at the front, a teal neckerchief, a short round white tail. Her ears never grow tall, never stand up long, never flop. Same character in every shot; she keeps these colours in the soft pastel 3D world.",
+   "sheet": "out/shorts/ep01/pack/character-moa-goggles-sheet.png",
+   "sha256": "ac00ff65d1cd2e94",
+   "expr": "out/shorts/ep01/pack/character-moa-goggles-sheet.png",
+   "expr_sha256": "ac00ff65d1cd2e94",
+   "prompt": "Moa, a small chubby round character with saturated bubblegum-pink body (exactly the sheet's pink: not pale, not peach, not washed out), cream face patch and cream belly, toddler proportions (head about 45% of body height), a soft perfectly round face like a mochi ball with chubby round cheeks and a round chin (never an angular or squared jaw), two TINY rounded ears like a teddy bear's, only small nubs that barely peek above the beret, pale pink inside, big glossy dark-brown eyes with white highlights, rosy round cheeks, tiny pink nose, a cream knitted beret with a plain teal band and, resting on top of the beret, her Sparkle Goggles: chunky round toy goggles with thick soft glossy orange rims, clear lenses with a faint pink-gold sheen, a short orange bridge and a teal strap around the beret with three tiny star lights at her left temple (grey when unlit, warm gold when lit), a teal neckerchief, a short round white tail. Her ears never grow tall, never stand up long, never flop. Same character in every shot; she keeps these colours in the soft pastel 3D world. Character bodies have a smooth soft-touch toy surface, continuous even colour and broad gentle satin highlights.",
    "voice": "wordless only: a soft giggle, a little gasp, a curious \"hmm?\", a sigh, hop footsteps",
    "never": [
     "long bunny ears",
@@ -24,9 +24,12 @@
     "pale or peach fur",
     "a different hat",
     "a missing neckerchief",
-    "a watch, wristband, bracelet or any accessory beyond the beret and neckerchief"
+    "an orange starfish clip or any pin on the beret",
+    "a watch, wristband, bracelet or any accessory beyond the beret, goggles and neckerchief",
+    "beams or rays coming out of the goggles",
+    "stars on the beret itself or anywhere except the three star lights on the goggle strap (H02 t1 2026-10-26 added three gold stars on the beret dome)"
    ],
-   "wardrobe": "She wears only her cream beret with its orange starfish clip and her teal neckerchief; her paws, wrists and arms are bare pink fur, with no watch, wristband, bracelet, glove, bag or any other accessory.",
+   "wardrobe": "She wears only her cream beret (plain teal band, no clip or pin), her orange Sparkle Goggles resting on the beret (pulled over her eyes only when a shot says so) and her teal neckerchief; her paws, wrists and arms are bare pink fur, with no watch, wristband, bracelet, glove, bag or any other accessory.",
    "prompt_note": "No 'bunny'/'rabbit' in prompts (RCA 2026-10-22 A1 t5: the word pulls Omni to long rabbit ears even with the sheet attached). The story still calls her a rabbit; only the generator text avoids the word.",
    "downstream": [
     {
@@ -35,12 +38,13 @@
      "rule": "the book follows this Moa pin for ears only (2026-10-22). On any Moa re-pin, message the book session; never edit book files from the shorts session."
     }
    ],
-   "sheet_source": "ONE image (user 2026-10-23 '캐릭터 시트는 하나로 통일 … 모아 시트와 표정 시트 … 하나의 통 이미지로'): cast/v7p/v7-moa.png on top, cast/v7p/v7-moa-expr.png below scaled to the same width (aspect kept, Lanczos), on a #F4F2EE canvas with a 24 px gap; no other pixel change. expr = the same file, so cast.refs(ids, expr=True) attaches it once. The two separate pack copies are archived (deprecated). v7p stays in place as the origin.",
+   "sheet_source": "ONE image, three rows stacked at the same width on #F4F2EE with 24 px gaps (out/shorts/ep01/cast/goggles/compose_sheet.py): row 1 = codex-imagegen I2I of cast/v7p/v7-moa.png (starfish removed, goggles added), row 2 = hero-mode states (codex-imagegen), row 3 = codex-imagegen I2I of cast/v7p/v7-moa-expr.png (same two changes). Briefs in out/shorts/ep01/cast/goggles/.",
    "shown": {
-    "sha16": "c41361c06509b1f1",
-    "when": "baseline 2026-10-25",
-    "how": "sheet already in use when the gate was added (delivered v29 / earlier reviewed packs); not re-confirmed"
-   }
+    "sha16": "ac00ff65d1cd2e94",
+    "when": "2026-10-25 18:19",
+    "how": "sent to the user in chat 18:10 (moa-goggles-sheet-preview.jpg); look = user words (starfish removed, goggles A after the A/B/C proposal + \"진행해\"); hero-mode row = requested definition, PROPOSAL"
+   },
+   "hero_mode": "docs/shorts/bible/moa-hero-mode.md (look of NORMAL / CHARGE / HERO MODE / LAST STAR / EMPTY, rows 2 of the sheet)"
   },
   "piyo": {
    "name_ko": "삐요",
@@ -50,7 +54,7 @@
    "sha256": "29b088e1ec8a2142",
    "expr": "out/shorts/ep01/cast/s1/piyo-expr.png",
    "expr_sha256": "01eaa4c8a6d05384",
-   "prompt": "Piyo, the same slightly fuller ball-shaped soft custard-yellow plush baby bird, small orange beak and short orange feet, large glossy eyes and rosy cheeks. Each wing is a small plump short arm-like limb growing from the side, the SAME custard-yellow fuzzy plush as the body, with one shallow notch at the tip forming exactly two very round bean-like mitten lobes, never separate finger-like feathers or extra prongs. Tiny mitten-like bird wings, no separate hands or thumbs, no pointed tips or feather rows. Wings can wave, cheer and flap, with Moa-like short arm proportions. Tail is a small round yellow puff with one soft notch. Wings and tail are plain and pattern-free. The ONLY Scoop Sky accent is the small yellow soft-serve curled head tuft with 2–3 pastel sprinkle flecks. Preserve face, eyes, beak, feet, blush and round body proportions. No accessories, eating or tasting. Eye identity: warm honey-amber / golden iris; ONE big round white highlight plus TWO tiny sparkle dots beside it. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged.",
+   "prompt": "Piyo, the same slightly fuller ball-shaped soft custard-yellow baby bird, small orange beak and short orange feet, large glossy eyes and rosy cheeks. Each wing is a small plump short arm-like limb growing from the side, the SAME custard-yellow surface as the body, with one shallow notch at the tip forming exactly two very round bean-like mitten lobes, never separate finger-like feathers or extra prongs. Tiny mitten-like bird wings, no separate hands or thumbs, no pointed tips or feather rows. Wings can wave, cheer and flap, with short stubby toddler arm proportions. Tail is a small round yellow puff with one soft notch. Wings and tail are plain and pattern-free. The ONLY Scoop Sky accent is the small yellow soft-serve curled head tuft with 2–3 pastel sprinkle flecks. Preserve face, eyes, beak, feet, blush and round body proportions. No accessories, eating or tasting. Eye identity: warm honey-amber / golden iris; ONE big round white highlight plus TWO tiny sparkle dots beside it. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged. Character bodies have a smooth soft-touch toy surface, continuous even colour and broad gentle satin highlights.",
    "voice": "wordless chirps and a short cheerful birdsong, never words",
    "never": [
     "a different colour",
@@ -75,12 +79,23 @@
    "prev_r4": {
     "sheet": "out/shorts/ep01/cast/s1/_prev/piyo-sheet-r4.png",
     "expr": "out/shorts/ep01/cast/s1/_prev/piyo-expr-r4.png",
-    "prompt": "Piyo, the same round soft custard-yellow plush baby bird (soft velvety plush-toy look), small orange beak and short orange feet, big glossy brown eyes with white highlights and rosy cheeks. Each wing is a small plump short arm-like limb growing from the side, the SAME custard-yellow fuzzy plush as the body, with only its tip softly split into two short rounded feather fingers. Tiny mitten-like bird wings, no separate hands or thumbs, no pointed tips or feather rows. Wings can wave, cheer and flap, with Moa-like short arm proportions. Tail is a small matching yellow tuft with two soft rounded tips. Wings and tail are plain and pattern-free. The ONLY Scoop Sky accent is the small yellow soft-serve curled head tuft with 2–3 pastel sprinkle flecks. Preserve face, eyes, beak, feet, blush and round body proportions. No accessories, eating or tasting."
+    "prompt": "Piyo, the same round soft custard-yellow plush baby bird (soft velvety plush-toy look), small orange beak and short orange feet, big glossy brown eyes with white highlights and rosy cheeks. Each wing is a small plump short arm-like limb growing from the side, the SAME custard-yellow fuzzy plush as the body, with only its tip softly split into two short rounded feather fingers. Tiny mitten-like bird wings, no separate hands or thumbs, no pointed tips or feather rows. Wings can wave, cheer and flap, with short stubby toddler arm proportions. Tail is a small matching yellow tuft with two soft rounded tips. Wings and tail are plain and pattern-free. The ONLY Scoop Sky accent is the small yellow soft-serve curled head tuft with 2–3 pastel sprinkle flecks. Preserve face, eyes, beak, feet, blush and round body proportions. No accessories, eating or tasting."
    },
    "shown": {
     "sha16": "29b088e1ec8a2142",
     "when": "baseline 2026-10-25",
     "how": "sheet already in use when the gate was added (delivered v29 / earlier reviewed packs); not re-confirmed"
+   },
+   "wardrobe_by_episode": {
+    "EP02_onward": {
+     "from_episode": 2,
+     "text": "From EP02 on: the spoon pinwheel (the garden's one pinwheel that blew away in EP01 H11) sits on her head tuft, as on docs/shorts/heroes/art/item-sheets/piyo.jpg.",
+     "source": "2026-10-25 23:32, relayed by 시나리오-히어로즈; sheet shown first (caption: 확인 요청: 삐요 머리깃 스푼 바람개비 외형). User: \"그래, 너가 알아서 해. 다음 BU(=삐요) 바람개비도 해라.\"",
+     "application_status": "Applied by cast.character / cast.prompt for episode >= 2; EP01 unchanged.",
+     "prompt_replacements": {
+      "No accessories,": "No accessories except the spoon pinwheel on her head tuft,"
+     }
+    }
    }
   },
   "mongsil": {
@@ -91,7 +106,7 @@
    "sha256": "c6330ec92a005061",
    "expr": "out/shorts/ep01/cast/s1/mongsil-expr.png",
    "expr_sha256": "06f5e8d5785f5769",
-   "prompt": "Mongsil, the same small cloud sheep with ONE smooth even round marshmallow-cloud fleece ball, smooth soft-matte slightly powdery marshmallow, without fine swirl grain, pastel pink-cream with a hint of lavender and faint toasted-pink blush only at the bottom. Absolutely no curls, wool loops or bumpy puff clusters. Cream face, floppy cream ears with pink insides, brown hooves, small round tail, large glossy eyes and rosy cheeks. Preserve original face, proportions, round silhouette and size. Soft plush-toy look with a smooth, even surface, no lumps. No eating or tasting. Eye identity: soft lavender-plum grey-violet iris; ONE soft crescent-moon-shaped white highlight at the top plus a faint diffuse glow, NOT a round white dot. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged.",
+   "prompt": "Mongsil, the same small cloud sheep with ONE smooth even round marshmallow-cloud ball, smooth softly polished marshmallow, pastel pink-cream with a hint of lavender and faint toasted-pink blush only at the bottom. Cream face, floppy cream ears with pink insides, brown hooves, small round tail, large glossy eyes and rosy cheeks. Preserve original face, proportions, round silhouette and size. No eating or tasting. Eye identity: soft lavender-plum grey-violet iris; ONE soft crescent-moon-shaped white highlight at the top plus a faint diffuse glow, NOT a round white dot. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged. Character bodies have a smooth soft-touch toy surface, continuous even colour and broad gentle satin highlights.",
    "voice": "a soft fluffy \"baa\", bouncy boing sounds, never words",
    "never": [
     "curly fleece",
@@ -123,7 +138,7 @@
    "sha256": "0899710af184a7f3",
    "expr": "out/shorts/ep01/cast/s1/popo-expr.png",
    "expr_sha256": "0192b08e3bb0214d",
-   "prompt": "Popo, the same round egg-shaped baby penguin, a milk-bingsu snow-cloud friend with sky-blue back and head carrying fine milky frosty sparkle, cream belly and face, small orange beak and orange feet, large glossy eyes, rosy cheeks. The SAME mint knitted scarf has tiny dark-brown mint-chocolate-chip knit dots. Preserve original face, silhouette, proportions and size. Soft plush-toy look with a smooth, even surface, no lumps. No eating or tasting. Eye identity: mint-teal / sea-green iris; ONE crisp small FOUR-POINT white twinkle star plus ONE tiny dot, NOT a round main highlight. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged.",
+   "prompt": "Popo, the same round egg-shaped baby penguin, a milk-bingsu snow-cloud friend with sky-blue back and head carrying fine milky frosty sparkle, cream belly and face, small orange beak and orange feet, large glossy eyes, rosy cheeks. The SAME mint knitted scarf has tiny dark-brown mint-chocolate-chip knit dots. Preserve original face, silhouette, proportions and size. No eating or tasting. Eye identity: mint-teal / sea-green iris; ONE crisp small FOUR-POINT white twinkle star plus ONE tiny dot, NOT a round main highlight. Preserve exact eye outlines, size, spacing, large dark pupils, lower lids and blush; iris ring is muted and lighter at bottom. Closed eyes unchanged. Character bodies have a smooth soft-touch toy surface, continuous even colour and broad gentle satin highlights.",
    "voice": "waddle footsteps, a short happy squeak, a belly-slide swish, never words",
    "never": [
     "black-and-white adult penguin",
@@ -155,7 +170,7 @@
    "sha256": "ae4d2e7717e1fbab",
    "expr": "out/shorts/ep01/cast/s1/nuri-sheet.png",
    "expr_sha256": "ae4d2e7717e1fbab",
-   "prompt": "Nuri, the same chubby gentle baby dinosaur who stands and walks on two short sturdy legs, a soft plush toy with a smooth, even surface, no lumps: soft pistachio-mint skin, a cream tummy with soft horizontal pleats, two short stubby arms, round feet with tiny cream toe dots, a short chubby tail, a row of small soft cream dollops along the back from the neck to the tail, and ONE small soft blunt cream horn with a pink blush at its base on the top of the head; the face has only a small pink button nose and NO horn on the nose or snout. Cute face: very big round head, flat round face with no long snout, huge glossy eyes set low, a small happy w-shaped smile, big round rosy blush cheeks with tiny lighter-mint freckle dots. Eye identity: deep sapphire-blue iris lighter aqua at the bottom, large dark pupils, THREE small round bubble highlights in a rising little column. Preserve the sheet's face, silhouette, proportions and colours. No eating or tasting.",
+   "prompt": "Nuri, the same chubby gentle baby dinosaur who stands and walks on two short sturdy legs, a soft toy with a smooth, even surface: soft pistachio-mint skin, a cream tummy with soft horizontal pleats, two short stubby arms, round feet with tiny cream toe dots, a short chubby tail, a row of small soft cream dollops along the back from the neck to the tail, and ONE small soft blunt cream horn with a pink blush at its base on the top of the head; the face has only a small pink button nose and NO horn on the nose or snout. Cute face: very big round head, flat round face with no long snout, huge glossy eyes set low, a small happy w-shaped smile, big round rosy blush cheeks with tiny lighter-mint freckle dots. Eye identity: deep sapphire-blue iris lighter aqua at the bottom, large dark pupils, THREE small round bubble highlights in a rising little column. Preserve the sheet's face, silhouette, proportions and colours. No eating or tasting. Character bodies have a smooth soft-touch toy surface, continuous even colour and broad gentle satin highlights.",
    "voice": "a low gentle baby-dinosaur hum with soft bubbly pops, never words",
    "never": [
     "teeth",
@@ -274,6 +289,9 @@
     "tile_sha256": "7facd066f5a7ab18"
    },
    "sky-island": {
+    "aka": [
+     "island"
+    ],
     "path": "out/shorts/ep01/anchors/s1-objects/sky-island/sheet.png",
     "states": {
      "normal": "out/shorts/ep01/anchors/s1-objects/sky-island/states/normal.png",
@@ -427,7 +445,21 @@
      "stick": "b5e4626808c5bea0"
     },
     "tile": "out/shorts/ep01/pack/props/spoon-pinwheel-s1.png",
-    "tile_sha256": "4c56726ef9693b65"
+    "tile_sha256": "4c56726ef9693b65",
+    "previs_objects": [
+     "pinwheel blade",
+     "pinwheel blade.001",
+     "pinwheel blade.002",
+     "pinwheel blade.003",
+     "pinwheel hub"
+    ],
+    "previs_objects_by_set": {
+     "out/shorts/ep01/anchors/s1/H14/layout/garden-bare-stick.blend": {
+      "sha256": "38114b14879ec390444a6c5a84c17512a07d8d06206ea87ef13afd6ea8dc3a9e",
+      "objects": [],
+      "source": "2026-10-26 Blender object inventory: only pinwheel post exists; rotor meshes already removed. Mesh mapping only; state remains in assembly ledger."
+     }
+    }
    },
    "berry-flower": {
     "path": "out/shorts/ep01/anchors/s1-objects/berry-flower/sheet.png",
@@ -1209,7 +1241,14 @@
    "set_note": "2026-10-23 model pack: ref was anchors/final/K1.png (a shot frame with pencil-hatched sky and Moa in it) and sheet was cast/props/cottage-sheet.png (pencil crop of A1end-t9 with Moa's ear); both conflicted with style_short and moved to deprecated.",
    "camera": "out/shorts/ep01/pack/camera/cameras.json",
    "camera_sha256": "aff68b89cbe141e8",
-   "camera_note": "Camera SSOT for this set: scene cards S1-S6 measured on plate S1 (Moa's mark, 180 line, eyeline). CAMERA-SPEC.md is generated from it by pack/camera/make_camera_sheets.py; edit the JSON, regenerate, then re-pin camera_sha256 here."
+   "camera_note": "Camera SSOT for this set: scene cards S1-S6 measured on plate S1 (Moa's mark, 180 line, eyeline). CAMERA-SPEC.md is generated from it by pack/camera/make_camera_sheets.py; edit the JSON, regenerate, then re-pin camera_sha256 here.",
+   "cream_cloud_rule_ref": "sets.cloud-hills.cream_cloud_rule",
+   "ref_states": {
+    "spoon-pinwheel=gone": {
+     "ref": "out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4-bare-stick.png",
+     "sha256": "c0362dc5f2e76c8f8a5e7489ac73bc0159b6f8a276fac28789a8921d6a4dd361"
+    }
+   }
   },
   "hill-crest": {
    "ref": null,
@@ -1249,7 +1288,12 @@
    "episodes": "EP03 (far), EP04",
    "look": "rolling plump whipped-cream cloud hills, a soft hollow on each top (Mongsil's nap spots), warm afternoon light; the gap between hills = one Mongsil bounce",
    "rule": "hills are floor; the bounce route crosses real gaps",
-   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode",
+   "cream_cloud_rule": {
+    "text": "Cream clouds may have small faces but never hands or arms: they wiggle, puff or bob, never wave.",
+    "source": "시나리오-히어로즈 96536b66, 2026-10-25",
+    "scope": "All cream clouds, including the cottage sky."
+   }
   },
   "sky-sea": {
    "ref": null,
@@ -1270,10 +1314,10 @@
   "rainbow-road": {
    "ref": null,
    "status": "PROPOSAL",
-   "episodes": "EP06, EP07",
+   "episodes": "EP05, EP06",
    "look": "the rainbow unrolled into a seven-colour sparkling road across the golden sky; its end fades into a soft light haze",
-   "rule": "walkable only for Nuri's swim; the end is hidden until EP07",
-   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+   "rule": "EP05: Nuri (dinosaur) walks the rainbow road carrying friends on the cloud sofa; no swimming. It ends at big-cloud (EP06).",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode; Hello Heroes r5 override (docs/shorts/heroes/powers.json supersedes_cast_proposals, Astra r2 #13), synced 2026-10-25"
   },
   "big-cloud": {
    "ref": null,
@@ -1294,10 +1338,10 @@
   "light-path": {
    "ref": null,
    "status": "PROPOSAL",
-   "episodes": "EP09",
+   "episodes": "EP09, EP10",
    "look": "a gentle path of light from the island down through sunset clouds to the hill crest",
-   "rule": "Moa steps down lightly (사뿐사뿐); the friends wave from above",
-   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+   "rule": "EP09: the path runs from the island at the cloud ledge down to a light circle on hill-crest; Piyo flies Moa down it (Moa does not walk it). EP10 Z01: the light follows Moa down the hill path to the cottage roof; the island glides along it home.",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode; Hello Heroes r5 override (docs/shorts/heroes/powers.json supersedes_cast_proposals, Astra r2 #13), synced 2026-10-25"
   },
   "cottage-night": {
    "ref": null,
@@ -1602,6 +1646,11 @@
    "path": "out/shorts/ep01/pack/props-grid-6.png",
    "sha256": "3b181502ebe035ff",
    "why": "retired by S1 state grid"
+  },
+  {
+   "path": "out/shorts/ep01/pack/character-moa-sheet.png",
+   "sha256": "c41361c06509b1f1",
+   "why": "Moa v7 sheet with the orange starfish clip; replaced 2026-10-25 by the Hello Heroes goggle sheet (user: starfish removed, goggles only on the beret)"
   }
  ],
  "prompt_banned_words": {
@@ -1611,9 +1660,10 @@
    "felt-like",
    "felted",
    "matte clay",
-   "clay-like"
+   "clay-like",
+   "felt"
   ],
-  "why": "RCA 2026-10-22 A1 t5: a species word pulls Omni to long rabbit ears even with the sheet attached; gen.py:194 still leaked 'bunny' after the rule was written (found by the skill worker). cast.py check now scans generator sources and registry prompts. | 2026-10-25 RCCA: felt-like / felted / matte clay / clay-like drew felt fibre and woolly surfaces (A/B anchors/s1/abtest-felt); style_short, props prompts and the PROMPT-LOCK STYLE block are scanned too."
+  "why": "RCA 2026-10-22 A1 t5: a species word pulls Omni to long rabbit ears even with the sheet attached; gen.py:194 still leaked 'bunny' after the rule was written (found by the skill worker). cast.py check now scans generator sources and registry prompts. | 2026-10-25 RCCA: felt-like / felted / matte clay / clay-like drew felt fibre and woolly surfaces (A/B anchors/s1/abtest-felt); style_short, props prompts and the PROMPT-LOCK STYLE block are scanned too. | RCCA 2026-10-25 third occurrence: bare felt also remained in anchors_plan.py (felt fur escaped the felt-like-only scan). Positive material SSOT + exact-copy lint + NB key injection replace word deletion as the corrective action. Same-seed A/B: anchors/s1/abtest-surface; no claim that this A/B isolates fur or plush as individual triggers."
  },
  "props": {
   "watering_can": {
@@ -1667,8 +1717,9 @@
    "sheet": null,
    "status": "PROPOSAL",
    "look": "one big round pink balloon (about 1.5x Moa's height), white string, no logo",
-   "rule": "lightness, not weightlessness: Moa rises slowly on a jump or a wind and settles slowly when still; string always in her right hand and taut upward; EP02 the wind brings it and snags it on the garden-edge fence post; kept through EP09; EP10 tied back to that fence post",
-   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode"
+   "rule": "EP02 the wind brings it and it snags on the fence post; EP03 it slowly deflates and stays on cloud-hills as Mongsil's pillow. Not kept through EP09, not tied back in EP10.",
+   "source": "EP02–EP10 session 2026-10-24 [PROPOSAL]; WORLD.md 'EP02–EP10 세트 체인과 물리 규칙'; no plate yet — previs grey-box first, plate only after the user's go for that episode; Hello Heroes r5 override (docs/shorts/heroes/powers.json supersedes_cast_proposals, Astra r2 #13), synced 2026-10-25",
+   "physics": "lightness, not weightlessness: a holder rises slowly on a jump or a wind and settles slowly when still; the string stays taut upward."
   },
   "lemon-can": {
    "name_en": "the yellow lemon can",
@@ -1684,7 +1735,7 @@
    "status": "ACTIVE"
   }
  },
- "style_short": "Style: soft 3D velvety plush-toy characters with smooth, even short fur (objects and sets: soft clay-toy with a smooth, softly polished surface), never felt, fuzz, lumps or grainy matte texture in a warm pastel storybook world; the sky is a smooth soft pastel gradient with soft whipped-cream clouds, never pencil strokes, hatching or white scribbles; gentle morning light, cosy toddler mood; the character keeps the exact look of the first frame.",
+ "style_short": "Style: soft 3D animated characters. Character bodies have a smooth soft-touch toy surface, continuous even colour and broad gentle satin highlights. Objects and sets are soft clay-toy with a smooth, softly polished surface. In a warm pastel storybook world; the sky is a smooth soft pastel gradient with soft whipped-cream clouds, never pencil strokes, hatching or white scribbles; gentle morning light, cosy toddler mood; the character keeps the exact look of the first frame.",
  "style_note": "2026-10-22 user: 'pastel is right, but the white coloured-pencil strokes in the sky are too strong.' RCA: style_short and PROMPT-LOCK STYLE asked for 'coloured-pencil world with paper grain', and every key inherited the hatched sky from the canon frame A1end-t9. Fix: style text + re-keyed frames from one approved style frame. | 2026-10-24 janitor Q9: one material word per layer — characters = velvety plush/felt-like fur (PROMPT-LOCK STYLE), objects/sets = soft matte clay-toy. | RCCA 2026-10-25 user (\"펠트 소재 느낌 … 표면이 매끄럽게\", Moa \"울퉁불퉁 그런 거 없었으면\"; \"클레이는 괜찮 … 펠트를 빼야\"): the lock itself asked for \"felt-like fur\" and \"matte clay\"; Nano Banana A/B (anchors/s1/abtest-felt, same prompt, only the style line changed) showed felt fibre on Moa (A) vs even velvet (B/C) and a woolly plane for \"matte clay\" vs a smooth one for \"smooth, softly polished clay\". Characters = velvety plush with smooth even short fur; objects/sets = smooth polished clay-toy. felt-like / matte clay / clay-like are prompt_banned_words.",
  "superseded_refs": [
   {
@@ -1791,6 +1842,101 @@
    "path": "out/shorts/ep01/refs/R2-t5.json",
    "sha256": "8df0567f62861557",
    "superseded_by_s1": true
+  },
+  {
+   "path": "out/shorts/ep01/refs/R10b-v30take.json",
+   "sha256": "5e3ce0c33e30d113",
+   "why": "take-time snapshot of a refs file (what was sent); history only since the 2026-10-25 goggle re-pin"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R10b-v31take-pre-cont.json",
+   "sha256": "614e1e9c334d4d36",
+   "why": "take-time snapshot of a refs file (what was sent); history only since the 2026-10-25 goggle re-pin"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R14-v30take.json",
+   "sha256": "f5558b9021867252",
+   "why": "take-time snapshot of a refs file (what was sent); history only since the 2026-10-25 goggle re-pin"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R7-v30take.json",
+   "sha256": "98192a41213605b1",
+   "why": "take-time snapshot of a refs file (what was sent); history only since the 2026-10-25 goggle re-pin"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R7-v31take-pre-cont.json",
+   "sha256": "92d6799762aa58fe",
+   "why": "take-time snapshot of a refs file (what was sent); history only since the 2026-10-25 goggle re-pin"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R7b-v30take.json",
+   "sha256": "97e772c2be69ba00",
+   "why": "take-time snapshot of a refs file (what was sent); history only since the 2026-10-25 goggle re-pin"
+  },
+  {
+   "path": "out/shorts/ep01/refs/R9-v30take.json",
+   "sha256": "02b184d7bd23e7e7",
+   "why": "take-time snapshot of a refs file (what was sent); history only since the 2026-10-25 goggle re-pin"
   }
- ]
+ ],
+ "powers": {
+  "_doc": "Hello Heroes powers (시나리오-히어로즈 session, 2026-10-25). Story rules, ladders and stats live ONLY in docs/shorts/heroes/powers.json; this section holds the visible item facts a generator needs. Added under user 2026-10-25 20:3x '모두 완료될 때까지 너가 알아서 해'; no existing look entry changed.",
+  "ssot": "docs/shorts/heroes/powers.json",
+  "rule": "3 star lights per item; each kind act lights one; with 3 lit: ritual -> power on; stars drain 3->2->1->0 while on; at 0 the item rests again.",
+  "heroes": {
+   "moa": {
+    "power": "far sight",
+    "item": "Sparkle Goggles on the beret (see docs/shorts/bible/moa-hero-mode.md, docs/shorts/heroes/GOGGLES-LOOK.md)",
+    "stars_at": "3 stars on the goggle strap",
+    "levels": {
+     "level-2": {
+      "first_opening": "the three strap stars light one after another in soft rainbow colours instead of gold, just this once; then the lenses glow soft rainbow (pastel pink, peach, lemon, mint, sky blue bands gently swirling) with a small four-point sparkle in each lens; no beams, no rays leaving the lenses.",
+      "source": "docs/shorts/heroes/GOGGLES-LOOK.md:14, synced 2026-10-25"
+     },
+     "level-3": {
+      "first_opening": "the three strap stars light one after another in soft rainbow colours; the lenses glow soft heart-pink with a small glowing heart shape in the centre of each lens instead of the four-point sparkle; no beams, no rays.",
+      "source": "docs/shorts/heroes/GOGGLES-LOOK.md:15, synced 2026-10-25"
+     }
+    },
+    "pov": {
+     "text": "two round lens masks; three small stars along the bottom rim go out one by one as the timer drains.",
+     "source": "docs/shorts/heroes/GOGGLES-LOOK.md:16, synced 2026-10-25"
+    }
+   },
+   "piyo": {
+    "power": "flight",
+    "item": "the existing spoon-pinwheel stuck upright in her crest like a propeller cap",
+    "stars_at": "3 tiny star lights on the pinwheel hub",
+    "sheet": "docs/shorts/heroes/art/item-sheets/piyo.jpg"
+   },
+   "popo": {
+    "power": "super speed",
+    "item": "his existing mint scarf",
+    "stars_at": "3 of the scarf dots glow frosty white-blue",
+    "sheet": "docs/shorts/heroes/art/item-sheets/popo.jpg"
+   },
+   "mongsil": {
+    "power": "cloud calling",
+    "item": "the small cream-cloud friends (white whipped cream, pink blush)",
+    "stars_at": "3 star sparkles floating above her head",
+    "sheet": "docs/shorts/heroes/art/item-sheets/mongsil.jpg"
+   },
+   "nuri": {
+    "power": "super strength",
+    "item": "her existing blunt horn",
+    "stars_at": "3 bubble lights in a row just below the horn, soda green",
+    "sheet": "docs/shorts/heroes/art/item-sheets/nuri.jpg"
+   }
+  }
+ },
+ "material": {
+  "character": "Character bodies have a smooth soft-touch toy surface, continuous even colour and broad gentle satin highlights.",
+  "object": "Objects and sets are soft clay-toy with a smooth, softly polished surface.",
+  "why": "RCCA 2026-10-25, same surface class >=3: janitor Q9 introduced a textile surface; the first banned-word fix still requested short fur; exact-seed key edits retained and amplified the image texture. Controlled NB I2I anchors/s1/abtest-surface/A.png vs B.png (same seed and all reference hashes; only the positive body-surface instruction differs) gave index 2.508 vs 0.881, sheet 1.456, pink DeltaE76 1.255. It proves a positive surface pass reaches the keys, not which individual word causes texture. Active character/style/STYLE copies quote these clauses verbatim; cast.py checks copies, key_edit.py injects the canonical surface. Stored wardrobes remain unchanged; cast.py renders their legacy body-material nouns as surface without changing garments. The legacy anchors_plan.py felt-fur literal is outside this worker edit scope and must be repaired by its owner. Diagnostic method/table/crops: reviews/workers/shorts-material-20261025/."
+ },
+ "episodes": {
+  "EP01": {
+   "assembly_plan": "out/shorts/ep01/plan/ep01-hh-assembly.json"
+  }
+ }
 }

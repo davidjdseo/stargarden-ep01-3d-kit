@@ -1,0 +1,137 @@
+status	path	role
+ADDED	repo/docs/shorts/bible/moa-hero-mode.md	Moa hero mode
+ADDED	repo/docs/shorts/heroes/GOGGLES-LOOK.md	goggles look
+ADDED	repo/docs/shorts/heroes/art/item-sheets/manifest-2.json	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/manifest.json	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/mongsil.jpg	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/mongsil.png	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/nuri.jpg	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/nuri.png	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/piyo.jpg	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/piyo.png	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/popo.jpg	hero item sheet
+ADDED	repo/docs/shorts/heroes/art/item-sheets/popo.png	hero item sheet
+ADDED	repo/out/shorts/ep01/anchors/world-theme-s1/A-scoop-sky/plate-v4-bare-stick.png	approved world plate
+ADDED	repo/out/shorts/ep01/cast/goggles/goggle-A-ref.png	Moa goggles reference
+ADDED	repo/out/shorts/ep01/cast/goggles/moa-goggles-sheet-preview.jpg	Moa goggles reference
+ADDED	repo/out/shorts/ep01/cast/goggles/moa-goggles-sheet.png	Moa goggles reference
+ADDED	repo/out/shorts/ep01/cast/goggles/nb-turn.png	Moa goggles reference
+ADDED	repo/out/shorts/ep01/pack/character-moa-goggles-sheet.png	locked character sheet: moa
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/backdrop.json	book backdrop layout
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-smile.webp	book Moa expressions
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-smileb.webp	book Moa expressions
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-smilehop.webp	book Moa expressions
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-windA.webp	book Moa expressions
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/expr/moa-windB.webp	book Moa expressions
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/ref/moa-v7-dialogue-20261022.png	book Moa ref
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/ref/moa-v7-sheet.png	book Moa ref
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/balloon-held.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/balloon-tied.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-p1-box.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-p1-paper.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-p1-pencil.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-sea-calm.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/floor-sky-cloud.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/friends/glimpse-bird.webp	book friends
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/friends/glimpse-sheep.webp	book friends
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/friends/glimpse-whale.webp	book friends
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-box-corner-l.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-box-corner-r.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-box-tuft.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-front.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-mailbox-body.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-mailbox-flag.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/p1-ridge.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pano-p1-calm.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pano-p1-sky2-rt.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pano-p1-sky2.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-bloom-wilt2.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-bloom.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-pink-st.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-pink-wilt2-st.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-pink-wilt2.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-pink.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-bush-trio.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cloud-big-st.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cloud-big.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cloud-puff-a.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cloud-puff-b.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cmid.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cmound-big.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-cwisp.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-dbush.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-dgrass.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-dshrub.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-fence.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-flower-daisy-wilt.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-flower-daisy.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-flower-pink-wilt.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-flower-pink.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-hedge-bloom.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-house-st.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-house.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-mailbox.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-meadow-l.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-meadow-r.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-pcloud-a.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-pcloud-b.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-pcloud-c.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-pcloud-d.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-rock.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-a.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-b.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-c.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-d.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-star-e.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-grove-a.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-grove-b.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-round.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-slim.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tree-tall.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-tuft.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-watering-can-st.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/pt-watering-can.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-pour-st.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-pour.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-st.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-tip-st.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can-tip.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-can.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-a-st.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-a.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-b-st.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-b.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-c-st.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/moa-walk-can-c.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/water-glint.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sheet-p1/water-splash.webp	book page-1 Moa frames
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/st-tree-round.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sun-clay-st.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sun-clay.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sun-pencil-st.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/art/scoop/sun-pencil.webp	book page-1 Scoop Sky art
+ADDED	repo/reader/v2-20261012/classic-book/books/bo-sky-island/visual-lock.json	book tone lock
+ADDED	repo/reviews/20261025/room/stations/ball.jpg	station captures
+ADDED	repo/reviews/20261025/room/stations/book.jpg	station captures
+ADDED	repo/reviews/20261025/room/stations/colours.jpg	station captures
+ADDED	repo/reviews/20261025/room/stations/music.jpg	station captures
+ADDED	repo/reviews/20261025/room/stations/numbers.jpg	station captures
+ADDED	repo/reviews/20261026/astra-p1/p1-grid.jpg	book page-1 latest capture grid
+ADDED	repo/reviews/workers/shadowsoft-20261026/user-phone-p1.jpg	book page-1 phone capture
+ADDED	repo/runtime_src/scoop_sky/activities/ball.mjs	runtime stations (read only)
+ADDED	repo/runtime_src/scoop_sky/activities/book.mjs	runtime stations (read only)
+ADDED	repo/runtime_src/scoop_sky/activities/colours.mjs	runtime stations (read only)
+ADDED	repo/runtime_src/scoop_sky/activities/kit.mjs	runtime stations (read only)
+ADDED	repo/runtime_src/scoop_sky/activities/music.mjs	runtime stations (read only)
+ADDED	repo/runtime_src/scoop_sky/activities/numbers.mjs	runtime stations (read only)
+ADDED	repo/runtime_src/scoop_sky/stations.selftest.mjs	runtime (read only)
+CHANGED	repo/docs/shorts/bible/cast.json	locked cast bible
+CHANGED	repo/intent/2026-10-25-room-scoop-sky-hub/intent.md	room intent
+CHANGED	repo/runtime_src/scoop_sky/bundle-manifest.json	runtime (read only)
+CHANGED	repo/runtime_src/scoop_sky/main.mjs	runtime (read only)
+CHANGED	repo/runtime_src/scoop_sky/moa.mjs	runtime (read only)
+CHANGED	repo/runtime_src/scoop_sky/props.json	runtime (read only)
+CHANGED	repo/runtime_src/scoop_sky/sound.mjs	runtime (read only)
+CHANGED	repo/runtime_src/scoop_sky/stations.mjs	runtime (read only)
+CHANGED	repo/skills/stargarden-room-delivery/references/scoop-room.md	room rules
+REMOVED	repo/out/shorts/ep01/pack/character-moa-sheet.png	(not in this kit; superseded or out of scope)

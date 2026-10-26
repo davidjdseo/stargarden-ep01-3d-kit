@@ -160,3 +160,18 @@ export function createMoa(gltf, cfg, { island }) {
     clipInfo: { walk: walkA?.getClip().name || null, idle: idleA?.getClip().name || (walkA ? 'walk@0+breathe' : 'procedural'), gestures: Object.fromEntries(Object.entries(gestures).map(([k, a]) => [k, a.getClip().name])) },
   };
 }
+
+// stations (w7): friend clips: mixer + looping idle, play(name) one-shot (false = no clip -> procedural); skinned clone(true) meshes re-bound to the clone's bones by name.
+export function friendClips(root, clips) {
+  if (!root || !clips?.length) return null;
+  root.traverse((o) => { if (o.isSkinnedMesh) o.bind(new THREE.Skeleton(o.skeleton.bones.map((b) => root.getObjectByName(b.name) || b), o.skeleton.boneInverses), o.bindMatrix); });
+  const mixer = new THREE.AnimationMixer(root); const idleClip = findClip(clips, ['idle']);
+  const idle = idleClip ? mixer.clipAction(idleClip).play() : null; let cur = null;
+  mixer.addEventListener('finished', (e) => { if (e.action === cur) { cur.fadeOut(0.25); idle?.reset().fadeIn(0.25).play(); cur = null; } });
+  function play(name) {
+    const c = findClip(clips.filter((x) => x !== idleClip), [name]); if (!c) return false;
+    cur?.stop(); cur = mixer.clipAction(c).reset(); cur.setLoop(THREE.LoopOnce, 1); cur.clampWhenFinished = false; cur.fadeIn(0.2).play(); idle?.fadeOut(0.2);
+    return true;
+  }
+  return { play, has: (n) => !!findClip(clips, [n]), update: (dt) => mixer.update(dt) };
+}
